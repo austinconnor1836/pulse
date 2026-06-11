@@ -1,0 +1,59 @@
+name: Pulse
+options:
+  bundleIdPrefix: com.austinconnor
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.10"
+    ENABLE_USER_SCRIPT_SANDBOXING: "NO"
+
+targets:
+  Pulse:
+    type: application
+    platform: iOS
+    supportedDestinations: [iOS]
+    sources:
+      - path: Pulse
+        excludes:
+          - Config.xcconfig
+    configFiles:
+      Debug: Pulse/Config.xcconfig
+      Release: Pulse/Config.xcconfig
+    info:
+      path: Pulse/Info.plist
+      properties:
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UILaunchScreen:
+          UIColorName: ""
+        ITSAppUsesNonExemptEncryption: false
+        SUPABASE_URL: "$(SUPABASE_URL)"
+        SUPABASE_ANON_KEY: "$(SUPABASE_ANON_KEY)"
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1,2"
+        PRODUCT_BUNDLE_IDENTIFIER: com.austinconnor.pulse
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: L6AS5GG2MB
+    # When KMP XCFramework is wired (see docs/architecture.md), uncomment:
+    # dependencies:
+    #   - framework: ../shared/build/XCFrameworks/release/SharedKit.xcframework
+    #     embed: true
+    # preBuildScripts:
+    #   - name: Build KMP SharedKit
+    #     script: |
+    #       cd "$SRCROOT/.."
+    #       ./gradlew :shared:assembleSharedKitXCFramework
+    #     outputFiles:
+    #       - $(SRCROOT)/../shared/build/XCFrameworks/release/SharedKit.xcframework/Info.plist

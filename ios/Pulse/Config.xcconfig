@@ -1,0 +1,6 @@
+// Copy to Config.local.xcconfig and add to .gitignore for real keys.
+// xcodegen generates the .xcodeproj that reads these into Info.plist.
+// Both keys are publishable (SUPABASE anon key is safe in clients).
+
+SUPABASE_URL = https:/$()/REPLACE-ME.supabase.co
+SUPABASE_ANON_KEY = REPLACE-ME

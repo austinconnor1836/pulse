@@ -1,0 +1,56 @@
+default_platform(:ios)
+
+XCODEPROJ = "Pulse.xcodeproj"
+SCHEME = "Pulse"
+
+platform :ios do
+  desc "Build and upload to TestFlight (local — automatic signing via your keychain)"
+  lane :beta do
+    # Regenerate Xcode project from project.yml so any version/config edits land.
+    sh("cd .. && xcodegen generate")
+
+    # Bump the build number locally so each upload is unique.
+    increment_build_number(
+      build_number: latest_testflight_build_number(
+        api_key: asc_api_key,
+        initial_build_number: 0
+      ) + 1,
+      xcodeproj: XCODEPROJ
+    )
+
+    build_app(
+      project: XCODEPROJ,
+      scheme: SCHEME,
+      configuration: "Release",
+      export_method: "app-store",
+      output_directory: "./build",
+      output_name: "Pulse.ipa",
+      xcargs: "-allowProvisioningUpdates DEVELOPMENT_TEAM='#{ENV["APPLE_TEAM_ID"] || "L6AS5GG2MB"}'"
+    )
+
+    # fastlane's upload_to_testflight wrapper consistently fails with cocoa error 259
+    # on Xcode 26 altool — invoke altool directly instead. The .p8 must live in one of
+    # altool's search paths (see ~/.appstoreconnect/private_keys/).
+    sh("xcrun altool --upload-app -f ../build/Pulse.ipa --type ios " \
+       "--apiKey #{ENV["ASC_KEY_ID"]} --apiIssuer #{ENV["ASC_ISSUER_ID"]}")
+  end
+
+  desc "Bump build, build, and upload — alias for beta"
+  lane :ship do
+    beta
+  end
+
+  # ------------------------------------------------------------------
+  # Helpers
+  # ------------------------------------------------------------------
+
+  def asc_api_key
+    app_store_connect_api_key(
+      key_id: ENV["ASC_KEY_ID"],
+      issuer_id: ENV["ASC_ISSUER_ID"],
+      key_content: ENV["ASC_KEY_CONTENT"],
+      is_key_content_base64: true,
+      in_house: false
+    )
+  end
+end
