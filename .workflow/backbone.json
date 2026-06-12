@@ -2,7 +2,7 @@
   "project": "pulse",
   "version": 1,
   "createdAt": "2026-06-11T18:38:33Z",
-  "updatedAt": "2026-06-12T00:00:00Z",
+  "updatedAt": "2026-06-12T19:30:00Z",
   "mainBranch": "main",
   "repos": [
     "ios",
@@ -10,7 +10,7 @@
     "shared",
     "supabase"
   ],
-  "note": "W1 (wave 0) implementation done — 2 commits on its worktree branch; verify gate pending. W2 (wave 0) still at grill gate (one fork — repo-root shared/types.ts recommended). MVP backlog: 17 originals + W18 (multi-variant day plans, mid-session addition). Wave 0 (W1,W2) is foundational and unblocks 7 wave-1 items; W18 is wave 4 (stacked behind W6 plan-day). Backend Edge Functions stubbed; migrations + KMP scoring/types exist. Drive each item with /spec-driven-workflow <id>; reconcile with /sprint-pulse.",
+  "note": "W1 + W2 (wave 0) implementation + verification DONE on their worktree branches — ready for publish. W1: 2 commits, 9 deno tests pass, audit 0H/1S adheres, backend-only evidence is doc citations + git check-ignore proof. W2: 3 commits, 4 deno parity tests pass + 4 Kotlin commonTest parity tests pass against same fixture, audit 0H/1S adheres, real parity drift FOUND + FIXED in scoring.ts (realTimeRelevance was missing). W18 spec written at grill gate (multi-variant day plans, mid-session addition; impl blocked on W6). Wave 1 (W3 places, W4 claude, W7 events, W9 log-interaction, W12 import-registries, W14 auth, W15 XCFramework) unblocked once W1+W2 merged. Drive each item with /spec-driven-workflow <id>; reconcile with /sprint-pulse.",
   "items": [
     {
       "id": "W1",
@@ -22,7 +22,7 @@
         "ios",
         "android-app"
       ],
-      "status": "in-progress",
+      "status": "verify-pending",
       "dependsOn": [],
       "stackedOn": null,
       "branch": "w1-secrets-and-config-plumbing",
@@ -46,16 +46,38 @@
           "artifact": "specs/W1-secrets-and-config-plumbing/spec.md",
           "at": "2026-06-11T18:38:33Z"
         },
-        "plan": null,
-        "tasks": null,
-        "implement": null,
-        "audit": null,
-        "verify": null,
+        "plan": {
+          "status": "done",
+          "artifact": "specs/W1-secrets-and-config-plumbing/plan.md",
+          "at": "2026-06-12T19:20:00Z"
+        },
+        "tasks": {
+          "status": "done",
+          "artifact": "specs/W1-secrets-and-config-plumbing/tasks.md",
+          "at": "2026-06-12T19:20:00Z"
+        },
+        "implement": {
+          "status": "done",
+          "at": "2026-06-12T19:20:00Z",
+          "commits": [
+            "98ee6ce",
+            "2f0de12"
+          ]
+        },
+        "audit": {
+          "status": "done",
+          "at": "2026-06-12T19:20:00Z",
+          "verdict": "0 HARD, 1 SOFT, adheres"
+        },
+        "verify": {
+          "status": "pending",
+          "note": "backend-only; evidence is doc citations + deno tests + gitignore proof; ready for human review"
+        },
         "publish": null
       },
       "blocker": null,
-      "evidence": null,
-      "notes": "Foundational. Blocks every backend slice and auth."
+      "evidence": "specs/W1-secrets-and-config-plumbing/{spec.md,plan.md,tasks.md}; deno test pass (9/9); type-check + audit clean",
+      "notes": "Foundational. Blocks every backend slice and auth. | Worktree: pulse-worktrees/w1-secrets-and-config-plumbing. 2 commits ready for publish gate."
     },
     {
       "id": "W2",
@@ -66,7 +88,7 @@
         "shared",
         "supabase"
       ],
-      "status": "in-progress",
+      "status": "verify-pending",
       "dependsOn": [],
       "stackedOn": null,
       "branch": "w2-types-contract-ts-kotlin-parity",
@@ -88,16 +110,40 @@
           "artifact": "specs/W2-types-contract-ts-kotlin-parity/spec.md",
           "at": "2026-06-11T18:38:33Z"
         },
-        "plan": null,
-        "tasks": null,
-        "implement": null,
-        "audit": null,
-        "verify": null,
+        "plan": {
+          "status": "done",
+          "artifact": "specs/W2-types-contract-ts-kotlin-parity/plan.md",
+          "at": "2026-06-12T19:20:00Z"
+        },
+        "tasks": {
+          "status": "done",
+          "artifact": "specs/W2-types-contract-ts-kotlin-parity/tasks.md",
+          "at": "2026-06-12T19:20:00Z"
+        },
+        "implement": {
+          "status": "done",
+          "at": "2026-06-12T19:20:00Z",
+          "commits": [
+            "57c2570",
+            "686c253",
+            "9f32f45"
+          ]
+        },
+        "audit": {
+          "status": "done",
+          "at": "2026-06-12T19:20:00Z",
+          "verdict": "0 HARD, 1 SOFT (acceptable), adheres"
+        },
+        "verify": {
+          "status": "done",
+          "at": "2026-06-12T19:30:00Z",
+          "note": "Deno parity tests pass (4/4); Kotlin commonTest parity tests pass (4/4 via ./gradlew :shared:testDebugUnitTest); both sides assert against the same shared/parity-fixture.json; type-check on all 6 Edge Functions clean."
+        },
         "publish": null
       },
       "blocker": null,
-      "evidence": null,
-      "notes": "Foundational. Blocks find-spots, plan-day, events-query, log-interaction, XCFramework. | Spec-phase correction: TS types live at repo-root shared/types.ts (where find-spots/plan-day already import from), not supabase/functions/shared/."
+      "evidence": "specs/W2-types-contract-ts-kotlin-parity/{spec.md,plan.md,tasks.md}; deno parity test pass (4/4); shared/parity-fixture.json golden; type-check + audit clean | Kotlin: shared/build/test-results/testDebugUnitTest/TEST-com.austinconnor.pulse.shared.ScoringParityTest.xml shows tests=4 failures=0 errors=0.",
+      "notes": "Foundational. Blocks find-spots, plan-day, events-query, log-interaction, XCFramework. | Spec-phase correction: TS types live at repo-root shared/types.ts (where find-spots/plan-day already import from), not supabase/functions/shared/. | Worktree: pulse-worktrees/w2-types-contract-ts-kotlin-parity. 3 commits ready for publish gate. Real parity drift found and fixed in scoring.ts (was missing realTimeRelevance entirely + totalScore was 4-signal not 5). heuristicVersion = \"5sig-2026.06\"."
     },
     {
       "id": "W3",
@@ -698,7 +744,11 @@
         "shared/types.ts (mirror via W2)"
       ],
       "phases": {
-        "specify": null,
+        "specify": {
+          "status": "done",
+          "artifact": "specs/W18-multi-variant-day-plans/spec.md",
+          "at": "2026-06-12T19:20:00Z"
+        },
         "plan": null,
         "tasks": null,
         "implement": null,
@@ -707,8 +757,8 @@
         "publish": null
       },
       "blocker": null,
-      "evidence": null,
-      "notes": "Mid-session addition (2026-06-12). User asked for \"numerous itineraries\"; we scoped it to multi-variant SAME-DAY plans (one PlanDayResponse per OptimizationTarget), distinct from multi-DAY trip planning which is a separate post-MVP feature. Wave 4. Out of scope: cross-variant venue dedup, client UI (belongs in W16/W17 follow-ups)."
+      "evidence": "specs/W18-multi-variant-day-plans/spec.md",
+      "notes": "Mid-session addition (2026-06-12). User asked for \"numerous itineraries\"; we scoped it to multi-variant SAME-DAY plans (one PlanDayResponse per OptimizationTarget), distinct from multi-DAY trip planning which is a separate post-MVP feature. Wave 4. Out of scope: cross-variant venue dedup, client UI (belongs in W16/W17 follow-ups). | Spec written; at grill gate (exploration settled all 4 decisions D1-D4). Implementation blocked on W6 (plan-day)."
     }
   ]
 }
