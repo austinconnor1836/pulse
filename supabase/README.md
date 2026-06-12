@@ -22,6 +22,30 @@ For project-level config + secrets see the root [README.md](../README.md) §
 | `places.ts` | W3 | Google Places client — text search + distance matrix. |
 | `claude.ts` | W4 | Claude judge client — purpose→attributes, use-case fit, why-copy, event extraction. |
 | `claude.prompts.ts` | W4 | System prompts (codification of find-spots / ingest-events SKILL.md). |
+| `events.ts` | W7 | Events query layer — PostGIS KNN reads + canonical-key upserts. Shared by find-spots, events-feed, ingest-events. |
+
+## Events query layer
+
+`_shared/events.ts` (W7) is the single owner of the events read/write SQL. PostGIS KNN +
+time-window filtering live in the `public.nearby_events` SQL function (migration
+`00000000000008_nearby_events_function.sql`); the TS helper is a thin wrapper plus the
+W2-`Event`-shape ↔ row mapping. Helpers take a `SupabaseClient` parameter, so the caller
+picks the credential level: find-spots/events-feed pass their user-JWT-forwarded anon
+client; ingest-events (cron) passes a service-role client.
+
+```ts
+import { nearbyEvents, upsertEvents } from '../_shared/events.ts';
+
+const events = await nearbyEvents(supabase, { lat, lng }, /*radius_m*/ 800, {
+  startISO: now,
+  endISO: in1h,
+});
+
+const { upserted, errors } = await upsertEvents(serviceRoleClient, extractedEvents);
+```
+
+Reads throw `EventsQueryError` on RPC failure. Upserts return `{upserted, errors}` —
+partial-batch failures don't throw, matching the cron pattern.
 
 ## Claude fixture/replay
 
