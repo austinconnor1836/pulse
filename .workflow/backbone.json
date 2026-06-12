@@ -2,7 +2,7 @@
   "project": "pulse",
   "version": 1,
   "createdAt": "2026-06-11T18:38:33Z",
-  "updatedAt": "2026-06-12T19:30:00Z",
+  "updatedAt": "2026-06-12T20:15:00Z",
   "mainBranch": "main",
   "repos": [
     "ios",
@@ -10,7 +10,7 @@
     "shared",
     "supabase"
   ],
-  "note": "W1 + W2 (wave 0) implementation + verification DONE on their worktree branches — ready for publish. W1: 2 commits, 9 deno tests pass, audit 0H/1S adheres, backend-only evidence is doc citations + git check-ignore proof. W2: 3 commits, 4 deno parity tests pass + 4 Kotlin commonTest parity tests pass against same fixture, audit 0H/1S adheres, real parity drift FOUND + FIXED in scoring.ts (realTimeRelevance was missing). W18 spec written at grill gate (multi-variant day plans, mid-session addition; impl blocked on W6). Wave 1 (W3 places, W4 claude, W7 events, W9 log-interaction, W12 import-registries, W14 auth, W15 XCFramework) unblocked once W1+W2 merged. Drive each item with /spec-driven-workflow <id>; reconcile with /sprint-pulse.",
+  "note": "Wave 0 (W1+W2) MERGED. W3 (Google Places client) MERGED to main (351dee6). Wave 1 status: W3 done; W4 (Claude judge), W7 (events query), W9 (log-interaction), W12 (import-registries), W14 (auth), W15 (XCFramework) remain. W18 spec at grill gate, impl blocked on W6. Drive each item with /spec-driven-workflow <id>; reconcile with /sprint-pulse.",
   "items": [
     {
       "id": "W1",
@@ -22,7 +22,7 @@
         "ios",
         "android-app"
       ],
-      "status": "verify-pending",
+      "status": "done",
       "dependsOn": [],
       "stackedOn": null,
       "branch": "w1-secrets-and-config-plumbing",
@@ -73,7 +73,11 @@
           "status": "pending",
           "note": "backend-only; evidence is doc citations + deno tests + gitignore proof; ready for human review"
         },
-        "publish": null
+        "publish": {
+          "status": "done",
+          "at": "2026-06-12T20:05:00Z",
+          "note": "Merged to main via 470ea45 (non-ff)"
+        }
       },
       "blocker": null,
       "evidence": "specs/W1-secrets-and-config-plumbing/{spec.md,plan.md,tasks.md}; deno test pass (9/9); type-check + audit clean",
@@ -88,7 +92,7 @@
         "shared",
         "supabase"
       ],
-      "status": "verify-pending",
+      "status": "done",
       "dependsOn": [],
       "stackedOn": null,
       "branch": "w2-types-contract-ts-kotlin-parity",
@@ -139,7 +143,11 @@
           "at": "2026-06-12T19:30:00Z",
           "note": "Deno parity tests pass (4/4); Kotlin commonTest parity tests pass (4/4 via ./gradlew :shared:testDebugUnitTest); both sides assert against the same shared/parity-fixture.json; type-check on all 6 Edge Functions clean."
         },
-        "publish": null
+        "publish": {
+          "status": "done",
+          "at": "2026-06-12T20:05:00Z",
+          "note": "Merged to main via aa4807c (non-ff)"
+        }
       },
       "blocker": null,
       "evidence": "specs/W2-types-contract-ts-kotlin-parity/{spec.md,plan.md,tasks.md}; deno parity test pass (4/4); shared/parity-fixture.json golden; type-check + audit clean | Kotlin: shared/build/test-results/testDebugUnitTest/TEST-com.austinconnor.pulse.shared.ScoringParityTest.xml shows tests=4 failures=0 errors=0.",
@@ -153,7 +161,7 @@
       "repos": [
         "supabase"
       ],
-      "status": "new",
+      "status": "done",
       "dependsOn": [
         "W1"
       ],
@@ -169,16 +177,48 @@
         "supabase/functions/_shared/places.ts"
       ],
       "phases": {
-        "specify": null,
-        "plan": null,
-        "tasks": null,
-        "implement": null,
-        "audit": null,
-        "verify": null,
-        "publish": null
+        "specify": {
+          "status": "done",
+          "artifact": "specs/W3-google-places-client/spec.md",
+          "at": "2026-06-12T20:05:00Z"
+        },
+        "plan": {
+          "status": "done",
+          "artifact": "specs/W3-google-places-client/plan.md",
+          "at": "2026-06-12T20:15:00Z"
+        },
+        "tasks": {
+          "status": "done",
+          "artifact": "specs/W3-google-places-client/tasks.md",
+          "at": "2026-06-12T20:15:00Z"
+        },
+        "implement": {
+          "status": "done",
+          "at": "2026-06-12T20:15:00Z",
+          "commits": [
+            "a4e1de7",
+            "ce81545",
+            "dc44c67"
+          ]
+        },
+        "audit": {
+          "status": "done",
+          "at": "2026-06-12T20:15:00Z",
+          "verdict": "0H/0S adheres"
+        },
+        "verify": {
+          "status": "done",
+          "at": "2026-06-12T20:15:00Z",
+          "note": "21/21 deno tests pass on integrated tree (9 env + 8 places + 4 scoring); type-check clean on all 6 Edge Functions + the new module."
+        },
+        "publish": {
+          "status": "done",
+          "at": "2026-06-12T20:15:00Z",
+          "note": "Merged to main via 351dee6 (non-ff)"
+        }
       },
       "blocker": null,
-      "evidence": null,
+      "evidence": "specs/W3-google-places-client/{spec,plan,tasks}.md; deno test pass (8/8 places + 21/21 integrated); audit 0H/0S adheres.",
       "notes": "Shared client consumed by find-spots, plan-day (via find-spots), enrich-business."
     },
     {
