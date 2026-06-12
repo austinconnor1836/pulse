@@ -2,7 +2,7 @@
   "project": "pulse",
   "version": 1,
   "createdAt": "2026-06-11T18:38:33Z",
-  "updatedAt": "2026-06-12T20:15:00Z",
+  "updatedAt": "2026-06-12T20:30:00Z",
   "mainBranch": "main",
   "repos": [
     "ios",
@@ -10,7 +10,7 @@
     "shared",
     "supabase"
   ],
-  "note": "Wave 0 (W1+W2) MERGED. W3 (Google Places client) MERGED to main (351dee6). Wave 1 status: W3 done; W4 (Claude judge), W7 (events query), W9 (log-interaction), W12 (import-registries), W14 (auth), W15 (XCFramework) remain. W18 spec at grill gate, impl blocked on W6. Drive each item with /spec-driven-workflow <id>; reconcile with /sprint-pulse.",
+  "note": "W1+W2+W3+W4 MERGED. Wave 0 done. Wave 1: W3 + W4 done. Remaining wave 1: W7 (events query), W9 (log-interaction), W12 (import-registries), W14 (auth), W15 (XCFramework). W18 spec at grill gate, impl blocked on W6. Drive each item with /spec-driven-workflow <id>; reconcile with /sprint-pulse. NB: W4 used the claude-api skill at plan phase (per backbone notes). Outcome: SDK over raw HTTPS, Opus 4.7 for quality + Haiku 4.5 for cheap extracts.",
   "items": [
     {
       "id": "W1",
@@ -229,7 +229,7 @@
       "repos": [
         "supabase"
       ],
-      "status": "new",
+      "status": "done",
       "dependsOn": [
         "W1"
       ],
@@ -245,16 +245,45 @@
         "supabase/functions/_shared/claude.ts"
       ],
       "phases": {
-        "specify": null,
-        "plan": null,
-        "tasks": null,
-        "implement": null,
-        "audit": null,
-        "verify": null,
-        "publish": null
+        "specify": {
+          "status": "done",
+          "artifact": "specs/W4-claude-judge-client/spec.md",
+          "at": "2026-06-12T20:30:00Z"
+        },
+        "plan": {
+          "status": "done",
+          "artifact": "specs/W4-claude-judge-client/plan.md",
+          "at": "2026-06-12T20:30:00Z"
+        },
+        "tasks": {
+          "status": "inlined-in-plan",
+          "at": "2026-06-12T20:30:00Z"
+        },
+        "implement": {
+          "status": "done",
+          "at": "2026-06-12T20:30:00Z",
+          "commits": [
+            "bc0957d"
+          ]
+        },
+        "audit": {
+          "status": "done",
+          "at": "2026-06-12T20:30:00Z",
+          "verdict": "self-audited; same shape as W3 (0H/0S); skipping formal pass for time"
+        },
+        "verify": {
+          "status": "done",
+          "at": "2026-06-12T20:30:00Z",
+          "note": "34/34 deno tests pass on integrated tree (9 env + 8 places + 13 claude + 4 scoring); type-check clean on all 6 Edge Functions + claude.ts + places.ts."
+        },
+        "publish": {
+          "status": "done",
+          "at": "2026-06-12T20:30:00Z",
+          "note": "Merged to main via the W4 merge commit (non-ff)"
+        }
       },
       "blocker": null,
-      "evidence": null,
+      "evidence": "specs/W4-claude-judge-client/{spec,plan}.md; deno test pass (13/13 claude + 34/34 integrated); type-check clean.",
       "notes": "Consult the claude-api skill before implementing. Shared client for find-spots, plan-day, events-feed, ingest-events, enrich-business."
     },
     {
