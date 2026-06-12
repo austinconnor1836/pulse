@@ -2,7 +2,7 @@
   "project": "pulse",
   "version": 1,
   "createdAt": "2026-06-11T18:38:33Z",
-  "updatedAt": "2026-06-12T20:50:00Z",
+  "updatedAt": "2026-06-12T21:00:00Z",
   "mainBranch": "main",
   "repos": [
     "ios",
@@ -10,7 +10,7 @@
     "shared",
     "supabase"
   ],
-  "note": "Wave 0 (W1+W2) + Wave 1 (W3+W4+W9) MERGED. Wave 1 remaining: W7 (events query — PostGIS KNN), W12 (import-registries cron), W14 (auth magic-link), W15 (XCFramework). W18 spec at grill gate, impl blocked on W6. W9 established the user-facing-Edge-Function pattern (anon key + forwarded JWT + fire-and-forget via EdgeRuntime.waitUntil). W5 (find-spots) and W6 (plan-day) follow the same shape.",
+  "note": "Wave 0 (W1+W2) + Wave 1 done so far: W3+W4+W7+W9. Wave 1 remaining: W12 (import-registries cron), W14 (auth magic-link), W15 (XCFramework). W18 spec at grill gate, impl blocked on W6. Pulse now has a complete shared-helper layer: env, places, claude, events, scoring + the first user-facing endpoint (log-interaction).",
   "items": [
     {
       "id": "W1",
@@ -294,7 +294,7 @@
       "repos": [
         "supabase"
       ],
-      "status": "new",
+      "status": "done",
       "dependsOn": [
         "W2"
       ],
@@ -309,16 +309,47 @@
         "supabase/functions/_shared/events.ts"
       ],
       "phases": {
-        "specify": null,
-        "plan": null,
-        "tasks": null,
-        "implement": null,
-        "audit": null,
-        "verify": null,
-        "publish": null
+        "specify": {
+          "status": "done",
+          "artifact": "specs/W7-events-query-layer/spec.md",
+          "at": "2026-06-12T21:00:00Z"
+        },
+        "plan": {
+          "status": "done",
+          "artifact": "specs/W7-events-query-layer/plan.md",
+          "at": "2026-06-12T21:00:00Z"
+        },
+        "tasks": {
+          "status": "inlined-in-plan",
+          "at": "2026-06-12T21:00:00Z"
+        },
+        "implement": {
+          "status": "done",
+          "at": "2026-06-12T21:00:00Z",
+          "commits": [
+            "b862cb1",
+            "5167ac8",
+            "734b9d0"
+          ]
+        },
+        "audit": {
+          "status": "done",
+          "at": "2026-06-12T21:00:00Z",
+          "verdict": "self-audited; same shape as W3/W4 + adds an additive PostGIS migration"
+        },
+        "verify": {
+          "status": "done",
+          "at": "2026-06-12T21:00:00Z",
+          "note": "54/54 deno tests pass; type-check clean; SQL function syntax-validated by file content (not actually applied to a live DB this session)."
+        },
+        "publish": {
+          "status": "done",
+          "at": "2026-06-12T21:00:00Z",
+          "note": "Merged to main via W7 merge commit"
+        }
       },
       "blocker": null,
-      "evidence": null,
+      "evidence": "specs/W7-events-query-layer/{spec,plan}.md; deno test pass (9/9 events + 54/54 integrated); migration 00000000000008 added.",
       "notes": "Shared query owner so find-spots and events-feed don't both write the PostGIS query."
     },
     {
