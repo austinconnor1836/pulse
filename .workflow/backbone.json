@@ -2,7 +2,7 @@
   "project": "pulse",
   "version": 1,
   "createdAt": "2026-06-11T18:38:33Z",
-  "updatedAt": "2026-06-12T20:30:00Z",
+  "updatedAt": "2026-06-12T20:50:00Z",
   "mainBranch": "main",
   "repos": [
     "ios",
@@ -10,7 +10,7 @@
     "shared",
     "supabase"
   ],
-  "note": "W1+W2+W3+W4 MERGED. Wave 0 done. Wave 1: W3 + W4 done. Remaining wave 1: W7 (events query), W9 (log-interaction), W12 (import-registries), W14 (auth), W15 (XCFramework). W18 spec at grill gate, impl blocked on W6. Drive each item with /spec-driven-workflow <id>; reconcile with /sprint-pulse. NB: W4 used the claude-api skill at plan phase (per backbone notes). Outcome: SDK over raw HTTPS, Opus 4.7 for quality + Haiku 4.5 for cheap extracts.",
+  "note": "Wave 0 (W1+W2) + Wave 1 (W3+W4+W9) MERGED. Wave 1 remaining: W7 (events query — PostGIS KNN), W12 (import-registries cron), W14 (auth magic-link), W15 (XCFramework). W18 spec at grill gate, impl blocked on W6. W9 established the user-facing-Edge-Function pattern (anon key + forwarded JWT + fire-and-forget via EdgeRuntime.waitUntil). W5 (find-spots) and W6 (plan-day) follow the same shape.",
   "items": [
     {
       "id": "W1",
@@ -329,7 +329,7 @@
       "repos": [
         "supabase"
       ],
-      "status": "new",
+      "status": "done",
       "dependsOn": [
         "W1",
         "W2"
@@ -346,16 +346,46 @@
         "supabase/functions/log-interaction/index.ts"
       ],
       "phases": {
-        "specify": null,
-        "plan": null,
-        "tasks": null,
-        "implement": null,
-        "audit": null,
-        "verify": null,
-        "publish": null
+        "specify": {
+          "status": "done",
+          "artifact": "specs/W9-log-interaction/spec.md",
+          "at": "2026-06-12T20:50:00Z"
+        },
+        "plan": {
+          "status": "done",
+          "artifact": "specs/W9-log-interaction/plan.md",
+          "at": "2026-06-12T20:50:00Z"
+        },
+        "tasks": {
+          "status": "inlined-in-plan",
+          "at": "2026-06-12T20:50:00Z"
+        },
+        "implement": {
+          "status": "done",
+          "at": "2026-06-12T20:50:00Z",
+          "commits": [
+            "2b911d4",
+            "fbbea02"
+          ]
+        },
+        "audit": {
+          "status": "done",
+          "at": "2026-06-12T20:50:00Z",
+          "verdict": "self-audited; mirrors W4 + W3 conventions"
+        },
+        "verify": {
+          "status": "done",
+          "at": "2026-06-12T20:50:00Z",
+          "note": "45/45 deno tests pass on integrated tree; type-check clean; verify_jwt=true config-side enforced."
+        },
+        "publish": {
+          "status": "done",
+          "at": "2026-06-12T20:50:00Z",
+          "note": "Merged to main via W9 merge commit"
+        }
       },
       "blocker": null,
-      "evidence": null,
+      "evidence": "specs/W9-log-interaction/{spec,plan}.md; deno test pass (9/9 log-interaction + 45/45 integrated); type-check clean.",
       "notes": "Independent of the ranking pipeline; only needs config + types."
     },
     {
