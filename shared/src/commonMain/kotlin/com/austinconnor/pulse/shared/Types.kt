@@ -7,6 +7,13 @@ import kotlinx.serialization.Serializable
 //   /Users/austin/Developer/nyc-trip-jun-2026/.claude/skills/find-spots/SKILL.md
 //   /Users/austin/Developer/nyc-trip-jun-2026/.claude/skills/plan-day/SKILL.md
 
+// ---------- Lockstep ----------
+
+// Bump on any change to the scoring math, wire shapes, or signal set so cached
+// results from older versions can be invalidated. Must equal the same constant
+// in shared/types.ts and the value in shared/parity-fixture.json.
+const val heuristicVersion: String = "5sig-2026.06"
+
 // ---------- Common ----------
 
 @Serializable
