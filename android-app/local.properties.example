@@ -1,0 +1,10 @@
+# Copy to local.properties (gitignored) and fill in for local dev.
+# Gradle reads these via gradleProperty(...) in android-app/build.gradle.kts
+# into BuildConfig, which ViewModels.kt consumes at runtime.
+#
+# Local stack: run `supabase start`, then paste the anon key from its output.
+# Prod:        replace SUPABASE_URL with your project URL and SUPABASE_ANON_KEY
+#              with the project's anon key (safe to ship in clients).
+
+SUPABASE_URL=http://localhost:54321
+SUPABASE_ANON_KEY=paste-from-supabase-start-output
