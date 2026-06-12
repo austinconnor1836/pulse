@@ -1,0 +1,11 @@
+// Copy to Config.local.xcconfig (gitignored) and fill in for local dev.
+// xcodegen reads these into Info.plist, which ApiClient.swift consumes via configValue(...).
+//
+// Local stack: run `supabase start`, then paste the anon key from its output.
+// Prod:        replace SUPABASE_URL with your project URL and SUPABASE_ANON_KEY
+//              with the project's anon key (safe to ship in clients).
+//
+// The `$()` between // is xcconfig's URL escape — `//` would otherwise read as a comment.
+
+SUPABASE_URL = http:/$()/localhost:54321
+SUPABASE_ANON_KEY = paste-from-supabase-start-output

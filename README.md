@@ -107,7 +107,60 @@ supabase start
 supabase functions serve
 ```
 
-Then edit `mobile/.env` (in the iOS Config.xcconfig or Android local.properties) to point at `http://localhost:54321`.
+Then point the clients at the local stack via the per-platform config files documented below.
+
+## Config & secrets
+
+Three places. **No real secrets in git.**
+
+### Edge Functions — `supabase/.env`
+
+Required: `ANTHROPIC_API_KEY`, `GOOGLE_PLACES_API_KEY`, `INGEST_SECRET`, `SUPABASE_SERVICE_ROLE_KEY`.
+Optional fallbacks: `REDDIT_USER_AGENT`, `EVENTBRITE_TOKEN`, `DICE_TOKEN`.
+
+```sh
+cp supabase/.env.example supabase/.env       # fill in real values
+supabase functions serve --env-file supabase/.env   # local
+supabase secrets set --env-file supabase/.env       # prod (one-time + on rotation)
+```
+
+Edge Function code reads them via the typed accessor in `supabase/functions/_shared/env.ts`:
+
+```ts
+import { config } from "../_shared/env.ts";
+const key = config.anthropicApiKey;   // throws ConfigError if unset
+```
+
+> The AC names this `CLAUDE_API_KEY`; the implementation uses `ANTHROPIC_API_KEY` to match
+> the Anthropic SDK convention and the existing `supabase/.env.example`. Same value, SDK-idiomatic name.
+
+### iOS — `ios/Pulse/Config.local.xcconfig`
+
+```sh
+cp ios/Pulse/Config.local.xcconfig.example ios/Pulse/Config.local.xcconfig
+# fill in SUPABASE_URL + SUPABASE_ANON_KEY, then regenerate the project:
+cd ios && xcodegen
+```
+
+`project.yml:40-41` maps these into `Info.plist`; `ApiClient.swift:83-92` reads them via
+`configValue(...)` and throws `ApiError.missingConfig` if absent. The committed `Config.xcconfig`
+holds placeholders only — `Config.local.xcconfig` (gitignored) is what carries real values.
+
+### Android — `android-app/local.properties`
+
+```sh
+cp android-app/local.properties.example android-app/local.properties
+# fill in SUPABASE_URL + SUPABASE_ANON_KEY
+```
+
+`build.gradle.kts:21-28` reads env → `gradleProperty(...)` → empty fallback into `BuildConfig`;
+`ViewModels.kt:24-25` consumes `BuildConfig.*`.
+
+### Local vs prod
+
+- **Local:** `SUPABASE_URL=http://localhost:54321`, anon key from `supabase start` output.
+- **Prod:** project URL + anon key from the Supabase dashboard. The anon key is safe to ship
+  in clients (RLS gates everything); the service role key is server-only.
 
 ## Related projects
 
