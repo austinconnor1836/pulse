@@ -1,0 +1,3 @@
+# Recorded Claude assistant text responses live here.
+# Set CLAUDE_FIXTURE_DIR=$(pwd)/supabase/functions/_shared/__fixtures__/claude to replay.
+# Set CLAUDE_RECORD_DIR=<same path> with a real key to capture on first run.

@@ -20,6 +20,42 @@ For project-level config + secrets see the root [README.md](../README.md) §
 | `cors.ts` | scaffold | CORS headers all functions reuse. |
 | `scoring.ts` | W2 | 5-signal scoring math, mirror of `Scoring.kt`. |
 | `places.ts` | W3 | Google Places client — text search + distance matrix. |
+| `claude.ts` | W4 | Claude judge client — purpose→attributes, use-case fit, why-copy, event extraction. |
+| `claude.prompts.ts` | W4 | System prompts (codification of find-spots / ingest-events SKILL.md). |
+
+## Claude fixture/replay
+
+`_shared/claude.ts` (W4) wraps the `@anthropic-ai/sdk` (loaded via `npm:`). Two optional
+env vars let you develop without burning live quota:
+
+```sh
+# Replay cached assistant text (zero quota, zero network):
+CLAUDE_FIXTURE_DIR=$(pwd)/supabase/functions/_shared/__fixtures__/claude \
+  supabase functions serve --env-file supabase/.env
+
+# Capture live responses (paired with a real key):
+ANTHROPIC_API_KEY=… \
+CLAUDE_RECORD_DIR=$(pwd)/supabase/functions/_shared/__fixtures__/claude \
+  supabase functions serve --env-file supabase/.env
+```
+
+Cache key: `sha256(operation + sorted-keys JSON of {model, system, user, maxTokens})` →
+first 16 hex chars → `<hash>.json` under the fixture dir. Files store the assistant's
+text content verbatim (one block per JSON value, no envelope).
+
+Tests in `claude.test.ts` use a different seam — they substitute the SDK call via
+`__setCallTextForTest` rather than the fixture path, because the Anthropic SDK in Deno
+does not route through `globalThis.fetch` so HTTP-level stubbing has no effect.
+
+**Model selection (W4 D2):**
+- `MODEL_QUALITY = 'claude-opus-4-7'` — `scoreUseCaseFit`, `whyCopy` (quality-sensitive, low call volume).
+- `MODEL_CHEAP = 'claude-haiku-4-5'` — `purposeToAttributes`, `extractEvents` (high volume, structured extraction).
+
+**Prompt caching:** every call sets `cache_control: {type: 'ephemeral'}` on the system
+block. Caching pays off mainly for `scoreUseCaseFit` (system + purpose stable across N
+candidates), and across repeated find-spots calls with the same purpose. Verify hits via
+`response.usage.cache_read_input_tokens`. The Opus 4.7 / Haiku 4.5 minimum cacheable
+prefix is 4096 tokens — short prompts silently won't cache.
 
 ## Places fixture/replay
 
