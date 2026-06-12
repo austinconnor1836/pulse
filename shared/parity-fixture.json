@@ -1,0 +1,25 @@
+{
+  "_comment": "Golden fixture for the TS<->Kotlin scoring parity check. Both languages read this file (TS directly, Kotlin via inlined constant — see ScoringParityTest.kt) and must produce identical outputs. Bump heuristicVersion in lockstep when changing the math.",
+  "heuristicVersion": "5sig-2026.06",
+  "inputs": {
+    "walkMinutes": 12,
+    "breakdownBase": {
+      "consensus": 1.5,
+      "recency": 1.2,
+      "useCaseFit": 1.0
+    },
+    "event": {
+      "startISO": "2026-06-12T20:00:00Z",
+      "endISO":   "2026-06-12T23:00:00Z",
+      "announcedAtISO": "2026-06-12T08:00:00Z",
+      "nowISO": "2026-06-12T19:30:00Z",
+      "isAtThisVenue": true,
+      "isPurposeAligned": true
+    }
+  },
+  "expected": {
+    "distance": 1,
+    "realTimeRelevance": 3.0,
+    "totalScore": 7.7
+  }
+}
