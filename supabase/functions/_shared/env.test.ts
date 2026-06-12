@@ -55,6 +55,17 @@ Deno.test('config.anthropicApiKey returns value when set', () => {
   clearScratch();
 });
 
+Deno.test('config.supabaseAnonKey throws ConfigError when unset', () => {
+  Deno.env.delete('SUPABASE_ANON_KEY');
+  assertThrows(() => config.supabaseAnonKey, ConfigError);
+});
+
+Deno.test('config.supabaseAnonKey returns value when set', () => {
+  Deno.env.set('SUPABASE_ANON_KEY', 'eyJ-test');
+  assertEquals(config.supabaseAnonKey, 'eyJ-test');
+  Deno.env.delete('SUPABASE_ANON_KEY');
+});
+
 Deno.test('ConfigError message names the missing var and the file to set it in', () => {
   const err = new ConfigError('FOO_BAR');
   assertEquals(err.varName, 'FOO_BAR');

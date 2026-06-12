@@ -42,6 +42,13 @@ export const config = Object.freeze({
   get supabaseServiceRoleKey(): string {
     return requireEnv('SUPABASE_SERVICE_ROLE_KEY');
   },
+  // User-facing Edge Functions create a Supabase client with the anon key
+  // plus the caller's forwarded Authorization header, so RLS applies as the
+  // signed-in user. Supabase auto-injects SUPABASE_ANON_KEY in production;
+  // local dev sources it from supabase/.env.
+  get supabaseAnonKey(): string {
+    return requireEnv('SUPABASE_ANON_KEY');
+  },
   get redditUserAgent(): string | undefined {
     return optionalEnv('REDDIT_USER_AGENT');
   },
