@@ -62,3 +62,6 @@ A **static-JSON pipeline** — no live backend:
 - Live web-search fallback, LLM extraction of unstructured long-tail, OSM/registry venue discovery → the broader strategy / W8/W10/W12.
 - Android Free surfacing → W17. · A `City` type / in-app city picker → separate multi-city slice.
 - Relevance/spam filtering polish (drop out-of-metro + webinar noise) → fast follow on the harvester.
+
+## Known limitation (discovered at ship, 2026-08-13)
+**Eventbrite returns empty to GitHub Actions' datacenter IPs.** The cron runs and commits successfully, but its Eventbrite harvest came back with **0 events** (vs 7 from a residential IP) — Eventbrite appears to vary/block datacenter traffic (same class of issue as the DSA Cloudflare gate). So the *automated* data is currently unreliable for the Eventbrite source specifically. **Fast-follow options:** (a) lean on IP-agnostic structured sources — Localist, public ICS/iCal, civic Socrata/LibCal APIs — which don't IP-block, and treat Eventbrite as best-effort; (b) accumulate/merge across harvests (keep in-window events until their date passes) so a transient empty run doesn't wipe the list; (c) run the harvester from a residential IP on a schedule instead of Actions. The static-JSON architecture itself is unaffected — only the Eventbrite *fetch* is IP-sensitive.
