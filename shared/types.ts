@@ -126,6 +126,58 @@ export interface FindSpotsResponse {
   mode: FindSpotsMode;
 }
 
+// ---------- free-things (W19: static-JSON free-events payload) ----------
+
+// The shape of harvester/output/{city}.json. Deliberately decoupled from the
+// Supabase `Event` wire model above: a static file harvested by a free GitHub
+// Actions cron (no server, no DB), fetched directly by FreeThingsClient.
+// Field names mirror the JSON verbatim; keep in lockstep with Types.kt + Models.swift.
+
+export interface FreeThings {
+  city: string;
+  cityName: string;
+  center: Location;
+  window: FreeWindow;
+  generatedAt: string;
+  counts: FreeCounts;
+  events?: FreeThingItem[];
+  evergreen?: EvergreenSpot[];
+}
+
+export interface FreeWindow {
+  today: string;                    // "YYYY-MM-DD" in the city's timezone
+  tomorrow: string;
+}
+
+export interface FreeCounts {
+  total: number;
+  today: number;
+  tomorrow: number;
+}
+
+export interface FreeThingItem {
+  source: string;                   // "eventbrite", "localist:events.unomaha.edu", …
+  title: string;
+  startISO: string;
+  date: string;                     // "YYYY-MM-DD" — the today/tomorrow bucket
+  venue?: string;
+  address?: string;
+  location?: Location;
+  url?: string;
+  summary?: string;
+  category?: string;
+  free?: boolean;                   // Kotlin default: true
+  price?: string;                   // display string, e.g. "Free"
+}
+
+export interface EvergreenSpot {
+  title: string;
+  category?: string;
+  note?: string;
+  venue?: string;
+  url?: string;
+}
+
 // ---------- plan-day ----------
 
 export type OptimizationTarget =

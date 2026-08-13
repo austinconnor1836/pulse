@@ -75,4 +75,5 @@ class ApiClient(
 
 object Defaults {
     val PENN_STATION = Location(label = "Penn Station", lat = 40.7506, lng = -73.9939)
+    val OMAHA = Location(label = "Omaha", lat = 41.2565, lng = -95.9345)
 }

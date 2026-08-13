@@ -142,6 +142,63 @@ data class FindSpotsResponse(
     val mode: FindSpotsMode,
 )
 
+// ---------- free-things (W19: static-JSON free-events payload) ----------
+
+// The shape of harvester/output/{city}.json. Deliberately decoupled from the
+// Supabase `Event` wire model above: this is a static file harvested by a free
+// GitHub Actions cron (no server, no DB), fetched directly by FreeThingsClient.
+// Field names mirror the JSON verbatim; keep in lockstep with types.ts + Models.swift.
+
+@Serializable
+data class FreeThings(
+    val city: String,
+    val cityName: String,
+    val center: Location,
+    val window: FreeWindow,
+    val generatedAt: String,
+    val counts: FreeCounts,
+    val events: List<FreeThingItem> = emptyList(),
+    val evergreen: List<EvergreenSpot> = emptyList(),
+)
+
+@Serializable
+data class FreeWindow(
+    val today: String,       // "YYYY-MM-DD" in the city's timezone
+    val tomorrow: String,
+)
+
+@Serializable
+data class FreeCounts(
+    val total: Int,
+    val today: Int,
+    val tomorrow: Int,
+)
+
+@Serializable
+data class FreeThingItem(
+    val source: String,      // "eventbrite", "localist:events.unomaha.edu", …
+    val title: String,
+    val startISO: String,
+    val date: String,        // "YYYY-MM-DD" — the today/tomorrow bucket
+    val venue: String? = null,
+    val address: String? = null,
+    val location: Location? = null,
+    val url: String? = null,
+    val summary: String? = null,
+    val category: String? = null,
+    val free: Boolean = true,
+    val price: String? = null,   // display string, e.g. "Free"
+)
+
+@Serializable
+data class EvergreenSpot(
+    val title: String,
+    val category: String? = null,
+    val note: String? = null,
+    val venue: String? = null,
+    val url: String? = null,
+)
+
 // ---------- plan-day ----------
 
 @Serializable

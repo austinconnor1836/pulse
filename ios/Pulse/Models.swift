@@ -18,6 +18,7 @@ struct Location: Codable, Hashable {
 
 extension Location {
     static let pennStation = Location(label: "Penn Station", lat: 40.7506, lng: -73.9939)
+    static let omaha = Location(label: "Omaha", lat: 41.2565, lng: -95.9345)
 }
 
 // MARK: - find-spots
@@ -116,6 +117,61 @@ struct EventsFeedResponse: Codable {
     var events: [Event]
     var generatedAt: String
     var freshness: EventsFreshness
+}
+
+// MARK: - free-things (W19: static-JSON free-events payload)
+
+// The shape of harvester/output/{city}.json. Deliberately decoupled from the
+// Supabase `Event` wire model above: a static file harvested by a free GitHub
+// Actions cron (no server, no DB), fetched directly by FreeThingsClient.
+// Field names mirror the JSON verbatim; keep in lockstep with Types.kt + types.ts.
+
+struct FreeThings: Codable {
+    var city: String
+    var cityName: String
+    var center: Location
+    var window: FreeWindow
+    var generatedAt: String
+    var counts: FreeCounts
+    var events: [FreeThingItem] = []
+    var evergreen: [EvergreenSpot] = []
+}
+
+struct FreeWindow: Codable {
+    var today: String       // "YYYY-MM-DD" in the city's timezone
+    var tomorrow: String
+}
+
+struct FreeCounts: Codable {
+    var total: Int
+    var today: Int
+    var tomorrow: Int
+}
+
+struct FreeThingItem: Codable, Hashable, Identifiable {
+    // No stable id on the wire; derive one from url+startISO for ForEach/List.
+    var id: String { "\(url ?? title)-\(startISO)" }
+    var source: String
+    var title: String
+    var startISO: String
+    var date: String        // "YYYY-MM-DD" — the today/tomorrow bucket
+    var venue: String?
+    var address: String?
+    var location: Location?
+    var url: String?
+    var summary: String?
+    var category: String?
+    var free: Bool = true
+    var price: String?      // display string, e.g. "Free"
+}
+
+struct EvergreenSpot: Codable, Hashable, Identifiable {
+    var id: String { "\(title)-\(venue ?? "")" }
+    var title: String
+    var category: String?
+    var note: String?
+    var venue: String?
+    var url: String?
 }
 
 // MARK: - plan-day
