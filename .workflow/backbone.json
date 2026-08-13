@@ -900,7 +900,7 @@
         "shared",
         "ios"
       ],
-      "status": "specify",
+      "status": "verify",
       "dependsOn": [
         "W2",
         "W7"
@@ -931,26 +931,31 @@
           "at": "2026-08-13T00:00:00Z"
         },
         "plan": {
-          "status": "pending"
+          "status": "folded",
+          "note": "design settled in spec.md (static-JSON re-architecture)"
         },
         "tasks": {
           "status": "pending"
         },
         "implement": {
-          "status": "pending"
+          "status": "done",
+          "at": "2026-08-13T00:00:00Z",
+          "note": "harvester+cron (data layer) + KMP/iOS client; committed on w19-free-things-omaha"
         },
         "audit": {
           "status": "pending"
         },
         "verify": {
-          "status": "pending"
+          "status": "done",
+          "at": "2026-08-13T00:00:00Z",
+          "note": "iOS simulator: native app builds+runs standalone (W15 not needed); feed tab renders Omaha free events + Today/Tomorrow + FREE badge + evergreen. Evidence: specs/W19-free-things-omaha/evidence/*.png"
         },
         "publish": {
-          "status": "pending"
+          "status": "blocked"
         }
       },
-      "blocker": null,
-      "evidence": null,
+      "blocker": "Gate A: production data URL needs `pulse` pushed to GitHub (no git remote) so the free cron runs + raw.githubusercontent serves omaha.json. Client currently points at the <owner> placeholder.",
+      "evidence": "specs/W19-free-things-omaha/evidence/omaha-today-filtered.png",
       "notes": "Free+Omaha vertical slice composing on W8/W10/W12/W16 (all unbuilt). Ships narrow ingest (Eventbrite+Localist) + read-only events-feed + freeOnly + iOS feed-tab Free surfacing + Omaha Location const. Backend fully testable via Deno; final in-app video proof gated on Supabase runtime + W15/W16 client wiring. Prototype source logic at /Users/austin/Developer/free-things/harvest.mjs."
     }
   ]
