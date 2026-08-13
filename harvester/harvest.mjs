@@ -35,6 +35,25 @@ async function get(url, ms = 20000, headers = {}) {
 const slug = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const canonical = (title, venue, date) => `${slug(title)}|${slug(venue)}|${date}`;
 
+// Drop promo/spam that isn't a real "thing to do", and things outside the metro.
+const SPAM = /(complimentary|free trial|work for a day|best workday|backpack giveaway|real estate investor|empower your finances|open house|we create|webinar|make money|side hustle|credit repair|\bmlm\b|board of regents|regus)/i;
+function haversineKm(a, b) {
+  if (!a || !b) return Infinity;
+  const R = 6371, dLat = (b.lat - a.lat) * Math.PI / 180, dLng = (b.lng - a.lng) * Math.PI / 180;
+  const s = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * Math.PI / 180) * Math.cos(b.lat * Math.PI / 180) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(s));
+}
+function relevant(e, city) {
+  if (SPAM.test(e.title || "")) return false;
+  if (e.online) return true; // online free things are fine
+  if (e.location) return haversineKm(e.location, city.center) <= (city.metroRadiusKm ?? 45);
+  // no coords: keep only if the venue/address names an in-metro place
+  const hay = `${e.venue} ${e.address}`.toLowerCase();
+  const near = (city.nearby ?? []).some((n) => hay.includes(n));
+  const farCity = /\b(lincoln|york|sioux city|grand island|kearney|norfolk|fremont)\b/i.test(hay);
+  return near && !farCity;
+}
+
 // ---------- Eventbrite: date-scoped FREE pages (structured JS blob) ----------
 function parseEventbriteServerData(html) {
   const m = html.match(/window\.__SERVER_DATA__\s*=\s*(\{)/);
@@ -140,7 +159,7 @@ const collected = (await Promise.allSettled([eventbrite(city, win), localist(cit
 // keep only free (or cheap<$10) for this slice; dedupe by title+date
 const seen = new Set();
 const events = collected
-  .filter((e) => e.title && e.free)
+  .filter((e) => e.title && e.free && relevant(e, city))
   .filter((e) => {
     const k = canonical(e.title, e.venue, e.date);
     if (seen.has(k)) return false;

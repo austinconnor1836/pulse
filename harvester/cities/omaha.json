@@ -4,6 +4,8 @@
   "state": "ne",
   "tz": "America/Chicago",
   "center": { "lat": 41.2565, "lng": -95.9345 },
+  "metroRadiusKm": 45,
+  "nearby": ["omaha", "bellevue", "papillion", "la vista", "council bluffs", "elkhorn", "ralston", "gretna", "bennington", "millard"],
   "localistBases": ["https://events.unomaha.edu"],
   "evergreen": [
     { "title": "Joslyn Art Museum", "category": "arts", "note": "Free general admission", "venue": "2200 Dodge St", "url": "https://joslyn.org" },
