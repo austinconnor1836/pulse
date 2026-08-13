@@ -15,11 +15,10 @@ import kotlinx.serialization.json.Json
  * it to [FreeThings]. No auth, no server, no DB — $0 to run.
  */
 object FreeThingsConfig {
-    // TODO(W19): the `pulse` repo has no git remote yet — replace <owner> with the
-    // real GitHub owner once the repo is pushed (see spec Gate A). Until then this
-    // URL will 404. `{city}` is substituted per-request by [FreeThingsClient.fetch].
+    // Static, unauthenticated data served from the public repo (free CDN),
+    // refreshed by the GitHub Actions cron. `{city}` is substituted per-request.
     const val BASE_URL_TEMPLATE =
-        "https://raw.githubusercontent.com/<owner>/pulse/main/harvester/output/{city}.json"
+        "https://raw.githubusercontent.com/austinconnor1836/pulse/main/harvester/output/{city}.json"
 }
 
 class FreeThingsClient(
