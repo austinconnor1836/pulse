@@ -1,0 +1,404 @@
+{
+  "city": "omaha",
+  "cityName": "Omaha",
+  "center": {
+    "lat": 41.2565,
+    "lng": -95.9345
+  },
+  "window": {
+    "today": "2026-08-13",
+    "tomorrow": "2026-08-14"
+  },
+  "generatedAt": "2026-08-13T17:13:32.857Z",
+  "counts": {
+    "total": 21,
+    "today": 9,
+    "tomorrow": 12
+  },
+  "events": [
+    {
+      "source": "eventbrite",
+      "title": "Unlock Your Best Workday Yet—Claim Your Complimentary Trial Today.",
+      "startISO": "2026-08-13T09:00:00",
+      "date": "2026-08-13",
+      "venue": "Regus - Omaha - Landmark Center",
+      "address": "1299 Farnam Street #STE 300, Omaha, NE 68102",
+      "location": {
+        "lat": 41.2571234,
+        "lng": -95.93269049999999
+      },
+      "url": "https://www.eventbrite.com/e/unlock-your-best-workday-yetclaim-your-complimentary-trial-today-tickets-1985099179082",
+      "summary": "Try us out for a day! Experience the vibe, the perks, and the amazing workspace we offer! FREE trial, FULL experience, and ZERO pressure!",
+      "category": "real estate",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "University of Nebraska Board of Regents Meeting",
+      "startISO": "2026-08-13T09:00:00-05:00",
+      "date": "2026-08-13",
+      "venue": "",
+      "address": "",
+      "location": null,
+      "url": "https://events.unomaha.edu/event/university_of_nebraska_board_of_regents",
+      "summary": "Save the Date\n\nPlease save the date for future meetings of the University of Nebraska Board of Regents. These meetings will be streamed live at nebraska.edu.\n\n ",
+      "category": "meeting",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Copy of Amigos Food Truck in York, NE",
+      "startISO": "2026-08-13T11:00:00",
+      "date": "2026-08-13",
+      "venue": "311 N Lincoln Ave",
+      "address": "311 North Lincoln Avenue, York, NE 68467",
+      "location": {
+        "lat": 40.8645497,
+        "lng": -97.59354839999999
+      },
+      "url": "https://www.eventbrite.com/e/copy-of-amigos-food-truck-in-york-ne-tickets-1993572162002",
+      "summary": "New Featured Item: Jalapeno Popper Burrito! Heat meets crunch in this jalapeño popper-inspired favorite.",
+      "category": "food",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Back to School Free Backpack Giveaway in Omaha",
+      "startISO": "2026-08-13T13:00:00",
+      "date": "2026-08-13",
+      "venue": "Boost Mobile",
+      "address": "9207 Maple Street, Omaha, NE 68134",
+      "location": {
+        "lat": 41.2846453,
+        "lng": -96.0550043
+      },
+      "url": "https://www.eventbrite.com/e/back-to-school-free-backpack-giveaway-in-omaha-tickets-1996480807840",
+      "summary": "Win a FREE Backpack in Omaha & $25/mo Wireless! Boost Mobile",
+      "category": "children & youth ",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Sioux City, Iowa: Empower Your Finances",
+      "startISO": "2026-08-13T13:30:00",
+      "date": "2026-08-13",
+      "venue": "Sioux City",
+      "address": "Sioux City, Sioux City, IA",
+      "location": {
+        "lat": 42.4963416,
+        "lng": -96.40494079999999
+      },
+      "url": "https://www.eventbrite.com/e/sioux-city-iowa-empower-your-finances-tickets-1987315259438",
+      "summary": "This event is designed to empower you with the knowledge, tools, and strategies needed to attain financial freedom",
+      "category": "finance",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "LALA Exhibitions: \"Opulence\" Solo Show by Inna Kulagina",
+      "startISO": "2026-08-13T17:00:00",
+      "date": "2026-08-13",
+      "venue": "Alley Poyner Macchietto Architecture",
+      "address": "1516 Cuming Street, Omaha, NE 68102",
+      "location": {
+        "lat": 41.268355,
+        "lng": -95.9363912
+      },
+      "url": "https://www.eventbrite.com/e/lala-exhibitions-opulence-solo-show-by-inna-kulagina-tickets-1996505519754",
+      "summary": "\"Opulence\" will take place at Alley Poyner Macchietto Architecture firm lobby gallery. Come by to celebrate this solo show by Inna Kulagina.",
+      "category": "fine art",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Standup Comedy Showcase - At Southern Style - By Quik Draw Comedy",
+      "startISO": "2026-08-13T19:00:00",
+      "date": "2026-08-13",
+      "venue": "Southern Style",
+      "address": "648 North Broad Street, Fremont, NE 68025",
+      "location": {
+        "lat": 41.4355773,
+        "lng": -96.4980775
+      },
+      "url": "https://www.eventbrite.com/e/standup-comedy-showcase-at-southern-style-by-quik-draw-comedy-tickets-1995594169882",
+      "summary": "Standup Comedy Showcase brought to you by Quik Draw Comedy",
+      "category": "comedy",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Omaha: We Create Real Estate Investors, learn how",
+      "startISO": "2026-08-13T19:00:00",
+      "date": "2026-08-13",
+      "venue": "Zoom Event",
+      "address": "Zoom, Omaha, NE 68144",
+      "location": {
+        "lat": 41.2565369,
+        "lng": -95.9345034
+      },
+      "url": "https://www.eventbrite.com/e/omaha-we-create-real-estate-investors-learn-how-tickets-1997506821675",
+      "summary": "Learn how to invest in real estate, reduce risk and mistakes, use OPM, and get the support you need to be decisive.",
+      "category": "real estate",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Lincoln: We Create Real Estate Investors, learn how",
+      "startISO": "2026-08-13T19:00:00",
+      "date": "2026-08-13",
+      "venue": "Zoom Event",
+      "address": "Zoom, Lincoln, NE 68508",
+      "location": {
+        "lat": 40.8298688,
+        "lng": -96.7012424
+      },
+      "url": "https://www.eventbrite.com/e/lincoln-we-create-real-estate-investors-learn-how-tickets-1993634509485",
+      "summary": "Learn how to invest in real estate, reduce risk and mistakes, use OPM, and get the support you need to be decisive.",
+      "category": "real estate",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Your Future Office Called—Come Work for a Day—On Us.",
+      "startISO": "2026-08-14T09:00:00",
+      "date": "2026-08-14",
+      "venue": "Regus",
+      "address": "1408 Fort Crook Road South #Suite 300, Bellevue, NE 68005",
+      "location": {
+        "lat": 41.1455674,
+        "lng": -95.9286705
+      },
+      "url": "https://www.eventbrite.com/e/your-future-office-calledcome-work-for-a-dayon-us-tickets-1985098049704",
+      "summary": "Try us out for a day! Experience the vibe, the perks, and the amazing workspace we offer! FREE trial, FULL experience, and ZERO pressure!",
+      "category": "startups & small business",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Talking with Kids About Boundaries",
+      "startISO": "2026-08-14T11:30:00",
+      "date": "2026-08-14",
+      "venue": "BraveBe Child Advocacy Center",
+      "address": "5025 Garland Street, Lincoln, NE 68504",
+      "location": {
+        "lat": 40.83400510000001,
+        "lng": -96.65019870000003
+      },
+      "url": "https://www.eventbrite.com/e/talking-with-kids-about-boundaries-tickets-1983090032671",
+      "summary": "How do you talk with children about boundaries and body safety?",
+      "category": "children & youth ",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Ground Rules: Public Art & Transit-Oriented Development",
+      "startISO": "2026-08-14T12:00:00",
+      "date": "2026-08-14",
+      "venue": "The Ashton",
+      "address": "1229 Millwork Avenue, Omaha, NE 68102",
+      "location": {
+        "lat": 41.2703785,
+        "lng": -95.93276329999999
+      },
+      "url": "https://www.eventbrite.com/e/ground-rules-public-art-transit-oriented-development-tickets-1993948969042",
+      "summary": "Join Amplify's next panel discussion on August 14th at Millwork Commons!",
+      "category": "other",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Back to School Free Backpack Giveaway in Omaha",
+      "startISO": "2026-08-14T13:00:00",
+      "date": "2026-08-14",
+      "venue": "Boost Mobile",
+      "address": "5518 Northwest Radial Highway, Omaha, NE 68104",
+      "location": {
+        "lat": 41.285382,
+        "lng": -95.99948680000001
+      },
+      "url": "https://www.eventbrite.com/e/back-to-school-free-backpack-giveaway-in-omaha-tickets-1996483605207",
+      "summary": "Win a FREE Backpack in Omaha & $25/mo Wireless! Boost Mobile",
+      "category": "children & youth ",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "NOMA FEST- Panel Discussion",
+      "startISO": "2026-08-14T17:00:00",
+      "date": "2026-08-14",
+      "venue": "North Omaha Music & Arts",
+      "address": "2510 North 24th Street, Omaha, NE 68110",
+      "location": {
+        "lat": 41.2818639,
+        "lng": -95.94722499999999
+      },
+      "url": "https://www.eventbrite.com/e/noma-fest-panel-discussion-tickets-1992225264395",
+      "summary": "Join us for a panel with Frank McComb and Keyon Harold. As we discover their journey and the artistry that makes them who they are.",
+      "category": "other",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Vida Bright Academy Pre-K Open House",
+      "startISO": "2026-08-14T18:00:00",
+      "date": "2026-08-14",
+      "venue": "14345 Fort St",
+      "address": "14345 Fort Street, Omaha, NE 68164",
+      "location": {
+        "lat": 41.3059667,
+        "lng": -96.13802249999999
+      },
+      "url": "https://www.eventbrite.com/e/vida-bright-academy-pre-k-open-house-tickets-1994389866779",
+      "summary": "Explore STEM-powered, Montessori-inspired Pre-K! Tour classrooms, meet teachers, enjoy food, and enroll at Vida Bright Academy.",
+      "category": "education",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Back to School Family Swim",
+      "startISO": "2026-08-14T18:00:00",
+      "date": "2026-08-14",
+      "venue": "Goldfish Swim School - Sarpy County",
+      "address": "10601 South 72nd Street, Papillion, NE 68046",
+      "location": {
+        "lat": 41.1521467,
+        "lng": -96.02234949999999
+      },
+      "url": "https://www.eventbrite.com/e/back-to-school-family-swim-tickets-1997388279111",
+      "summary": "Dive into fun with the whole family at our Back to School Family Swim – splash, laugh, and celebrate together!",
+      "category": "education",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Summer Sounds, Live Music Series!",
+      "startISO": "2026-08-14T18:00:00",
+      "date": "2026-08-14",
+      "venue": "Hurrdat Sports Bar & Grill",
+      "address": "12744 Westport Parkway, La Vista, NE 68138",
+      "location": {
+        "lat": 41.1787512,
+        "lng": -96.1133256
+      },
+      "url": "https://www.eventbrite.com/e/summer-sounds-live-music-series-tickets-1989553399776",
+      "summary": "Come join us on the patio on Friday nights to enjoy some live music! Grab a ticket now",
+      "category": "other",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "THE KIRTAN EXPERIENCE: LINCOLN",
+      "startISO": "2026-08-14T18:30:00",
+      "date": "2026-08-14",
+      "venue": "Graduate by Hilton Lincoln",
+      "address": "141 North 9th Street, Lincoln, NE 68508",
+      "location": {
+        "lat": 40.8146137,
+        "lng": -96.70902919999999
+      },
+      "url": "https://www.eventbrite.com/e/the-kirtan-experience-lincoln-registration-1994984154309",
+      "summary": "A joyful immersion in mantra, music & dance",
+      "category": "religion & spirituality",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "\"LEZ\" be Friends Arcade Night  (Midtown Omaha)",
+      "startISO": "2026-08-14T19:00:00",
+      "date": "2026-08-14",
+      "venue": "Capitol Arcade",
+      "address": "1002 Dodge Street, Omaha, NE 68102",
+      "location": {
+        "lat": 41.259813,
+        "lng": -95.9294467
+      },
+      "url": "https://www.eventbrite.com/e/lez-be-friends-arcade-night-midtown-omaha-tickets-1984936425281",
+      "summary": "Lesbian \"LGBTQ\" social gathering.",
+      "category": "gaming",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "LNK Drive-In Movie Night: How to Train Your Dragon!",
+      "startISO": "2026-08-14T19:00:00",
+      "date": "2026-08-14",
+      "venue": "Lincoln Airport Open Green Space (West-Side)",
+      "address": "3801 North West 34th Street, Lincoln, NE 68524",
+      "location": {
+        "lat": 40.8522612,
+        "lng": -96.7707009
+      },
+      "url": "https://www.eventbrite.com/e/lnk-drive-in-movie-night-how-to-train-your-dragon-tickets-1994608936021",
+      "summary": "Back-to-School Bash at LNK! Bring your friends & family for a great movie, fun activities, and delicious food trucks. Movie starts at dark.",
+      "category": "city/town",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Swing Dancing Meetup (Omaha)",
+      "startISO": "2026-08-14T20:00:00",
+      "date": "2026-08-14",
+      "venue": "Omaha Jitterbugs",
+      "address": "201 South 24th Street, Omaha, NE 68102",
+      "location": {
+        "lat": 41.2584822,
+        "lng": -95.9465116
+      },
+      "url": "https://www.eventbrite.com/e/swing-dancing-meetup-omaha-tickets-1990297695986",
+      "summary": "Enjoy Jitterbugs Night Out!",
+      "category": "other",
+      "free": true,
+      "price": "Free"
+    }
+  ],
+  "evergreen": [
+    {
+      "title": "Joslyn Art Museum",
+      "category": "arts",
+      "note": "Free general admission",
+      "venue": "2200 Dodge St",
+      "url": "https://joslyn.org"
+    },
+    {
+      "title": "Bemis Center for Contemporary Arts",
+      "category": "arts",
+      "note": "Free galleries, Old Market",
+      "venue": "724 S 12th St",
+      "url": "https://www.bemiscenter.org"
+    },
+    {
+      "title": "The RiverFront / Gene Leahy Mall",
+      "category": "outdoors",
+      "note": "Free downtown parks: volleyball, splash pads, hammocks",
+      "venue": "Downtown Omaha",
+      "url": "https://theriverfrontomaha.com"
+    },
+    {
+      "title": "Old Market",
+      "category": "walk",
+      "note": "Free to wander — cobblestones, shops, galleries",
+      "venue": "Old Market, Omaha",
+      "url": "https://www.oldmarket.com"
+    }
+  ]
+}

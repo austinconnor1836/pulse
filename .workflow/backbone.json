@@ -2,7 +2,7 @@
   "project": "pulse",
   "version": 1,
   "createdAt": "2026-06-11T18:38:33Z",
-  "updatedAt": "2026-06-12T21:00:00Z",
+  "updatedAt": "2026-08-13T00:00:00Z",
   "mainBranch": "main",
   "repos": [
     "ios",
@@ -10,7 +10,7 @@
     "shared",
     "supabase"
   ],
-  "note": "Wave 0 (W1+W2) + Wave 1 done so far: W3+W4+W7+W9. Wave 1 remaining: W12 (import-registries cron), W14 (auth magic-link), W15 (XCFramework). W18 spec at grill gate, impl blocked on W6. Pulse now has a complete shared-helper layer: env, places, claude, events, scoring + the first user-facing endpoint (log-interaction).",
+  "note": "Wave 0 (W1+W2) + Wave 1 done so far: W3+W4+W7+W9. Wave 1 remaining: W12 (import-registries cron), W14 (auth magic-link), W15 (XCFramework). W18 spec at grill gate, impl blocked on W6. Pulse now has a complete shared-helper layer: env, places, claude, events, scoring + the first user-facing endpoint (log-interaction). | W19 (free-things-omaha) added 2026-08-13: free+Omaha vertical slice, spec done, backend Deno-testable; client verify gated on W15/W16 + Supabase runtime.",
   "items": [
     {
       "id": "W1",
@@ -86,7 +86,7 @@
     {
       "id": "W2",
       "slug": "types-contract-ts-kotlin-parity",
-      "title": "TS ↔ Kotlin types + scoring contract",
+      "title": "TS \u2194 Kotlin types + scoring contract",
       "area": "shared",
       "repos": [
         "shared",
@@ -97,10 +97,10 @@
       "stackedOn": null,
       "branch": "w2-types-contract-ts-kotlin-parity",
       "acceptanceCriteria": [
-        "shared/types.ts (repo root — matches the existing find-spots/plan-day imports) exists and is the canonical TypeScript mirror of shared/.../Types.kt (FindSpotsRequest/Response, ScoredSpot, ScoreBreakdown, Event, OptimizationTarget, PlanDayResponse, LogInteractionRequest, et al). The find-spots stub already imports ../../../shared/types.ts — that import must resolve.",
+        "shared/types.ts (repo root \u2014 matches the existing find-spots/plan-day imports) exists and is the canonical TypeScript mirror of shared/.../Types.kt (FindSpotsRequest/Response, ScoredSpot, ScoreBreakdown, Event, OptimizationTarget, PlanDayResponse, LogInteractionRequest, et al). The find-spots stub already imports ../../../shared/types.ts \u2014 that import must resolve.",
         "_shared/scoring.ts mirrors shared/.../Scoring.kt deterministically: identical 5-signal math (consensus, recency, useCaseFit, distance, realTimeRelevance) for the same inputs.",
         "A parity check (a small test or documented fixture) demonstrates one shared input produces the same ScoreBreakdown in Kotlin and TS.",
-        "A heuristicVersion constant exists in both and matches, per docs/architecture.md § lockstep."
+        "A heuristicVersion constant exists in both and matches, per docs/architecture.md \u00a7 lockstep."
       ],
       "scope": [
         "supabase/functions/shared/types.ts",
@@ -168,7 +168,7 @@
       "stackedOn": null,
       "branch": "w3-google-places-client",
       "acceptanceCriteria": [
-        "_shared/places.ts exposes textSearch(purpose, location) → candidate venues (id, name, address, lat/lng, rating, hours) and distanceMatrix(origin, candidates) → walk minutes per candidate.",
+        "_shared/places.ts exposes textSearch(purpose, location) \u2192 candidate venues (id, name, address, lat/lng, rating, hours) and distanceMatrix(origin, candidates) \u2192 walk minutes per candidate.",
         "Uses GOOGLE_PLACES_API_KEY from the env helper (W1); fails with a clear error if absent.",
         "Handles the API's pagination + rate-limit responses gracefully and normalizes results to the shared candidate shape.",
         "A documented fixture/replay path lets find-spots be developed without burning live quota."
@@ -224,7 +224,7 @@
     {
       "id": "W4",
       "slug": "claude-judge-client",
-      "title": "Claude judge client (purpose→attributes, fit, why-copy)",
+      "title": "Claude judge client (purpose\u2192attributes, fit, why-copy)",
       "area": "supabase",
       "repos": [
         "supabase"
@@ -236,7 +236,7 @@
       "stackedOn": null,
       "branch": "w4-claude-judge-client",
       "acceptanceCriteria": [
-        "_shared/claude.ts exposes: purposeToAttributes(purpose) → weighted use-case attributes; scoreUseCaseFit(purpose, candidate) → 0..1 fit; whyCopy(purpose, candidate, breakdown) → one-line rationale; and extractEvents(text) → Event[] for ingestion.",
+        "_shared/claude.ts exposes: purposeToAttributes(purpose) \u2192 weighted use-case attributes; scoreUseCaseFit(purpose, candidate) \u2192 0..1 fit; whyCopy(purpose, candidate, breakdown) \u2192 one-line rationale; and extractEvents(text) \u2192 Event[] for ingestion.",
         "Calls the Claude API with the current recommended model id and reads CLAUDE_API_KEY from the env helper (W1).",
         "Prompts/system messages live in a single place and are the codification of the find-spots SKILL.md spec; responses are parsed into typed shapes (W2) with validation + graceful fallback on malformed output.",
         "Token/cost guardrails documented (batch where possible)."
@@ -301,7 +301,7 @@
       "stackedOn": null,
       "branch": "w7-events-query-layer",
       "acceptanceCriteria": [
-        "_shared/events.ts exposes nearbyEvents(location, radius, timeWindow) → Event[] using the events table PostGIS index (migration 00000000000002), and upsertEvents(events) keyed by canonical_key.",
+        "_shared/events.ts exposes nearbyEvents(location, radius, timeWindow) \u2192 Event[] using the events table PostGIS index (migration 00000000000002), and upsertEvents(events) keyed by canonical_key.",
         "Returns events typed per the shared Event shape (W2), ordered by proximity + recency.",
         "Used by both the find-spots real-time-relevance signal and events-feed without duplicating SQL."
       ],
@@ -458,7 +458,7 @@
     {
       "id": "W14",
       "slug": "auth-supabase-magic-link",
-      "title": "Auth: Supabase email magic link (anon → user JWT)",
+      "title": "Auth: Supabase email magic link (anon \u2192 user JWT)",
       "area": "shared",
       "repos": [
         "shared",
@@ -476,7 +476,7 @@
         "ApiClient (shared + iOS + Android) sends the authenticated user JWT instead of the anon key on user-facing calls; anon key is no longer used as the bearer for find-spots/plan-day/events-feed/log-interaction.",
         "A minimal login surface (email magic link, redirect pulse://) exists on iOS and Android; an unauthenticated launch routes to it.",
         "Session persists across app launches and refreshes per supabase config (refresh-token rotation already enabled in config.toml).",
-        "README launch note updated: the 'sends anon key; swap to user JWT before launch' ⏳ item is closed."
+        "README launch note updated: the 'sends anon key; swap to user JWT before launch' \u23f3 item is closed."
       ],
       "scope": [
         "shared/src/commonMain/.../ApiClient.kt",
@@ -536,12 +536,12 @@
       },
       "blocker": null,
       "evidence": null,
-      "notes": "Closes the 'XCFramework wiring is the next step' ⏳ item. Independent of backend."
+      "notes": "Closes the 'XCFramework wiring is the next step' \u23f3 item. Independent of backend."
     },
     {
       "id": "W5",
       "slug": "find-spots-edge-function",
-      "title": "find-spots Edge Function — hybrid ranking pipeline",
+      "title": "find-spots Edge Function \u2014 hybrid ranking pipeline",
       "area": "supabase",
       "repos": [
         "supabase"
@@ -556,8 +556,8 @@
       "stackedOn": null,
       "branch": "w5-find-spots-edge-function",
       "acceptanceCriteria": [
-        "POST /functions/v1/find-spots replaces the stub: Places text search (W3) → distance matrix (W3) → Claude judgments (W4) → nearby live events (W7) → deterministic 5-signal scoring (W2 scoring.ts) → ranked ScoredSpot[] split into tiers (top maxResults, default 10).",
-        "Each ScoredSpot carries the full ScoreBreakdown (consensus, recency, useCaseFit, distance, realTimeRelevance) and a 'why' line — the worked cocktail example from find-spots SKILL.md produces a sensible ranked list.",
+        "POST /functions/v1/find-spots replaces the stub: Places text search (W3) \u2192 distance matrix (W3) \u2192 Claude judgments (W4) \u2192 nearby live events (W7) \u2192 deterministic 5-signal scoring (W2 scoring.ts) \u2192 ranked ScoredSpot[] split into tiers (top maxResults, default 10).",
+        "Each ScoredSpot carries the full ScoreBreakdown (consensus, recency, useCaseFit, distance, realTimeRelevance) and a 'why' line \u2014 the worked cocktail example from find-spots SKILL.md produces a sensible ranked list.",
         "purpose + location required (keep the stub's 400 validation); errors return typed JSON.",
         "verify_jwt = true enforced."
       ],
@@ -580,7 +580,7 @@
     {
       "id": "W8",
       "slug": "events-feed-edge-function",
-      "title": "events-feed Edge Function — read + live-search fallback + dedup",
+      "title": "events-feed Edge Function \u2014 read + live-search fallback + dedup",
       "area": "supabase",
       "repos": [
         "supabase"
@@ -616,7 +616,7 @@
     {
       "id": "W10",
       "slug": "ingest-events-cron",
-      "title": "ingest-events cron — poll → Claude extract → upsert",
+      "title": "ingest-events cron \u2014 poll \u2192 Claude extract \u2192 upsert",
       "area": "supabase",
       "repos": [
         "supabase"
@@ -653,7 +653,7 @@
     {
       "id": "W11",
       "slug": "enrich-business-cron-finish",
-      "title": "enrich-business cron — finish Places match + scrape + LLM fallback",
+      "title": "enrich-business cron \u2014 finish Places match + scrape + LLM fallback",
       "area": "supabase",
       "repos": [
         "supabase"
@@ -666,7 +666,7 @@
       "stackedOn": null,
       "branch": "w11-enrich-business-cron-finish",
       "acceptanceCriteria": [
-        "enrich-business (already ~187 lines — audit what exists first) processes business_universe rows in batches of 20: Google Places match by name+address (W3), homepage scrape for socials, LLM fallback for missing handles (W4), upsert into business_socials (migration 00000000000005/00000000000007).",
+        "enrich-business (already ~187 lines \u2014 audit what exists first) processes business_universe rows in batches of 20: Google Places match by name+address (W3), homepage scrape for socials, LLM fallback for missing handles (W4), upsert into business_socials (migration 00000000000005/00000000000007).",
         "Updates business_polling_state (tier, next_poll_at) so the polling cadence is set.",
         "verify_jwt = false + x-ingest-secret guard enforced (W1); writes business_ingest_runs.",
         "Handles unmatched/ambiguous businesses without crashing the batch."
@@ -685,12 +685,12 @@
       },
       "blocker": null,
       "evidence": null,
-      "notes": "Partially built (187 lines) — spec phase must diff existing vs spec before scoping."
+      "notes": "Partially built (187 lines) \u2014 spec phase must diff existing vs spec before scoping."
     },
     {
       "id": "W6",
       "slug": "plan-day-edge-function",
-      "title": "plan-day Edge Function — slots + reuse find-spots + day constraints",
+      "title": "plan-day Edge Function \u2014 slots + reuse find-spots + day constraints",
       "area": "supabase",
       "repos": [
         "supabase"
@@ -744,7 +744,7 @@
         "The pg_cron schedules (migration 00000000000003) actually invoke ingest-events (hourly-ish), enrich-business (continuous batches), and import-business-registries (monthly) via pg_net with the x-ingest-secret header.",
         "app_config holds the ingest secret + function base URL; the schedules read from it (no hardcoded secret in SQL).",
         "A documented way to verify a scheduled run fired: event_ingest_runs / business_ingest_runs rows appear after the cadence.",
-        "Closes the 'Ingestion cron actually running' ⏳ README item."
+        "Closes the 'Ingestion cron actually running' \u23f3 README item."
       ],
       "scope": [
         "supabase/migrations/00000000000003_ingest_schedule.sql",
@@ -842,7 +842,7 @@
       },
       "blocker": null,
       "evidence": null,
-      "notes": "Largest client slice (deprecated screens need rewrite). Android consumes :shared directly — no XCFramework dep."
+      "notes": "Largest client slice (deprecated screens need rewrite). Android consumes :shared directly \u2014 no XCFramework dep."
     },
     {
       "id": "W18",
@@ -862,14 +862,14 @@
       "branch": "w18-multi-variant-day-plans",
       "acceptanceCriteria": [
         "POST /functions/v1/plan-day-variants accepts a PlanDayVariantsRequest (a PlanDayRequest plus an optional targets: OptimizationTarget[]) and returns a PlanDayVariantsResponse with one PlanDayResponse per requested target.",
-        "When `targets` is omitted, the default is [\"novelty\", \"meet-people\", \"enjoyment\", \"recovery\"] — the four non-balanced OptimizationTarget values, giving the user a meaningful spread.",
+        "When `targets` is omitted, the default is [\"novelty\", \"meet-people\", \"enjoyment\", \"recovery\"] \u2014 the four non-balanced OptimizationTarget values, giving the user a meaningful spread.",
         "Each variant is generated by reusing the plan-day logic (W6) with `optimizeFor` set to that variant's target. No copy of slot-decomposition or orchestration code; the wrapper invokes the same module.",
         "PlanDayVariantsRequest / PlanDayVariantsResponse are added to the canonical shared types (Kotlin Types.kt source-of-truth + the TS mirror introduced by W2).",
         "Invalid input (unknown target string, empty `targets` array, duplicate target in `targets`) returns 400 with a named error message; missing dateISO / anchorLocation surfaces plan-day's existing validation as the first variant's error."
       ],
       "scope": [
         "supabase/functions/plan-day-variants/index.ts (new)",
-        "supabase/functions/plan-day/index.ts (extract orchestration into a reusable function callable by the wrapper — no behavior change)",
+        "supabase/functions/plan-day/index.ts (extract orchestration into a reusable function callable by the wrapper \u2014 no behavior change)",
         "shared/src/commonMain/kotlin/com/austinconnor/pulse/shared/Types.kt (add PlanDayVariantsRequest + Response)",
         "shared/types.ts (mirror via W2)"
       ],
@@ -889,6 +889,69 @@
       "blocker": null,
       "evidence": "specs/W18-multi-variant-day-plans/spec.md",
       "notes": "Mid-session addition (2026-06-12). User asked for \"numerous itineraries\"; we scoped it to multi-variant SAME-DAY plans (one PlanDayResponse per OptimizationTarget), distinct from multi-DAY trip planning which is a separate post-MVP feature. Wave 4. Out of scope: cross-variant venue dedup, client UI (belongs in W16/W17 follow-ups). | Spec written; at grill gate (exploration settled all 4 decisions D1-D4). Implementation blocked on W6 (plan-day)."
+    },
+    {
+      "id": "W19",
+      "slug": "free-things-omaha",
+      "title": "Free things to do today/tomorrow (Omaha): free-events lens, end-to-end",
+      "area": "supabase + shared + ios",
+      "repos": [
+        "supabase",
+        "shared",
+        "ios"
+      ],
+      "status": "specify",
+      "dependsOn": [
+        "W2",
+        "W7"
+      ],
+      "stackedOn": null,
+      "branch": "w19-free-things-omaha",
+      "acceptanceCriteria": [
+        "Eventbrite date-scoped free-events source + one Localist/civic feed are ingested for Omaha, producing Events with cost:'free' + a 'free' tag, upserted via the W7 upsertEvents (onConflict canonical_key).",
+        "events-feed serves those events via a freeOnly events read: nearby_events gains a free_only param (('free'=any(tags) or lower(cost)='free')), threaded through nearbyEvents + EventsFeedRequest.",
+        "Free-ness is derived from existing cost/tags (no new Event wire field); only EventsFeedRequest gains freeOnly (3-file parity + heuristicVersion bump).",
+        "iOS: choosing Omaha (Defaults.OMAHA) with a Free filter chip on + a Today/Tomorrow window shows free Omaha events, each with a FREE badge in the Pulse feed tab (verify-ac-ios video)."
+      ],
+      "scope": [
+        "supabase/functions/_shared/free_sources/eventbrite.ts",
+        "supabase/functions/_shared/free_sources/localist.ts",
+        "supabase/functions/ingest-events/index.ts",
+        "supabase/functions/events-feed/index.ts",
+        "supabase/functions/_shared/events.ts (freeOnly + maxResults)",
+        "supabase/migrations/*_nearby_events_free_only.sql",
+        "shared types EventSource + EventsFeedRequest (Types.kt/types.ts/Models.swift parity)",
+        "ios/Pulse/PulseView.swift (Free chip + Today/Tomorrow + FREE badge)",
+        "ApiClient.kt/ApiClient.swift + Defaults.OMAHA"
+      ],
+      "phases": {
+        "specify": {
+          "status": "done",
+          "artifact": "specs/W19-free-things-omaha/spec.md",
+          "at": "2026-08-13T00:00:00Z"
+        },
+        "plan": {
+          "status": "pending"
+        },
+        "tasks": {
+          "status": "pending"
+        },
+        "implement": {
+          "status": "pending"
+        },
+        "audit": {
+          "status": "pending"
+        },
+        "verify": {
+          "status": "pending"
+        },
+        "publish": {
+          "status": "pending"
+        }
+      },
+      "blocker": null,
+      "evidence": null,
+      "notes": "Free+Omaha vertical slice composing on W8/W10/W12/W16 (all unbuilt). Ships narrow ingest (Eventbrite+Localist) + read-only events-feed + freeOnly + iOS feed-tab Free surfacing + Omaha Location const. Backend fully testable via Deno; final in-app video proof gated on Supabase runtime + W15/W16 client wiring. Prototype source logic at /Users/austin/Developer/free-things/harvest.mjs."
     }
   ]
 }

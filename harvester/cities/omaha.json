@@ -1,0 +1,14 @@
+{
+  "id": "omaha",
+  "name": "Omaha",
+  "state": "ne",
+  "tz": "America/Chicago",
+  "center": { "lat": 41.2565, "lng": -95.9345 },
+  "localistBases": ["https://events.unomaha.edu"],
+  "evergreen": [
+    { "title": "Joslyn Art Museum", "category": "arts", "note": "Free general admission", "venue": "2200 Dodge St", "url": "https://joslyn.org" },
+    { "title": "Bemis Center for Contemporary Arts", "category": "arts", "note": "Free galleries, Old Market", "venue": "724 S 12th St", "url": "https://www.bemiscenter.org" },
+    { "title": "The RiverFront / Gene Leahy Mall", "category": "outdoors", "note": "Free downtown parks: volleyball, splash pads, hammocks", "venue": "Downtown Omaha", "url": "https://theriverfrontomaha.com" },
+    { "title": "Old Market", "category": "walk", "note": "Free to wander — cobblestones, shops, galleries", "venue": "Old Market, Omaha", "url": "https://www.oldmarket.com" }
+  ]
+}
