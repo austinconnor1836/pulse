@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-16",
-    "tomorrow": "2026-08-16"
+    "today": "2026-08-17",
+    "tomorrow": "2026-08-17"
   },
-  "generatedAt": "2026-08-16T22:04:56.443Z",
+  "generatedAt": "2026-08-17T11:05:34.163Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 5,
+    "today": 5,
+    "tomorrow": 5
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Preview Week: UNO Campus Recreation and Wellness",
-      "startISO": "2026-08-16T10:00:00-05:00",
-      "date": "2026-08-16",
+      "startISO": "2026-08-17T06:00:00-05:00",
+      "date": "2026-08-17",
       "venue": "Health & Kinesiology",
       "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
@@ -30,6 +30,74 @@
       "url": "https://events.unomaha.edu/event/preview-week-uno-campus-recreation-and-wellness-7036",
       "summary": "UNO Campus Recreation and Wellness invites all UNO students, faculty, and staff to use our facility during the week leading up to the start of school for free. ",
       "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "On-Campus Student Job Fair",
+      "startISO": "2026-08-17T10:00:00-05:00",
+      "date": "2026-08-17",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/on-campus-student-job-fair",
+      "summary": "The On-Campus Student Jobs Fair connects UNO students with campus departments hiring student employees for the fall semester. Students can meet with on-campus e",
+      "category": "networking",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Greek BBQ",
+      "startISO": "2026-08-17T12:00:00-05:00",
+      "date": "2026-08-17",
+      "venue": "Hayden House",
+      "address": " 6533 University Dr S, Omaha, NE 68182",
+      "location": {
+        "lat": 41.257934,
+        "lng": -96.013484
+      },
+      "url": "https://events.unomaha.edu/event/greek-bbq",
+      "summary": "Join us for our Greek BBQ and enjoy an afternoon of great food, good company, and community! This is a great opportunity for all chapter members to connect with",
+      "category": "networking",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "New Mav Week: New Student Launch",
+      "startISO": "2026-08-17T14:00:00-05:00",
+      "date": "2026-08-17",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/new-mav-week-new-student-launch",
+      "summary": "New Student Launch at UNO is a great way for admitted students and their families to build confidence for the semester ahead, connect with campus resources, and",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "New Mav Week: Class Schedule Tours",
+      "startISO": "2026-08-17T15:00:00-05:00",
+      "date": "2026-08-17",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/new-mav-week-class-schedule-tour",
+      "summary": "Know where to go before classes begin! Join UNO Student Ambassadors for a guided walking tour designed to help you find the buildings and classrooms on your fal",
+      "category": "event",
       "free": true,
       "price": "Free"
     }
