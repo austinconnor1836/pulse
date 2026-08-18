@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-17",
-    "tomorrow": "2026-08-17"
+    "today": "2026-08-18",
+    "tomorrow": "2026-08-18"
   },
-  "generatedAt": "2026-08-17T22:06:31.497Z",
+  "generatedAt": "2026-08-18T11:05:33.810Z",
   "counts": {
-    "total": 5,
-    "today": 5,
-    "tomorrow": 5
+    "total": 6,
+    "today": 6,
+    "tomorrow": 6
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Preview Week: UNO Campus Recreation and Wellness",
-      "startISO": "2026-08-17T06:00:00-05:00",
-      "date": "2026-08-17",
+      "startISO": "2026-08-18T06:00:00-05:00",
+      "date": "2026-08-18",
       "venue": "Health & Kinesiology",
       "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
@@ -35,68 +35,85 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "On-Campus Student Job Fair",
-      "startISO": "2026-08-17T10:00:00-05:00",
-      "date": "2026-08-17",
+      "title": "College of Arts & Sciences New Student Welcome",
+      "startISO": "2026-08-18T09:30:00-05:00",
+      "date": "2026-08-18",
       "venue": "Milo Bail Student Center",
       "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
         "lat": 41.258824,
         "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/on-campus-student-job-fair",
-      "summary": "The On-Campus Student Jobs Fair connects UNO students with campus departments hiring student employees for the fall semester. Students can meet with on-campus e",
-      "category": "networking",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Greek BBQ",
-      "startISO": "2026-08-17T12:00:00-05:00",
-      "date": "2026-08-17",
-      "venue": "Hayden House",
-      "address": " 6533 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.257934,
-        "lng": -96.013484
-      },
-      "url": "https://events.unomaha.edu/event/greek-bbq",
-      "summary": "Join us for our Greek BBQ and enjoy an afternoon of great food, good company, and community! This is a great opportunity for all chapter members to connect with",
-      "category": "networking",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "New Mav Week: New Student Launch",
-      "startISO": "2026-08-17T14:00:00-05:00",
-      "date": "2026-08-17",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
-      },
-      "url": "https://events.unomaha.edu/event/new-mav-week-new-student-launch",
-      "summary": "New Student Launch at UNO is a great way for admitted students and their families to build confidence for the semester ahead, connect with campus resources, and",
+      "url": "https://events.unomaha.edu/event/college-of-arts-sciences-new-student-welcome",
+      "summary": "Get acquainted with faculty and staff from the College of Arts and Sciences, learn about resources/opportunities for your college/major, and meet other new stud",
       "category": "event",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
+      "title": "Food Trucks on Campus This Summer",
+      "startISO": "2026-08-18T11:00:00-05:00",
+      "date": "2026-08-18",
+      "venue": "Henningson Memorial Campanile",
+      "address": "6001 Dodge Street, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258541,
+        "lng": -96.008526
+      },
+      "url": "https://events.unomaha.edu/event/food-trucks-on-campus-this-summer",
+      "summary": "Ready for lunch?\n\nStop by one of these food trucks near the Bell Tower from 11 A.M. to 2 P.M.\n\n \n\nAugust\n\n📆 Tuesday, August 4\n\nShaara Halal Eats\n\n \n\n📆 Tuesday",
+      "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
       "title": "New Mav Week: Class Schedule Tours",
-      "startISO": "2026-08-17T15:00:00-05:00",
-      "date": "2026-08-17",
+      "startISO": "2026-08-18T13:00:00-05:00",
+      "date": "2026-08-18",
       "venue": "Milo Bail Student Center",
       "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
         "lat": 41.258824,
         "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/new-mav-week-class-schedule-tour",
+      "url": "https://events.unomaha.edu/event/new-mav-week-class-schedule-tour-2226",
       "summary": "Know where to go before classes begin! Join UNO Student Ambassadors for a guided walking tour designed to help you find the buildings and classrooms on your fal",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "New Mav Week: Weight Room Orientation",
+      "startISO": "2026-08-18T13:00:00-05:00",
+      "date": "2026-08-18",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256945,
+        "lng": -96.009462
+      },
+      "url": "https://events.unomaha.edu/event/new-mav-week-weight-room-orientation",
+      "summary": "Join UNO Campus Recreation staff for a tour of the Health & Kinesiology (H&K) Building weight room and learn everything you need to feel confident using the spa",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "College of Communication, Fine Arts and Media New Student Welcome",
+      "startISO": "2026-08-18T15:30:00-05:00",
+      "date": "2026-08-18",
+      "venue": "Strauss Performing Arts Center",
+      "address": "6305 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258909,
+        "lng": -96.009513
+      },
+      "url": "https://events.unomaha.edu/event/college-of-communication-fine-arts-and-media-new-student-welcome",
+      "summary": "The College of Communication, Fine Arts and Media (CFAM) is thrilled to welcome you! Please join us to kick-off your UNO adventure with energy, enthusiasm, and ",
       "category": "event",
       "free": true,
       "price": "Free"
