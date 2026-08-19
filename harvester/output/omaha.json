@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-18",
-    "tomorrow": "2026-08-18"
+    "today": "2026-08-19",
+    "tomorrow": "2026-08-19"
   },
-  "generatedAt": "2026-08-18T22:05:47.004Z",
+  "generatedAt": "2026-08-19T11:05:31.333Z",
   "counts": {
-    "total": 6,
-    "today": 6,
-    "tomorrow": 6
+    "total": 8,
+    "today": 8,
+    "tomorrow": 8
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Preview Week: UNO Campus Recreation and Wellness",
-      "startISO": "2026-08-18T06:00:00-05:00",
-      "date": "2026-08-18",
+      "startISO": "2026-08-19T06:00:00-05:00",
+      "date": "2026-08-19",
       "venue": "Health & Kinesiology",
       "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
@@ -35,34 +35,34 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "College of Arts & Sciences New Student Welcome",
-      "startISO": "2026-08-18T09:30:00-05:00",
-      "date": "2026-08-18",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
+      "title": "College of Information Science & Technology Welcome Week (Day 1)",
+      "startISO": "2026-08-19T08:30:00-05:00",
+      "date": "2026-08-19",
+      "venue": "Peter Kiewit Institute",
+      "address": "1110 S 67th St, Omaha, NE 68182",
       "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
+        "lat": 41.24714,
+        "lng": -96.016767
       },
-      "url": "https://events.unomaha.edu/event/college-of-arts-sciences-new-student-welcome",
-      "summary": "Get acquainted with faculty and staff from the College of Arts and Sciences, learn about resources/opportunities for your college/major, and meet other new stud",
+      "url": "https://events.unomaha.edu/event/college-of-information-science-technology-welcome-week-day-1",
+      "summary": "Our newest Mavericks are invited to campus for three days of learning, collaboration, and connecting with IS&T students, faculty, and advisors!\n\n \n\nWednesday Ev",
       "category": "event",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Food Trucks on Campus This Summer",
-      "startISO": "2026-08-18T11:00:00-05:00",
-      "date": "2026-08-18",
-      "venue": "Henningson Memorial Campanile",
-      "address": "6001 Dodge Street, Omaha, NE 68182",
+      "title": "New Mav Week: Morning Yoga at the Wellness Center",
+      "startISO": "2026-08-19T09:00:00-05:00",
+      "date": "2026-08-19",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
-        "lat": 41.258541,
-        "lng": -96.008526
+        "lat": 41.256945,
+        "lng": -96.009462
       },
-      "url": "https://events.unomaha.edu/event/food-trucks-on-campus-this-summer",
-      "summary": "Ready for lunch?\n\nStop by one of these food trucks near the Bell Tower from 11 A.M. to 2 P.M.\n\n \n\nAugust\n\n📆 Tuesday, August 4\n\nShaara Halal Eats\n\n \n\n📆 Tuesday",
+      "url": "https://events.unomaha.edu/event/new-mav-week-morning-yoga-at-the-pep-bowl",
+      "summary": "Start your day with Morning Yoga in the Wellness Center before the semester begins. Whether you're new to yoga or have been practicing for years, this all-level",
       "category": "maverick life",
       "free": true,
       "price": "Free"
@@ -70,15 +70,15 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "New Mav Week: Class Schedule Tours",
-      "startISO": "2026-08-18T13:00:00-05:00",
-      "date": "2026-08-18",
+      "startISO": "2026-08-19T10:00:00-05:00",
+      "date": "2026-08-19",
       "venue": "Milo Bail Student Center",
       "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
         "lat": 41.258824,
         "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/new-mav-week-class-schedule-tour-2226",
+      "url": "https://events.unomaha.edu/event/new-mav-week-class-schedule-tours",
       "summary": "Know where to go before classes begin! Join UNO Student Ambassadors for a guided walking tour designed to help you find the buildings and classrooms on your fal",
       "category": "event",
       "free": true,
@@ -86,34 +86,68 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "New Mav Week: Weight Room Orientation",
-      "startISO": "2026-08-18T13:00:00-05:00",
-      "date": "2026-08-18",
-      "venue": "Health & Kinesiology",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "title": "New Mav Week: Deals on Wheels with TLC",
+      "startISO": "2026-08-19T13:00:00-05:00",
+      "date": "2026-08-19",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
-        "lat": 41.256945,
-        "lng": -96.009462
+        "lat": 41.258824,
+        "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/new-mav-week-weight-room-orientation",
-      "summary": "Join UNO Campus Recreation staff for a tour of the Health & Kinesiology (H&K) Building weight room and learn everything you need to feel confident using the spa",
+      "url": "https://events.unomaha.edu/event/new-mav-week-deals-on-wheels-with-tlc",
+      "summary": "Explore the perks of being a Maverick! Join Andrea Contreras, Financial Wellness Specialist with the Thompson Learning Community, for a ride on the ORBT bus dow",
       "category": "event",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "College of Communication, Fine Arts and Media New Student Welcome",
-      "startISO": "2026-08-18T15:30:00-05:00",
-      "date": "2026-08-18",
-      "venue": "Strauss Performing Arts Center",
-      "address": "6305 University Dr N, Omaha, NE 68182",
+      "title": "Momentum Forward: Celebrating the MCC & UNO Partnership",
+      "startISO": "2026-08-19T14:30:00-05:00",
+      "date": "2026-08-19",
+      "venue": "MCC Fort Omaha Campus, Swanson Conference Center",
+      "address": "5730 N 30th St Bldg 22, Omaha, NE 68111",
       "location": {
-        "lat": 41.258909,
-        "lng": -96.009513
+        "lat": 41.304661,
+        "lng": -95.95957
       },
-      "url": "https://events.unomaha.edu/event/college-of-communication-fine-arts-and-media-new-student-welcome",
-      "summary": "The College of Communication, Fine Arts and Media (CFAM) is thrilled to welcome you! Please join us to kick-off your UNO adventure with energy, enthusiasm, and ",
+      "url": "https://events.unomaha.edu/event/momentum-forward-celebrating-the-mcc-uno-partnership",
+      "summary": "Momentum Forward: Celebrating an MCC & UNO Partnership is an annual event that brings together our campus communities to celebrate the impact of Momentum, share",
+      "category": "ceremony/reception",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "New Mav Week: Intro to Intramural Sports (Pickleball & Badminton)",
+      "startISO": "2026-08-19T14:30:00-05:00",
+      "date": "2026-08-19",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256945,
+        "lng": -96.009462
+      },
+      "url": "https://events.unomaha.edu/event/new-mav-week-intro-to-intramural-sports-pickleball-badminton",
+      "summary": "Looking for a fun way to stay active and meet new people? Start with two of UNO's most popular intramural sports! Join Campus Recreation for an introduction to ",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "New Mav Week: Open Climb at the Climbing Wall",
+      "startISO": "2026-08-19T16:00:00-05:00",
+      "date": "2026-08-19",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256945,
+        "lng": -96.009462
+      },
+      "url": "https://events.unomaha.edu/event/new-mav-week-open-climb-at-the-climbing-wall",
+      "summary": "Reach new heights at UNO's indoor climbing wall! Whether you're new to climbing or have experience, Campus Recreation staff will provide equipment, safety instr",
       "category": "event",
       "free": true,
       "price": "Free"
