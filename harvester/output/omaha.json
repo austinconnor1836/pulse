@@ -9,7 +9,7 @@
     "today": "2026-08-20",
     "tomorrow": "2026-08-20"
   },
-  "generatedAt": "2026-08-20T11:05:42.546Z",
+  "generatedAt": "2026-08-20T22:08:04.140Z",
   "counts": {
     "total": 9,
     "today": 9,
@@ -120,23 +120,6 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "New Mav Week: Archery Tag ",
-      "startISO": "2026-08-20T16:00:00-05:00",
-      "date": "2026-08-20",
-      "venue": "Pep Bowl",
-      "address": "Pep Bowl, Omaha, NE 68132",
-      "location": {
-        "lat": 41.258176,
-        "lng": -96.007276
-      },
-      "url": "https://events.unomaha.edu/event/new-mav-week-archery-tag",
-      "summary": "Take aim at one of Campus Recreation's most exciting activities!\n\n \n\nGrab your friends and try Archery Tag, a fast-paced game that combines the strategy of dodg",
-      "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
       "title": "New Mav Week: Open Climb at the Climbing Wall",
       "startISO": "2026-08-20T16:00:00-05:00",
       "date": "2026-08-20",
@@ -148,6 +131,23 @@
       },
       "url": "https://events.unomaha.edu/event/new-mav-week-open-climb-at-the-climbing-wall-4758",
       "summary": "Reach new heights at UNO's indoor climbing wall! Whether you're new to climbing or have experience, Campus Recreation staff will provide equipment, safety instr",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "New Mav Week: Archery Tag ",
+      "startISO": "2026-08-20T16:30:00-05:00",
+      "date": "2026-08-20",
+      "venue": "Pep Bowl",
+      "address": "Pep Bowl, Omaha, NE 68132",
+      "location": {
+        "lat": 41.258176,
+        "lng": -96.007276
+      },
+      "url": "https://events.unomaha.edu/event/new-mav-week-archery-tag",
+      "summary": "Take aim at one of Campus Recreation's most exciting activities!\n\n \n\nGrab your friends and try Archery Tag, a fast-paced game that combines the strategy of dodg",
       "category": "event",
       "free": true,
       "price": "Free"
