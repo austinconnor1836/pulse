@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-22",
-    "tomorrow": "2026-08-22"
+    "today": "2026-08-23",
+    "tomorrow": "2026-08-23"
   },
-  "generatedAt": "2026-08-22T22:05:31.999Z",
+  "generatedAt": "2026-08-23T11:04:11.124Z",
   "counts": {
     "total": 1,
     "today": 1,
@@ -19,8 +19,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "Preview Week: UNO Campus Recreation and Wellness",
-      "startISO": "2026-08-22T08:00:00-05:00",
-      "date": "2026-08-22",
+      "startISO": "2026-08-23T13:00:00-05:00",
+      "date": "2026-08-23",
       "venue": "Health & Kinesiology",
       "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
