@@ -6,34 +6,16 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-23",
-    "tomorrow": "2026-08-23"
+    "today": "2026-08-24",
+    "tomorrow": "2026-08-24"
   },
-  "generatedAt": "2026-08-23T22:05:25.434Z",
+  "generatedAt": "2026-08-24T11:07:35.933Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 0,
+    "today": 0,
+    "tomorrow": 0
   },
-  "events": [
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Preview Week: UNO Campus Recreation and Wellness",
-      "startISO": "2026-08-23T13:00:00-05:00",
-      "date": "2026-08-23",
-      "venue": "Health & Kinesiology",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256945,
-        "lng": -96.009462
-      },
-      "url": "https://events.unomaha.edu/event/preview-week-uno-campus-recreation-and-wellness-7036",
-      "summary": "UNO Campus Recreation and Wellness invites all UNO students, faculty, and staff to use our facility during the week leading up to the start of school for free. ",
-      "category": "maverick life",
-      "free": true,
-      "price": "Free"
-    }
-  ],
+  "events": [],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
