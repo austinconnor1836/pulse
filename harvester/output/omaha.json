@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-24",
-    "tomorrow": "2026-08-24"
+    "today": "2026-08-25",
+    "tomorrow": "2026-08-25"
   },
-  "generatedAt": "2026-08-24T22:07:56.651Z",
+  "generatedAt": "2026-08-25T11:06:23.875Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "CPACS Durango Days Scavenger Hunt",
-      "startISO": "2026-08-24T00:00:00-05:00",
-      "date": "2026-08-24",
+      "startISO": "2026-08-25T00:00:00-05:00",
+      "date": "2026-08-25",
       "venue": "College of Public Affairs and Community Service",
       "address": "6320 Maverick Plaza, Omaha, NE 68182",
       "location": {
@@ -30,6 +30,23 @@
       "url": "https://events.unomaha.edu/event/cpacs-durango-days-scavenger-hunt",
       "summary": "Join the CPACS Durango Days Scavenger Hunt during the first week of classes! Each weekday, a new bull keychain will be hidden somewhere in the College of Public",
       "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "On-Campus Student Jobs Fair",
+      "startISO": "2026-08-25T13:00:00-05:00",
+      "date": "2026-08-25",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/on-campus-student-jobs-fair-9049",
+      "summary": "The On-Campus Student Jobs Fair connects UNO students with campus departments hiring student employees for the fall semester. Students can meet with on-campus e",
+      "category": "networking",
       "free": true,
       "price": "Free"
     }
