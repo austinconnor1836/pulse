@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-25",
-    "tomorrow": "2026-08-25"
+    "today": "2026-08-26",
+    "tomorrow": "2026-08-26"
   },
-  "generatedAt": "2026-08-25T22:06:58.531Z",
+  "generatedAt": "2026-08-26T11:07:30.742Z",
   "counts": {
     "total": 2,
     "today": 2,
@@ -19,8 +19,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "CPACS Durango Days Scavenger Hunt",
-      "startISO": "2026-08-25T00:00:00-05:00",
-      "date": "2026-08-25",
+      "startISO": "2026-08-26T00:00:00-05:00",
+      "date": "2026-08-26",
       "venue": "College of Public Affairs and Community Service",
       "address": "6320 Maverick Plaza, Omaha, NE 68182",
       "location": {
@@ -35,17 +35,17 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "On-Campus Student Jobs Fair",
-      "startISO": "2026-08-25T13:00:00-05:00",
-      "date": "2026-08-25",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
+      "title": "RSO Involvement Fair",
+      "startISO": "2026-08-26T11:00:00-05:00",
+      "date": "2026-08-26",
+      "venue": "H&K",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
+        "lat": 41.256783,
+        "lng": -96.008788
       },
-      "url": "https://events.unomaha.edu/event/on-campus-student-jobs-fair-9049",
-      "summary": "The On-Campus Student Jobs Fair connects UNO students with campus departments hiring student employees for the fall semester. Students can meet with on-campus e",
+      "url": "https://events.unomaha.edu/event/rso-involvement-fair",
+      "summary": "Discover what it means to get involved at UNO! The RSO Involvement Fair brings together Registered Student Organizations from across campus, giving students the",
       "category": "networking",
       "free": true,
       "price": "Free"
