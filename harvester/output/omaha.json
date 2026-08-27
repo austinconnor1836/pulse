@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-26",
-    "tomorrow": "2026-08-26"
+    "today": "2026-08-27",
+    "tomorrow": "2026-08-27"
   },
-  "generatedAt": "2026-08-26T23:04:04.782Z",
+  "generatedAt": "2026-08-27T14:38:24.954Z",
   "counts": {
     "total": 2,
     "today": 2,
@@ -19,8 +19,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "CPACS Durango Days Scavenger Hunt",
-      "startISO": "2026-08-26T00:00:00-05:00",
-      "date": "2026-08-26",
+      "startISO": "2026-08-27T00:00:00-05:00",
+      "date": "2026-08-27",
       "venue": "College of Public Affairs and Community Service",
       "address": "6320 Maverick Plaza, Omaha, NE 68182",
       "location": {
@@ -35,17 +35,17 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "RSO Involvement Fair",
-      "startISO": "2026-08-26T11:00:00-05:00",
-      "date": "2026-08-26",
-      "venue": "H&K",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "title": "SLI Welcome Breakfast",
+      "startISO": "2026-08-27T08:00:00-05:00",
+      "date": "2026-08-27",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
-        "lat": 41.256783,
-        "lng": -96.008788
+        "lat": 41.258824,
+        "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/rso-involvement-fair",
-      "summary": "Discover what it means to get involved at UNO! The RSO Involvement Fair brings together Registered Student Organizations from across campus, giving students the",
+      "url": "https://events.unomaha.edu/event/sli-welcome-breakfast",
+      "summary": "All Mavericks are invited to our Breakfast in Wonderland! Join us as we step into a new semester filled with endless possibilities. Enjoy a delicious breakfast,",
       "category": "networking",
       "free": true,
       "price": "Free"
