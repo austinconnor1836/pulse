@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-27",
-    "tomorrow": "2026-08-27"
+    "today": "2026-08-28",
+    "tomorrow": "2026-08-28"
   },
-  "generatedAt": "2026-08-28T00:55:01.132Z",
+  "generatedAt": "2026-08-28T14:58:32.056Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "CPACS Durango Days Scavenger Hunt",
-      "startISO": "2026-08-27T00:00:00-05:00",
-      "date": "2026-08-27",
+      "startISO": "2026-08-28T00:00:00-05:00",
+      "date": "2026-08-28",
       "venue": "College of Public Affairs and Community Service",
       "address": "6320 Maverick Plaza, Omaha, NE 68182",
       "location": {
@@ -30,23 +30,6 @@
       "url": "https://events.unomaha.edu/event/cpacs-durango-days-scavenger-hunt",
       "summary": "Join the CPACS Durango Days Scavenger Hunt during the first week of classes! Each weekday, a new bull keychain will be hidden somewhere in the College of Public",
       "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "SLI Welcome Breakfast",
-      "startISO": "2026-08-27T08:00:00-05:00",
-      "date": "2026-08-27",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
-      },
-      "url": "https://events.unomaha.edu/event/sli-welcome-breakfast",
-      "summary": "All Mavericks are invited to our Breakfast in Wonderland! Join us as we step into a new semester filled with endless possibilities. Enjoy a delicious breakfast,",
-      "category": "networking",
       "free": true,
       "price": "Free"
     }
