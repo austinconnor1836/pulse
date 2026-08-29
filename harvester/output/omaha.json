@@ -6,34 +6,16 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-28",
-    "tomorrow": "2026-08-28"
+    "today": "2026-08-29",
+    "tomorrow": "2026-08-29"
   },
-  "generatedAt": "2026-08-28T22:20:37.651Z",
+  "generatedAt": "2026-08-29T11:02:25.777Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 0,
+    "today": 0,
+    "tomorrow": 0
   },
-  "events": [
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "CPACS Durango Days Scavenger Hunt",
-      "startISO": "2026-08-28T00:00:00-05:00",
-      "date": "2026-08-28",
-      "venue": "College of Public Affairs and Community Service",
-      "address": "6320 Maverick Plaza, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258092,
-        "lng": -96.009559
-      },
-      "url": "https://events.unomaha.edu/event/cpacs-durango-days-scavenger-hunt",
-      "summary": "Join the CPACS Durango Days Scavenger Hunt during the first week of classes! Each weekday, a new bull keychain will be hidden somewhere in the College of Public",
-      "category": "event",
-      "free": true,
-      "price": "Free"
-    }
-  ],
+  "events": [],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
