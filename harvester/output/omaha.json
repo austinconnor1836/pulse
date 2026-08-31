@@ -6,16 +6,51 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-08-30",
-    "tomorrow": "2026-08-30"
+    "today": "2026-08-31",
+    "tomorrow": "2026-08-31"
   },
-  "generatedAt": "2026-08-30T22:10:41.081Z",
+  "generatedAt": "2026-08-31T11:03:04.037Z",
   "counts": {
-    "total": 0,
-    "today": 0,
-    "tomorrow": 0
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
-  "events": [],
+  "events": [
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Hammon in Mid-Century Omaha Exhibition",
+      "startISO": "2026-08-31T10:00:00-05:00",
+      "date": "2026-08-31",
+      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
+      "location": {
+        "lat": 41.257991,
+        "lng": -96.012539
+      },
+      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
+      "summary": "Celebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon\n\nwas a titan of Omaha’s mid-century art scene. During his career, he produce",
+      "category": "exhibit",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "SLI Pancake Man Dinner ",
+      "startISO": "2026-08-31T16:00:00-05:00",
+      "date": "2026-08-31",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/sli-pancake-man-dinner",
+      "summary": "Breakfast for Dinner!\n\n \n\nThe Office of Student Leadership and Involvement (SLI) invites students to join us for a Pancake Man dinner! Enjoy buttermilk pancakes",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    }
+  ],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
