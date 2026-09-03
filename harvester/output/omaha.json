@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-02",
-    "tomorrow": "2026-09-02"
+    "today": "2026-09-03",
+    "tomorrow": "2026-09-03"
   },
-  "generatedAt": "2026-09-02T23:52:49.048Z",
+  "generatedAt": "2026-09-03T14:47:31.025Z",
   "counts": {
     "total": 2,
     "today": 2,
@@ -19,8 +19,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-02T10:00:00-05:00",
-      "date": "2026-09-02",
+      "startISO": "2026-09-03T10:00:00-05:00",
+      "date": "2026-09-03",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,18 +35,18 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Art-tastic! Paper Bead Workshop Series",
-      "startISO": "2026-09-02T12:00:00-05:00",
-      "date": "2026-09-02",
-      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
+      "title": "Mav Rec at Night",
+      "startISO": "2026-09-03T20:30:00-05:00",
+      "date": "2026-09-03",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
-        "lat": 41.257991,
-        "lng": -96.012539
+        "lat": 41.256945,
+        "lng": -96.009462
       },
-      "url": "https://events.unomaha.edu/event/art-tastic-paper-bead-workshop",
-      "summary": "Join artist Megan McCoy in learning how to make paper beads from recycled materials!\n\n \n\nStudent-made beads will be used in a sculpture installation on the UNO ",
-      "category": "volunteering/service work",
+      "url": "https://events.unomaha.edu/event/mav-rec-at-night-september-3",
+      "summary": "Start your second week of school by cheering on the Omaha Women's Soccer Team before heading to the biggest Campus Rec & Wellness celebration of the semester!\n\n",
+      "category": "maverick life",
       "free": true,
       "price": "Free"
     }
