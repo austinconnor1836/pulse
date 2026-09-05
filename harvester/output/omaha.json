@@ -6,68 +6,16 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-04",
-    "tomorrow": "2026-09-04"
+    "today": "2026-09-05",
+    "tomorrow": "2026-09-05"
   },
-  "generatedAt": "2026-09-04T23:45:15.291Z",
+  "generatedAt": "2026-09-05T13:36:07.384Z",
   "counts": {
-    "total": 3,
-    "today": 3,
-    "tomorrow": 3
+    "total": 0,
+    "today": 0,
+    "tomorrow": 0
   },
-  "events": [
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Biomechanics Seminar Series: Farahnaz Fallahtafti",
-      "startISO": "2026-09-04T10:00:00-05:00",
-      "date": "2026-09-04",
-      "venue": "Biomechanics Research Building",
-      "address": "6160 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256134,
-        "lng": -96.007778
-      },
-      "url": "https://events.unomaha.edu/event/biomechanics-seminar-series-farahnaz-fallah-tafti",
-      "summary": "The focus of the seminar series is to call for experts related to academia and research in the areas related to biomechanics, variability, motor disorders, phys",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-04T10:00:00-05:00",
-      "date": "2026-09-04",
-      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.257991,
-        "lng": -96.012539
-      },
-      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
-      "summary": "Celebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon\n\nwas a titan of Omaha’s mid-century art scene. During his career, he produce",
-      "category": "exhibit",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "First Friday Weight Room Orientations with Campus Recreation and Wellness",
-      "startISO": "2026-09-04T12:00:00-05:00",
-      "date": "2026-09-04",
-      "venue": "Health & Kinesiology",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256945,
-        "lng": -96.009462
-      },
-      "url": "https://events.unomaha.edu/event/first-friday-weight-room-orientations-with-campus-recreation-and-wellness",
-      "summary": "New to the weight room? We’re here to help! Join us the first Friday of every month for a free Weight Room Orientation and learn your way around the facility. O",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    }
-  ],
+  "events": [],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
