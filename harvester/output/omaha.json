@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-08",
-    "tomorrow": "2026-09-08"
+    "today": "2026-09-09",
+    "tomorrow": "2026-09-09"
   },
-  "generatedAt": "2026-09-08T22:11:03.965Z",
+  "generatedAt": "2026-09-09T11:03:02.157Z",
   "counts": {
-    "total": 5,
-    "today": 5,
-    "tomorrow": 5
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-08T10:00:00-05:00",
-      "date": "2026-09-08",
+      "startISO": "2026-09-09T10:00:00-05:00",
+      "date": "2026-09-09",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,69 +35,18 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Food Trucks on Campus",
-      "startISO": "2026-09-08T11:00:00-05:00",
-      "date": "2026-09-08",
-      "venue": "Henningson Memorial Campanile",
-      "address": "6001 Dodge Street, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258541,
-        "lng": -96.008526
-      },
-      "url": "https://events.unomaha.edu/event/food-trucks-on-campus",
-      "summary": "Ready for lunch?\n\nStop by one of these food trucks near the Bell Tower from 11 A.M. to 2 P.M.\n\n \n\nSeptember\n\n📆 Tuesday, Sept. 8\nShaara Halal Eats\n\n \n\n📆 Tuesda",
-      "category": "maverick life",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Career Services Headshot Studio Pop-In",
-      "startISO": "2026-09-08T13:00:00-05:00",
-      "date": "2026-09-08",
-      "venue": "Eppley Administration Building",
-      "address": "6001 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.259064,
-        "lng": -96.007349
-      },
-      "url": "https://events.unomaha.edu/event/career-services-headshot-studio-pop-in-1573",
-      "summary": "First impressions matter. Visit our Headshot Studio Pop-Up to get a professional-quality photo that helps you stand out in job searches, internships, and networ",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
       "title": "Art-tastic! Paper Bead Workshop",
-      "startISO": "2026-09-08T16:00:00-05:00",
-      "date": "2026-09-08",
-      "venue": "Dr. C.C. and Mabel L. Criss Library",
-      "address": "6401 University Dr N, Omaha, NE 68182",
+      "startISO": "2026-09-09T12:00:00-05:00",
+      "date": "2026-09-09",
+      "venue": "H&K",
+      "address": "6001 Dodge Street, WFAB 301",
       "location": {
-        "lat": 41.258725,
-        "lng": -96.011467
+        "lat": 41.258027,
+        "lng": -96.010696
       },
-      "url": "https://events.unomaha.edu/event/art-tastic-paper-bead-workshop-9047",
+      "url": "https://events.unomaha.edu/event/art-tastic-paper-bead-workshop-1996",
       "summary": "Join artist Megan McCoy in learning how to make paper beads from recycled materials!\n\n \n\nStudent-made beads will be used in a sculpture installation on the UNO ",
       "category": "volunteering/service work",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Cameron Logsdon America's Got Talent Watch Party",
-      "startISO": "2026-09-08T19:00:00-05:00",
-      "date": "2026-09-08",
-      "venue": "College of Public Affairs and Community Service",
-      "address": "6320 Maverick Plaza, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258092,
-        "lng": -96.009559
-      },
-      "url": "https://events.unomaha.edu/event/cameron-logsdon-americas-got-talent-watch-party",
-      "summary": "America’s Got Talent Live TV Watch Party\n\n \n\nSchool of Communication Lecturer, Cameron Logsdon, made it past the first round, and\n\nhe takes the AGT stage again ",
-      "category": "maverick life",
       "free": true,
       "price": "Free"
     }
