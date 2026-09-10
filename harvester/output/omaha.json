@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-09",
-    "tomorrow": "2026-09-09"
+    "today": "2026-09-10",
+    "tomorrow": "2026-09-10"
   },
-  "generatedAt": "2026-09-09T22:10:10.227Z",
+  "generatedAt": "2026-09-10T11:03:17.008Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-09T10:00:00-05:00",
-      "date": "2026-09-09",
+      "startISO": "2026-09-10T10:00:00-05:00",
+      "date": "2026-09-10",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -30,23 +30,6 @@
       "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
       "summary": "Celebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon\n\nwas a titan of Omaha’s mid-century art scene. During his career, he produce",
       "category": "exhibit",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Art-tastic! Paper Bead Workshop",
-      "startISO": "2026-09-09T12:00:00-05:00",
-      "date": "2026-09-09",
-      "venue": "H&K",
-      "address": "6001 Dodge Street, WFAB 301",
-      "location": {
-        "lat": 41.258027,
-        "lng": -96.010696
-      },
-      "url": "https://events.unomaha.edu/event/art-tastic-paper-bead-workshop-1996",
-      "summary": "Join artist Megan McCoy in learning how to make paper beads from recycled materials!\n\n \n\nStudent-made beads will be used in a sculpture installation on the UNO ",
-      "category": "volunteering/service work",
       "free": true,
       "price": "Free"
     }
