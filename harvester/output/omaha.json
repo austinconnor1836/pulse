@@ -9,11 +9,11 @@
     "today": "2026-09-10",
     "tomorrow": "2026-09-10"
   },
-  "generatedAt": "2026-09-10T11:03:17.008Z",
+  "generatedAt": "2026-09-10T22:10:35.853Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
   "events": [
     {
@@ -30,6 +30,23 @@
       "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
       "summary": "Celebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon\n\nwas a titan of Omaha’s mid-century art scene. During his career, he produce",
       "category": "exhibit",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Career Services Pop-Up Résumé Reviews and Career Fair Prep",
+      "startISO": "2026-09-10T14:00:00-05:00",
+      "date": "2026-09-10",
+      "venue": "Peter Kiewit Institute",
+      "address": "1110 S 67th St, Omaha, NE 68182",
+      "location": {
+        "lat": 41.24714,
+        "lng": -96.016767
+      },
+      "url": "https://events.unomaha.edu/event/career-services-pop-up-resume-reviews-and-career-fair-prep-5604",
+      "summary": "Career Services Pop-Up Résumé and Career Fair Prep: our team will be in several locations leading up to the Technology and All-Majors Career and Internship Fair",
+      "category": "education/training",
       "free": true,
       "price": "Free"
     }
