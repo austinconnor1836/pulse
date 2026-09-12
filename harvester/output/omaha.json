@@ -6,51 +6,16 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-11",
-    "tomorrow": "2026-09-11"
+    "today": "2026-09-12",
+    "tomorrow": "2026-09-12"
   },
-  "generatedAt": "2026-09-11T22:11:04.710Z",
+  "generatedAt": "2026-09-12T11:02:22.102Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 0,
+    "today": 0,
+    "tomorrow": 0
   },
-  "events": [
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "9/11 Memorial StairMaster Climb",
-      "startISO": "2026-09-11T08:00:00-05:00",
-      "date": "2026-09-11",
-      "venue": "Health & Kinesiology",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256945,
-        "lng": -96.009462
-      },
-      "url": "https://events.unomaha.edu/event/911-memorial-stairmaster-climb",
-      "summary": "Join UNO Campus Recreation & Wellness and the UNO Student Veterans of America as we honor the courage, sacrifice, and service of the 343 firefighters who lost t",
-      "category": "maverick life",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-11T10:00:00-05:00",
-      "date": "2026-09-11",
-      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.257991,
-        "lng": -96.012539
-      },
-      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
-      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
-      "category": "exhibit",
-      "free": true,
-      "price": "Free"
-    }
-  ],
+  "events": [],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
