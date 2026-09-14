@@ -6,16 +6,34 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-13",
-    "tomorrow": "2026-09-13"
+    "today": "2026-09-14",
+    "tomorrow": "2026-09-14"
   },
-  "generatedAt": "2026-09-13T22:10:39.425Z",
+  "generatedAt": "2026-09-14T11:03:22.014Z",
   "counts": {
-    "total": 0,
-    "today": 0,
-    "tomorrow": 0
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
-  "events": [],
+  "events": [
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Hammon in Mid-Century Omaha Exhibition",
+      "startISO": "2026-09-14T10:00:00-05:00",
+      "date": "2026-09-14",
+      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
+      "location": {
+        "lat": 41.257991,
+        "lng": -96.012539
+      },
+      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
+      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
+      "category": "exhibit",
+      "free": true,
+      "price": "Free"
+    }
+  ],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
