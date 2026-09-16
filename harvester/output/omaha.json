@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-15",
-    "tomorrow": "2026-09-15"
+    "today": "2026-09-16",
+    "tomorrow": "2026-09-16"
   },
-  "generatedAt": "2026-09-15T22:11:16.163Z",
+  "generatedAt": "2026-09-16T11:03:16.429Z",
   "counts": {
-    "total": 4,
-    "today": 4,
-    "tomorrow": 4
+    "total": 3,
+    "today": 3,
+    "tomorrow": 3
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-15T10:00:00-05:00",
-      "date": "2026-09-15",
+      "startISO": "2026-09-16T10:00:00-05:00",
+      "date": "2026-09-16",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,52 +35,35 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Fall 26 Technology Career & Internship Fair",
-      "startISO": "2026-09-15T11:00:00-05:00",
-      "date": "2026-09-15",
-      "venue": "Maverick Landing",
-      "address": "6648-6698 Pine St, Omaha, NE 68106",
+      "title": "Art-tastic! Paper Bead Workshop",
+      "startISO": "2026-09-16T12:00:00-05:00",
+      "date": "2026-09-16",
+      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
-        "lat": 41.243745,
-        "lng": -96.014099
+        "lat": 41.257991,
+        "lng": -96.012539
       },
-      "url": "https://events.unomaha.edu/event/fall-26-technology-career-internship-fair",
-      "summary": "Students and alumni of all majors and class years are invited to connect with employers who are actively recruiting for full-time, part-time, and internship opp",
-      "category": "event",
+      "url": "https://events.unomaha.edu/event/art-tastic-paper-bead-workshop-9159",
+      "summary": "Join artist Megan McCoy in learning how to make paper beads from recycled materials!\n\n \n\nStudent-made beads will be used in a sculpture installation on the UNO ",
+      "category": "volunteering/service work",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Food Trucks on Campus",
-      "startISO": "2026-09-15T11:00:00-05:00",
-      "date": "2026-09-15",
-      "venue": "Henningson Memorial Campanile",
-      "address": "6001 Dodge Street, Omaha, NE 68182",
+      "title": "Hammon in Mid-Century Omaha EXHIBITION TALK",
+      "startISO": "2026-09-16T12:00:00-05:00",
+      "date": "2026-09-16",
+      "venue": "Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
-        "lat": 41.258541,
-        "lng": -96.008526
+        "lat": 41.256868,
+        "lng": -96.012608
       },
-      "url": "https://events.unomaha.edu/event/food-trucks-on-campus",
-      "summary": "Ready for lunch?\n\nStop by one of these food trucks near the Bell Tower from 11 A.M. to 2 P.M.\n\n \n\nSeptember\n\n📆 Tuesday, Sept. 8\nShaara Halal Eats\n\n \n\n📆 Tuesda",
-      "category": "maverick life",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Hispanic Heritage Month: Kickoff Event ",
-      "startISO": "2026-09-15T11:00:00-05:00",
-      "date": "2026-09-15",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
-      },
-      "url": "https://events.unomaha.edu/event/hispanic-heritage-month-kickoff-event",
-      "summary": "Join the celebration as we kick off Hispanic Heritage Month with flavor and music! Enjoy delicious pupusas, enchiladas, and empanadas while making connections a",
-      "category": "event",
+      "url": "https://events.unomaha.edu/event/talk-hammon-in-mid-century-omaha",
+      "summary": "THE LANDMARK ART OF BILL J. HAMMON\nIconic works by the mid-century artist Bill J. Hammon (1922–1988) form the artistic landscape of Omaha and Lincoln. Learn abo",
+      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
