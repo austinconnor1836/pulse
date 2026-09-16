@@ -9,7 +9,7 @@
     "today": "2026-09-16",
     "tomorrow": "2026-09-16"
   },
-  "generatedAt": "2026-09-16T11:03:16.429Z",
+  "generatedAt": "2026-09-16T22:10:41.415Z",
   "counts": {
     "total": 3,
     "today": 3,
@@ -38,11 +38,11 @@
       "title": "Art-tastic! Paper Bead Workshop",
       "startISO": "2026-09-16T12:00:00-05:00",
       "date": "2026-09-16",
-      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
-        "lat": 41.257991,
-        "lng": -96.012539
+        "lat": 41.258824,
+        "lng": -96.008593
       },
       "url": "https://events.unomaha.edu/event/art-tastic-paper-bead-workshop-9159",
       "summary": "Join artist Megan McCoy in learning how to make paper beads from recycled materials!\n\n \n\nStudent-made beads will be used in a sculpture installation on the UNO ",
