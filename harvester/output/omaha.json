@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-16",
-    "tomorrow": "2026-09-16"
+    "today": "2026-09-17",
+    "tomorrow": "2026-09-17"
   },
-  "generatedAt": "2026-09-16T22:10:41.415Z",
+  "generatedAt": "2026-09-17T11:03:53.566Z",
   "counts": {
-    "total": 3,
-    "today": 3,
-    "tomorrow": 3
+    "total": 4,
+    "today": 4,
+    "tomorrow": 4
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-16T10:00:00-05:00",
-      "date": "2026-09-16",
+      "startISO": "2026-09-17T10:00:00-05:00",
+      "date": "2026-09-17",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,35 +35,52 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Art-tastic! Paper Bead Workshop",
-      "startISO": "2026-09-16T12:00:00-05:00",
-      "date": "2026-09-16",
+      "title": "Japan Exchange and Teaching (JET) Program Promotion",
+      "startISO": "2026-09-17T12:00:00-05:00",
+      "date": "2026-09-17",
+      "venue": "MBSC Chancellors Room",
+      "address": "6203 S University Dr Rd N, Omaha, NE 68132",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/japan-exchange-and-teaching-jet-program-promotion",
+      "summary": "Have you ever thought about living and working in Japan?\n \n\nJapan Exchange and Teaching (JET) Program - a program founded by the Japanese government offers a gr",
+      "category": "academic calendar",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "The Declaration and the Constitution",
+      "startISO": "2026-09-17T13:00:00-05:00",
+      "date": "2026-09-17",
       "venue": "Milo Bail Student Center",
       "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
         "lat": 41.258824,
         "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/art-tastic-paper-bead-workshop-9159",
-      "summary": "Join artist Megan McCoy in learning how to make paper beads from recycled materials!\n\n \n\nStudent-made beads will be used in a sculpture installation on the UNO ",
-      "category": "volunteering/service work",
+      "url": "https://events.unomaha.edu/event/the-declaration-and-the-constitution",
+      "summary": "In honor of Constitution Day, hear from academic panelists on the impact of the Declaration of Independence on the Constitution.\n\n \n\nPanelists:\n\nCarson Holloway",
+      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha EXHIBITION TALK",
-      "startISO": "2026-09-16T12:00:00-05:00",
-      "date": "2026-09-16",
-      "venue": "Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
+      "title": "Stammtisch",
+      "startISO": "2026-09-17T16:00:00-05:00",
+      "date": "2026-09-17",
+      "venue": "Arts and Sciences Hall",
+      "address": "222 University Dr E, Omaha, NE 68182",
       "location": {
-        "lat": 41.256868,
-        "lng": -96.012608
+        "lat": 41.258069,
+        "lng": -96.005967
       },
-      "url": "https://events.unomaha.edu/event/talk-hammon-in-mid-century-omaha",
-      "summary": "THE LANDMARK ART OF BILL J. HAMMON\nIconic works by the mid-century artist Bill J. Hammon (1922–1988) form the artistic landscape of Omaha and Lincoln. Learn abo",
-      "category": "lecture/conference",
+      "url": "https://events.unomaha.edu/event/stammtisch",
+      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
+      "category": "event",
       "free": true,
       "price": "Free"
     }
