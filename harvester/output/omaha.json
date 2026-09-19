@@ -6,102 +6,16 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-18",
-    "tomorrow": "2026-09-18"
+    "today": "2026-09-19",
+    "tomorrow": "2026-09-19"
   },
-  "generatedAt": "2026-09-18T22:10:40.929Z",
+  "generatedAt": "2026-09-19T11:02:26.648Z",
   "counts": {
-    "total": 5,
-    "today": 5,
-    "tomorrow": 5
+    "total": 0,
+    "today": 0,
+    "tomorrow": 0
   },
-  "events": [
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "POW/MIA Recognition Day Display",
-      "startISO": "2026-09-18T00:00:00-05:00",
-      "date": "2026-09-18",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
-      },
-      "url": "https://events.unomaha.edu/event/pow_mia_recognition_day",
-      "summary": "Honoring POW/MIA\n\nOn Friday, September 18, the UNO Office of Military and Veterans Services will join those around the country in observance of National POW/MIA",
-      "category": "ceremony/reception",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Biomechanics Seminar Series: Frazer Heinis",
-      "startISO": "2026-09-18T10:00:00-05:00",
-      "date": "2026-09-18",
-      "venue": "Biomechanics Research Building",
-      "address": "6160 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256134,
-        "lng": -96.007778
-      },
-      "url": "https://events.unomaha.edu/event/biomechanics-seminar-series-frazer-heinis",
-      "summary": "The focus of the seminar series is to call for experts related to academia and research in the areas related to biomechanics, variability, motor disorders, phys",
-      "category": "lecture/conference",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-18T10:00:00-05:00",
-      "date": "2026-09-18",
-      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.257991,
-        "lng": -96.012539
-      },
-      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
-      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
-      "category": "exhibit",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "ORCA Internal Grants Workshop",
-      "startISO": "2026-09-18T13:00:00-05:00",
-      "date": "2026-09-18",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
-      },
-      "url": "https://events.unomaha.edu/event/orca-internal-grants-workshop",
-      "summary": "Led by Associate Vice Chancellor for Research and Creative Activity (ORCA) and Biomechanics Professor, Dr. Sara A. Myers, ORCA will host an Internal Grants Work",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "OLLAS ArteLatinX 2026 - Opening Reception",
-      "startISO": "2026-09-18T18:00:00-05:00",
-      "date": "2026-09-18",
-      "venue": "El Museo Latino",
-      "address": "4701 S. 25 th St. Omaha, NE 68107",
-      "location": {
-        "lat": 41.211917,
-        "lng": -95.948007
-      },
-      "url": "https://events.unomaha.edu/event/ollas-artelatinx-2026-opening-reception",
-      "summary": "Welcome to the Office of Latino/Latin American Studies (OLLAS) ArteLatinX 2026 Opening Reception! Join us at El Museo Latino for a night filled with art, cultur",
-      "category": "maverick life",
-      "free": true,
-      "price": "Free"
-    }
-  ],
+  "events": [],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
