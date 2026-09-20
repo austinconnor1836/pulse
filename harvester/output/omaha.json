@@ -6,16 +6,34 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-19",
-    "tomorrow": "2026-09-19"
+    "today": "2026-09-20",
+    "tomorrow": "2026-09-20"
   },
-  "generatedAt": "2026-09-19T22:10:21.350Z",
+  "generatedAt": "2026-09-20T11:02:32.319Z",
   "counts": {
-    "total": 0,
-    "today": 0,
-    "tomorrow": 0
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
-  "events": [],
+  "events": [
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "\"This, Too, Was Myself\": Monsters, Masculinity, and the British Empire",
+      "startISO": "2026-09-20T17:30:00-05:00",
+      "date": "2026-09-20",
+      "venue": "Joslyn Castle",
+      "address": "3902 Davenport Street",
+      "location": {
+        "lat": 41.261921,
+        "lng": -95.971692
+      },
+      "url": "https://events.unomaha.edu/event/public-lecture-at-the-gothic-arts-and-literature-festival",
+      "summary": "Dr. Tanushree Ghosh will deliver a public lecture entitled, “This, Too, Was Myself\": Monsters, Masculinity, and the British Empire\" at part of the Gothic Arts a",
+      "category": "lecture/conference",
+      "free": true,
+      "price": "Free"
+    }
+  ],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
