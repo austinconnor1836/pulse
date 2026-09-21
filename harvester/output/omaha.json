@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-20",
-    "tomorrow": "2026-09-20"
+    "today": "2026-09-21",
+    "tomorrow": "2026-09-21"
   },
-  "generatedAt": "2026-09-20T22:10:36.415Z",
+  "generatedAt": "2026-09-21T11:02:59.366Z",
   "counts": {
     "total": 1,
     "today": 1,
@@ -18,18 +18,18 @@
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "\"This, Too, Was Myself\": Monsters, Masculinity, and the British Empire",
-      "startISO": "2026-09-20T17:30:00-05:00",
-      "date": "2026-09-20",
-      "venue": "Joslyn Castle",
-      "address": "3902 Davenport Street",
+      "title": "Hammon in Mid-Century Omaha Exhibition",
+      "startISO": "2026-09-21T10:00:00-05:00",
+      "date": "2026-09-21",
+      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
-        "lat": 41.261921,
-        "lng": -95.971692
+        "lat": 41.257991,
+        "lng": -96.012539
       },
-      "url": "https://events.unomaha.edu/event/public-lecture-at-the-gothic-arts-and-literature-festival",
-      "summary": "Dr. Tanushree Ghosh will deliver a public lecture entitled, “This, Too, Was Myself\": Monsters, Masculinity, and the British Empire\" at part of the Gothic Arts a",
-      "category": "lecture/conference",
+      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
+      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
+      "category": "exhibit",
       "free": true,
       "price": "Free"
     }
