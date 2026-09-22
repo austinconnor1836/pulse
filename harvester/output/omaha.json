@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-21",
-    "tomorrow": "2026-09-21"
+    "today": "2026-09-22",
+    "tomorrow": "2026-09-22"
   },
-  "generatedAt": "2026-09-21T22:11:30.278Z",
+  "generatedAt": "2026-09-22T11:03:57.548Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 4,
+    "today": 4,
+    "tomorrow": 4
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-21T10:00:00-05:00",
-      "date": "2026-09-21",
+      "startISO": "2026-09-22T10:00:00-05:00",
+      "date": "2026-09-22",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -30,6 +30,57 @@
       "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
       "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
       "category": "exhibit",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Food Trucks on Campus",
+      "startISO": "2026-09-22T11:00:00-05:00",
+      "date": "2026-09-22",
+      "venue": "Henningson Memorial Campanile",
+      "address": "6001 Dodge Street, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258541,
+        "lng": -96.008526
+      },
+      "url": "https://events.unomaha.edu/event/food-trucks-on-campus",
+      "summary": "Ready for lunch?\n\nStop by one of these food trucks near the Bell Tower from 11 A.M. to 2 P.M.\n\n \n\nSeptember\n\n📆 Tuesday, Sept. 8\nShaara Halal Eats\n\n \n\n📆 Tuesda",
+      "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Hispanic Heritage Month: Fiesta on the Plaza ",
+      "startISO": "2026-09-22T11:30:00-05:00",
+      "date": "2026-09-22",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/hispanic-heritage-month-fiesta-on-the-plaza",
+      "summary": "Keep the Hispanic Heritage Month celebration going at our annual Fiesta on the Plaza event! Grab some street tacos, mole with rice, and traditional desserts whi",
+      "category": "concert/performance",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Amber Ruffin",
+      "startISO": "2026-09-22T13:00:00-05:00",
+      "date": "2026-09-22",
+      "venue": "Strauss Performing Arts Center",
+      "address": "6305 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258909,
+        "lng": -96.009513
+      },
+      "url": "https://events.unomaha.edu/event/amber-ruffin",
+      "summary": "Amber is a writer, executive producer, and host of the WGA Award nominated series The Amber Ruffin Show on Peacock.\n\n \n\nShe was nominated for an NAACP Image Awa",
+      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
