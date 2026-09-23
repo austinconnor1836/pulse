@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-22",
-    "tomorrow": "2026-09-22"
+    "today": "2026-09-23",
+    "tomorrow": "2026-09-23"
   },
-  "generatedAt": "2026-09-22T22:10:44.675Z",
+  "generatedAt": "2026-09-23T11:02:56.659Z",
   "counts": {
     "total": 4,
     "today": 4,
@@ -19,8 +19,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-22T10:00:00-05:00",
-      "date": "2026-09-22",
+      "startISO": "2026-09-23T10:00:00-05:00",
+      "date": "2026-09-23",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,52 +35,52 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Food Trucks on Campus",
-      "startISO": "2026-09-22T11:00:00-05:00",
-      "date": "2026-09-22",
-      "venue": "Henningson Memorial Campanile",
-      "address": "6001 Dodge Street, Omaha, NE 68182",
+      "title": "Art-tastic! Paper Bead Workshop",
+      "startISO": "2026-09-23T12:00:00-05:00",
+      "date": "2026-09-23",
+      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
-        "lat": 41.258541,
-        "lng": -96.008526
+        "lat": 41.257991,
+        "lng": -96.012539
       },
-      "url": "https://events.unomaha.edu/event/food-trucks-on-campus",
-      "summary": "Ready for lunch?\n\nStop by one of these food trucks near the Bell Tower from 11 A.M. to 2 P.M.\n\n \n\nSeptember\n\n📆 Tuesday, Sept. 8\nShaara Halal Eats\n\n \n\n📆 Tuesda",
-      "category": "maverick life",
+      "url": "https://events.unomaha.edu/event/art-tastic-paper-bead-workshop-3461",
+      "summary": "Join artist Megan McCoy in learning how to make paper beads from recycled materials!\n\n \n\nStudent-made beads will be used in a sculpture installation on the UNO ",
+      "category": "volunteering/service work",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Hispanic Heritage Month: Fiesta on the Plaza ",
-      "startISO": "2026-09-22T11:30:00-05:00",
-      "date": "2026-09-22",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
+      "title": "OLLAS ArteLatinX 2026 - Keynote Speaker",
+      "startISO": "2026-09-23T18:00:00-05:00",
+      "date": "2026-09-23",
+      "venue": "Hispanic Art Center of Omaha",
+      "address": "3504 Center St. Omaha, NE 68105",
       "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
+        "lat": 41.241752,
+        "lng": -95.963986
       },
-      "url": "https://events.unomaha.edu/event/hispanic-heritage-month-fiesta-on-the-plaza",
-      "summary": "NEW LOCATION: Milo Bail Student Center Atrium\n\n \n\nKeep the Hispanic Heritage Month celebration going at our annual Fiesta on the Plaza event! Grab some street t",
+      "url": "https://events.unomaha.edu/event/ollas-artelatinx-2026-keynote-speaker",
+      "summary": "ArteLatinX 2026 is excited to announce our Keynote Speaker Presentation with Lalo Alcaraz! Join us at the Hispanic Art Center of Omaha where Lalo Alcaraz, award",
+      "category": "education/training",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Prageeta Sharma: Poetry Reading",
+      "startISO": "2026-09-23T19:30:00-05:00",
+      "date": "2026-09-23",
+      "venue": "Samuel Bak Museum: The Learning Center",
+      "address": "2289 South 67th Street, Omaha, NE, 68106",
+      "location": {
+        "lat": 41.238439,
+        "lng": -96.013914
+      },
+      "url": "https://events.unomaha.edu/event/prageeta-sharma-poetry-reading",
+      "summary": "The Writer's Workshop Reading Series welcomes Prageeta Sharma for poetry reading. Sharma's performance will be followed by a brief q&a.\n\n \n\nPrageeta Sharma is t",
       "category": "concert/performance",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Amber Ruffin",
-      "startISO": "2026-09-22T13:00:00-05:00",
-      "date": "2026-09-22",
-      "venue": "Strauss Performing Arts Center",
-      "address": "6305 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258909,
-        "lng": -96.009513
-      },
-      "url": "https://events.unomaha.edu/event/amber-ruffin",
-      "summary": "Amber is a writer, executive producer, and host of the WGA Award nominated series The Amber Ruffin Show on Peacock.\n\n \n\nShe was nominated for an NAACP Image Awa",
-      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
