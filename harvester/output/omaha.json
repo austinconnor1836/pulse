@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-23",
-    "tomorrow": "2026-09-23"
+    "today": "2026-09-24",
+    "tomorrow": "2026-09-24"
   },
-  "generatedAt": "2026-09-23T22:11:20.723Z",
+  "generatedAt": "2026-09-24T11:03:04.146Z",
   "counts": {
-    "total": 4,
-    "today": 4,
-    "tomorrow": 4
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-23T10:00:00-05:00",
-      "date": "2026-09-23",
+      "startISO": "2026-09-24T10:00:00-05:00",
+      "date": "2026-09-24",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,52 +35,18 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Art-tastic! Paper Bead Workshop",
-      "startISO": "2026-09-23T12:00:00-05:00",
-      "date": "2026-09-23",
-      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
+      "title": "Stammtisch",
+      "startISO": "2026-09-24T16:00:00-05:00",
+      "date": "2026-09-24",
+      "venue": "Arts and Sciences Hall",
+      "address": "222 University Dr E, Omaha, NE 68182",
       "location": {
-        "lat": 41.257991,
-        "lng": -96.012539
+        "lat": 41.258069,
+        "lng": -96.005967
       },
-      "url": "https://events.unomaha.edu/event/art-tastic-paper-bead-workshop-3461",
-      "summary": "Join artist Megan McCoy in learning how to make paper beads from recycled materials!\n\n \n\nStudent-made beads will be used in a sculpture installation on the UNO ",
-      "category": "volunteering/service work",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "OLLAS ArteLatinX 2026 - Keynote Speaker",
-      "startISO": "2026-09-23T18:00:00-05:00",
-      "date": "2026-09-23",
-      "venue": "Hispanic Art Center of Omaha",
-      "address": "3504 Center St. Omaha, NE 68105",
-      "location": {
-        "lat": 41.241752,
-        "lng": -95.963986
-      },
-      "url": "https://events.unomaha.edu/event/ollas-artelatinx-2026-keynote-speaker",
-      "summary": "ArteLatinX 2026 is excited to announce our Keynote Speaker Presentation with Lalo Alcaraz! Join us at the Hispanic Art Center of Omaha where Lalo Alcaraz, award",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Prageeta Sharma: Poetry Reading",
-      "startISO": "2026-09-23T19:30:00-05:00",
-      "date": "2026-09-23",
-      "venue": "Samuel Bak Museum: The Learning Center",
-      "address": "2289 South 67th Street, Omaha, NE, 68106",
-      "location": {
-        "lat": 41.238439,
-        "lng": -96.013914
-      },
-      "url": "https://events.unomaha.edu/event/prageeta-sharma-poetry-reading",
-      "summary": "The Writer's Workshop Reading Series welcomes Prageeta Sharma for poetry reading. Sharma's performance will be followed by a brief q&a.\n\n \n\nPrageeta Sharma is t",
-      "category": "concert/performance",
+      "url": "https://events.unomaha.edu/event/stammtisch",
+      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
+      "category": "event",
       "free": true,
       "price": "Free"
     }
