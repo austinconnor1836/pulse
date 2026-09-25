@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-24",
-    "tomorrow": "2026-09-24"
+    "today": "2026-09-25",
+    "tomorrow": "2026-09-25"
   },
-  "generatedAt": "2026-09-24T22:11:21.901Z",
+  "generatedAt": "2026-09-25T11:02:55.387Z",
   "counts": {
     "total": 2,
     "today": 2,
@@ -18,9 +18,26 @@
   "events": [
     {
       "source": "localist:events.unomaha.edu",
+      "title": "MaxQDA Training Session - Basics",
+      "startISO": "2026-09-25T09:00:00-05:00",
+      "date": "2026-09-25",
+      "venue": "Dr. C.C. and Mabel L. Criss Library",
+      "address": "6401 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258725,
+        "lng": -96.011467
+      },
+      "url": "https://events.unomaha.edu/event/maxqda-training-session-basics",
+      "summary": "Join this session to learn the basic functionality of MaxQDA software. If you are unable to join us in person, then please join us via Zoom until Noon.",
+      "category": "education/training",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-24T10:00:00-05:00",
-      "date": "2026-09-24",
+      "startISO": "2026-09-25T10:00:00-05:00",
+      "date": "2026-09-25",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -30,23 +47,6 @@
       "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
       "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
       "category": "exhibit",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Stammtisch",
-      "startISO": "2026-09-24T16:00:00-05:00",
-      "date": "2026-09-24",
-      "venue": "Arts and Sciences Hall",
-      "address": "222 University Dr E, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258069,
-        "lng": -96.005967
-      },
-      "url": "https://events.unomaha.edu/event/stammtisch",
-      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
-      "category": "event",
       "free": true,
       "price": "Free"
     }
