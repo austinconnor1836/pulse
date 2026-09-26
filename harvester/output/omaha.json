@@ -6,51 +6,16 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-25",
-    "tomorrow": "2026-09-25"
+    "today": "2026-09-26",
+    "tomorrow": "2026-09-26"
   },
-  "generatedAt": "2026-09-25T22:11:37.121Z",
+  "generatedAt": "2026-09-26T11:02:35.497Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 0,
+    "today": 0,
+    "tomorrow": 0
   },
-  "events": [
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "MaxQDA Training Session - Basics",
-      "startISO": "2026-09-25T09:00:00-05:00",
-      "date": "2026-09-25",
-      "venue": "Dr. C.C. and Mabel L. Criss Library",
-      "address": "6401 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258725,
-        "lng": -96.011467
-      },
-      "url": "https://events.unomaha.edu/event/maxqda-training-session-basics",
-      "summary": "Join this session to learn the basic functionality of MaxQDA software. If you are unable to join us in person, then please join us via Zoom until Noon.",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-25T10:00:00-05:00",
-      "date": "2026-09-25",
-      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.257991,
-        "lng": -96.012539
-      },
-      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
-      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
-      "category": "exhibit",
-      "free": true,
-      "price": "Free"
-    }
-  ],
+  "events": [],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
