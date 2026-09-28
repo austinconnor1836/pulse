@@ -6,16 +6,68 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-27",
-    "tomorrow": "2026-09-27"
+    "today": "2026-09-28",
+    "tomorrow": "2026-09-28"
   },
-  "generatedAt": "2026-09-27T22:10:47.603Z",
+  "generatedAt": "2026-09-28T11:03:01.831Z",
   "counts": {
-    "total": 0,
-    "today": 0,
-    "tomorrow": 0
+    "total": 3,
+    "today": 3,
+    "tomorrow": 3
   },
-  "events": [],
+  "events": [
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Hammon in Mid-Century Omaha Exhibition",
+      "startISO": "2026-09-28T10:00:00-05:00",
+      "date": "2026-09-28",
+      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
+      "location": {
+        "lat": 41.257991,
+        "lng": -96.012539
+      },
+      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
+      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
+      "category": "exhibit",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Career Services Pop-Up Résumé Reviews and Career Fair Prep",
+      "startISO": "2026-09-28T11:00:00-05:00",
+      "date": "2026-09-28",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/career-services-pop-up-resume-reviews-and-career-fair-prep-7794",
+      "summary": "Career Services Pop-Up Résumé and Career Fair Prep: our team will be in several locations leading up to the Technology and All-Majors Career and Internship Fair",
+      "category": "education/training",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Spend a Pizza Your Monday with SLI",
+      "startISO": "2026-09-28T12:00:00-05:00",
+      "date": "2026-09-28",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/spend-a-pizza-your-monday-with-sli",
+      "summary": "Spend Your Monday with SLI! 🍕\n\n \n\nKick off your week with good vibes, great people, and FREE pizza! Stop by and hang out with SLI for an afternoon filled with ",
+      "category": "networking",
+      "free": true,
+      "price": "Free"
+    }
+  ],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
