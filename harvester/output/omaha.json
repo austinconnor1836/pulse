@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-28",
-    "tomorrow": "2026-09-28"
+    "today": "2026-09-29",
+    "tomorrow": "2026-09-29"
   },
-  "generatedAt": "2026-09-28T22:12:39.985Z",
+  "generatedAt": "2026-09-29T11:03:10.690Z",
   "counts": {
-    "total": 3,
-    "today": 3,
-    "tomorrow": 3
+    "total": 4,
+    "today": 4,
+    "tomorrow": 4
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-28T10:00:00-05:00",
-      "date": "2026-09-28",
+      "startISO": "2026-09-29T10:00:00-05:00",
+      "date": "2026-09-29",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,35 +35,52 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Career Services Pop-Up Résumé Reviews and Career Fair Prep",
-      "startISO": "2026-09-28T11:00:00-05:00",
-      "date": "2026-09-28",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
+      "title": "Food Trucks on Campus",
+      "startISO": "2026-09-29T11:00:00-05:00",
+      "date": "2026-09-29",
+      "venue": "Henningson Memorial Campanile",
+      "address": "6001 Dodge Street, Omaha, NE 68182",
       "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
+        "lat": 41.258541,
+        "lng": -96.008526
       },
-      "url": "https://events.unomaha.edu/event/career-services-pop-up-resume-reviews-and-career-fair-prep-7794",
-      "summary": "Career Services Pop-Up Résumé and Career Fair Prep: our team will be in several locations leading up to the Technology and All-Majors Career and Internship Fair",
-      "category": "education/training",
+      "url": "https://events.unomaha.edu/event/food-trucks-on-campus",
+      "summary": "Ready for lunch?\n\nStop by one of these food trucks from 11 A.M. to 2 P.M.\n\n \n\nSeptember\n\n📆 Tuesday, Sept. 8\nShaara Halal Eats\n\n \n\n📆 Tuesday, Sept. 15\nHigh Vol",
+      "category": "maverick life",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Spend a Pizza Your Monday with SLI",
-      "startISO": "2026-09-28T12:00:00-05:00",
-      "date": "2026-09-28",
+      "title": "Encountering the Past: Costumes, Crafts, & Combats",
+      "startISO": "2026-09-29T11:30:00-05:00",
+      "date": "2026-09-29",
       "venue": "Milo Bail Student Center",
       "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
         "lat": 41.258824,
         "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/spend-a-pizza-your-monday-with-sli",
-      "summary": "Spend Your Monday with SLI! 🍕\n\n \n\nKick off your week with good vibes, great people, and FREE pizza! Stop by and hang out with SLI for an afternoon filled with ",
-      "category": "networking",
+      "url": "https://events.unomaha.edu/event/encountering-the-past-costumes-crafts-combats",
+      "summary": "Join UNO Medieval and Renaissance Studies for \"Encountering the Past: Costumes, Crafts & Combats\" with the participation of Amtgard & the Society for Creative A",
+      "category": "concert/performance",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Hispanic Heritage Month: Food Tour at Miranda's Taquería y Pupusería",
+      "startISO": "2026-09-29T11:30:00-05:00",
+      "date": "2026-09-29",
+      "venue": "Miranda's Taquería y Pupusería | Omaha",
+      "address": "11036 Elm St, Omaha, NE 68144",
+      "location": {
+        "lat": 41.23273,
+        "lng": -96.085037
+      },
+      "url": "https://events.unomaha.edu/event/food-tour-mirandas-taqueria-y-pupuseria",
+      "summary": "Come check out a new family-owned restaurant bringing together the flavors and traditions of\n\nMexico and El Salvador! Experience the delicious combination of Me",
+      "category": "event",
       "free": true,
       "price": "Free"
     }
