@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-29",
-    "tomorrow": "2026-09-29"
+    "today": "2026-09-30",
+    "tomorrow": "2026-09-30"
   },
-  "generatedAt": "2026-09-29T22:12:33.323Z",
+  "generatedAt": "2026-09-30T11:03:16.331Z",
   "counts": {
-    "total": 4,
-    "today": 4,
-    "tomorrow": 4
+    "total": 6,
+    "today": 6,
+    "tomorrow": 6
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-29T10:00:00-05:00",
-      "date": "2026-09-29",
+      "startISO": "2026-09-30T10:00:00-05:00",
+      "date": "2026-09-30",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,52 +35,86 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Food Trucks on Campus",
-      "startISO": "2026-09-29T11:00:00-05:00",
-      "date": "2026-09-29",
-      "venue": "Henningson Memorial Campanile",
-      "address": "6001 Dodge Street, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258541,
-        "lng": -96.008526
-      },
-      "url": "https://events.unomaha.edu/event/food-trucks-on-campus",
-      "summary": "Ready for lunch?\n\nStop by one of these food trucks from 11 A.M. to 2 P.M.\n\n \n\nSeptember\n\n📆 Tuesday, Sept. 8\nShaara Halal Eats\n\n \n\n📆 Tuesday, Sept. 15\nHigh Vol",
-      "category": "maverick life",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Encountering the Past: Costumes, Crafts, & Combats",
-      "startISO": "2026-09-29T11:30:00-05:00",
-      "date": "2026-09-29",
+      "title": "Fall 26 All Majors Career & Internship Fair",
+      "startISO": "2026-09-30T11:00:00-05:00",
+      "date": "2026-09-30",
       "venue": "Milo Bail Student Center",
       "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
         "lat": 41.258824,
         "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/encountering-the-past-costumes-crafts-combats",
-      "summary": "Join UNO Medieval and Renaissance Studies for \"Encountering the Past: Costumes, Crafts & Combats\" with the participation of Amtgard & the Society for Creative A",
-      "category": "concert/performance",
+      "url": "https://events.unomaha.edu/event/fall-26-all-majors-career-internship-fair",
+      "summary": "The All Majors Career & Internship Fair is UNO's biggest hiring event of the year! This fair is an opportunity for students and alumni of all majors and class y",
+      "category": "event",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Hispanic Heritage Month: Food Tour at Miranda's Taquería y Pupusería",
-      "startISO": "2026-09-29T11:30:00-05:00",
-      "date": "2026-09-29",
-      "venue": "Miranda's Taquería y Pupusería | Omaha",
-      "address": "11036 Elm St, Omaha, NE 68144",
+      "title": "OLLAS ArteLatinX 2026 - Guest Lecturer",
+      "startISO": "2026-09-30T11:30:00-05:00",
+      "date": "2026-09-30",
+      "venue": "UNO Community Engagement Center",
+      "address": "6400 University Dr. S Omaha, NE 68182",
       "location": {
-        "lat": 41.23273,
-        "lng": -96.085037
+        "lat": 41.257897,
+        "lng": -96.010735
       },
-      "url": "https://events.unomaha.edu/event/food-tour-mirandas-taqueria-y-pupuseria",
-      "summary": "Come check out a new family-owned restaurant bringing together the flavors and traditions of\n\nMexico and El Salvador! Experience the delicious combination of Me",
-      "category": "event",
+      "url": "https://events.unomaha.edu/event/ollas-artelatinx-2026-guest-lecturer",
+      "summary": "ArteLatinX 2026 is excited to announce our Guest Lecturer with Dr. Rose Salseda! Join us at UNO's Community Engagement Center room 230/231 where Dr. Salseda, As",
+      "category": "education/training",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Hammon in Mid-Century Omaha EXHIBITION TALK",
+      "startISO": "2026-09-30T12:00:00-05:00",
+      "date": "2026-09-30",
+      "venue": "Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256868,
+        "lng": -96.012608
+      },
+      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition-talk",
+      "summary": "THE PAPER BEAD PROJECT (outdoor installation located outside WFAB)\n\nDesigned as an interactive sensory experience this artwork invites you to walk in and be sur",
+      "category": "lecture/conference",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "\"Sugarcane\" Screening & Panel",
+      "startISO": "2026-09-30T17:30:00-05:00",
+      "date": "2026-09-30",
+      "venue": "College of Public Affairs and Community Service",
+      "address": "6320 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258092,
+        "lng": -96.009559
+      },
+      "url": "https://events.unomaha.edu/event/sugarcane-screening-panel",
+      "summary": "This event is to commemorate Orange Shirt Day, which honors and remembers Indian Residential School Survivors, as well as the children who never returned home f",
+      "category": "lecture/conference",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Tisa Bryant: Creative Nonfiction Reading",
+      "startISO": "2026-09-30T19:30:00-05:00",
+      "date": "2026-09-30",
+      "venue": "Dr. C.C. and Mabel L. Criss Library",
+      "address": "6401 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258725,
+        "lng": -96.011467
+      },
+      "url": "https://events.unomaha.edu/event/tisa-bryant-creative-nonfiction-reading",
+      "summary": "Join the Writer's Workshop to welcome Tisa Bryant for a reading from her new book, Residual. \n\n \n\nTisa Bryant is the author of Residual, a nonfiction assemblage",
+      "category": "concert/performance",
       "free": true,
       "price": "Free"
     }
