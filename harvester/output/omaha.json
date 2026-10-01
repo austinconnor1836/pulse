@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-09-30",
-    "tomorrow": "2026-09-30"
+    "today": "2026-10-01",
+    "tomorrow": "2026-10-01"
   },
-  "generatedAt": "2026-09-30T22:12:37.914Z",
+  "generatedAt": "2026-10-01T11:03:05.057Z",
   "counts": {
-    "total": 6,
-    "today": 6,
-    "tomorrow": 6
+    "total": 5,
+    "today": 5,
+    "tomorrow": 5
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-09-30T10:00:00-05:00",
-      "date": "2026-09-30",
+      "startISO": "2026-10-01T10:00:00-05:00",
+      "date": "2026-10-01",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,86 +35,69 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Fall 26 All Majors Career & Internship Fair",
-      "startISO": "2026-09-30T11:00:00-05:00",
-      "date": "2026-09-30",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
+      "title": "Spoopy Jam 8: The Ocho",
+      "startISO": "2026-10-01T12:00:00-05:00",
+      "date": "2026-10-01",
+      "venue": "Peter Kiewit Institute",
+      "address": "1110 S 67th St, Omaha, NE 68182",
       "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
+        "lat": 41.24714,
+        "lng": -96.016767
       },
-      "url": "https://events.unomaha.edu/event/fall-26-all-majors-career-internship-fair",
-      "summary": "The All Majors Career & Internship Fair is UNO's biggest hiring event of the year! This fair is an opportunity for students and alumni of all majors and class y",
-      "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "OLLAS ArteLatinX 2026 - Guest Lecturer",
-      "startISO": "2026-09-30T11:30:00-05:00",
-      "date": "2026-09-30",
-      "venue": "UNO Community Engagement Center",
-      "address": "6400 University Dr. S Omaha, NE 68182",
-      "location": {
-        "lat": 41.257897,
-        "lng": -96.010735
-      },
-      "url": "https://events.unomaha.edu/event/ollas-artelatinx-2026-guest-lecturer",
-      "summary": "ArteLatinX 2026 is excited to announce our Guest Lecturer with Dr. Rose Salseda! Join us at UNO's Community Engagement Center room 230/231 where Dr. Salseda, As",
+      "url": "https://events.unomaha.edu/event/spoopy-jam-8-the-ocho",
+      "summary": "(Register now to start work on your mini gaming masterpiece throughout October.)\n\n \n\nSpoopy Jam is back for another year of Halloween-flavored game-dev action a",
       "category": "education/training",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha EXHIBITION TALK",
-      "startISO": "2026-09-30T12:00:00-05:00",
-      "date": "2026-09-30",
-      "venue": "Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
+      "title": " UNO Health Center Walk-in Flu Shot Clinics for Students",
+      "startISO": "2026-10-01T15:00:00-05:00",
+      "date": "2026-10-01",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
-        "lat": 41.256868,
-        "lng": -96.012608
+        "lat": 41.256945,
+        "lng": -96.009462
       },
-      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition-talk",
-      "summary": "THE PAPER BEAD PROJECT (outdoor installation located outside WFAB)\n\nDesigned as an interactive sensory experience this artwork invites you to walk in and be sur",
-      "category": "lecture/conference",
+      "url": "https://events.unomaha.edu/event/uno-health-center-walk-in-flu-shot-clinics-for-students",
+      "summary": "Say boo to the flu! Get your flu shot before Halloween!\n\n \n\nUNO Students: Get a free flu shot at the Nebraska Medicine UNO Health Center and be entered for a ch",
+      "category": "event",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "\"Sugarcane\" Screening & Panel",
-      "startISO": "2026-09-30T17:30:00-05:00",
-      "date": "2026-09-30",
-      "venue": "College of Public Affairs and Community Service",
-      "address": "6320 Maverick Plaza, Omaha, NE 68182",
+      "title": "Stammtisch",
+      "startISO": "2026-10-01T16:00:00-05:00",
+      "date": "2026-10-01",
+      "venue": "Arts and Sciences Hall",
+      "address": "222 University Dr E, Omaha, NE 68182",
       "location": {
-        "lat": 41.258092,
-        "lng": -96.009559
+        "lat": 41.258069,
+        "lng": -96.005967
       },
-      "url": "https://events.unomaha.edu/event/sugarcane-screening-panel",
-      "summary": "This event is to commemorate Orange Shirt Day, which honors and remembers Indian Residential School Survivors, as well as the children who never returned home f",
-      "category": "lecture/conference",
+      "url": "https://events.unomaha.edu/event/stammtisch",
+      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
+      "category": "event",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Tisa Bryant: Creative Nonfiction Reading",
-      "startISO": "2026-09-30T19:30:00-05:00",
-      "date": "2026-09-30",
-      "venue": "Dr. C.C. and Mabel L. Criss Library",
-      "address": "6401 University Dr N, Omaha, NE 68182",
+      "title": "Israel at a Crossroads: Understanding the Upcoming October 2026 Elections",
+      "startISO": "2026-10-01T18:00:00-05:00",
+      "date": "2026-10-01",
+      "venue": "Barbara Weitz Community Engagement Center",
+      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
       "location": {
-        "lat": 41.258725,
-        "lng": -96.011467
+        "lat": 41.257979,
+        "lng": -96.010675
       },
-      "url": "https://events.unomaha.edu/event/tisa-bryant-creative-nonfiction-reading",
-      "summary": "Join the Writer's Workshop to welcome Tisa Bryant for a reading from her new book, Residual. \n\n \n\nTisa Bryant is the author of Residual, a nonfiction assemblage",
-      "category": "concert/performance",
+      "url": "https://events.unomaha.edu/event/israel-at-a-crossroads-understanding-the-upcoming-october-2026-elections-1380",
+      "summary": "Presented by the University of Nebraska at Omaha Schwalb Center for Israel and Jewish Studies, Department of History, Department of Political Science, and the U",
+      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
