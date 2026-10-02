@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-01",
-    "tomorrow": "2026-10-01"
+    "today": "2026-10-02",
+    "tomorrow": "2026-10-02"
   },
-  "generatedAt": "2026-10-01T22:11:48.887Z",
+  "generatedAt": "2026-10-02T16:24:17.984Z",
   "counts": {
     "total": 5,
     "today": 5,
@@ -18,9 +18,26 @@
   "events": [
     {
       "source": "localist:events.unomaha.edu",
+      "title": "Biomechanics Seminar Series: Meredith Wekesser",
+      "startISO": "2026-10-02T10:00:00-05:00",
+      "date": "2026-10-02",
+      "venue": "Biomechanics Research Building",
+      "address": "6160 University Dr S, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256134,
+        "lng": -96.007778
+      },
+      "url": "https://events.unomaha.edu/event/biomechanics-seminar-series-meredith-wekesser",
+      "summary": "The focus of the seminar series is to call for experts related to academia and research in the areas related to biomechanics, variability, motor disorders, phys",
+      "category": "lecture/conference",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-01T10:00:00-05:00",
-      "date": "2026-10-01",
+      "startISO": "2026-10-02T10:00:00-05:00",
+      "date": "2026-10-02",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,69 +52,52 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Spoopy Jam 8: The Ocho",
-      "startISO": "2026-10-01T12:00:00-05:00",
-      "date": "2026-10-01",
-      "venue": "Peter Kiewit Institute",
-      "address": "1110 S 67th St, Omaha, NE 68182",
-      "location": {
-        "lat": 41.24714,
-        "lng": -96.016767
-      },
-      "url": "https://events.unomaha.edu/event/spoopy-jam-8-the-ocho",
-      "summary": "(Register now to start work on your mini gaming masterpiece throughout October.)\n\n \n\nSpoopy Jam is back for another year of Halloween-flavored game-dev action a",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": " UNO Health Center Walk-in Flu Shot Clinics for Students",
-      "startISO": "2026-10-01T15:00:00-05:00",
-      "date": "2026-10-01",
+      "title": "First Friday Weight Room Orientations with Campus Recreation and Wellness",
+      "startISO": "2026-10-02T12:00:00-05:00",
+      "date": "2026-10-02",
       "venue": "Health & Kinesiology",
       "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
         "lat": 41.256945,
         "lng": -96.009462
       },
-      "url": "https://events.unomaha.edu/event/uno-health-center-walk-in-flu-shot-clinics-for-students",
-      "summary": "Say boo to the flu! Get your flu shot before Halloween!\n\n \n\nUNO Students: Get a free flu shot at the Nebraska Medicine UNO Health Center and be entered for a ch",
-      "category": "event",
+      "url": "https://events.unomaha.edu/event/first-friday-weight-room-orientations-with-campus-recreation-and-wellness",
+      "summary": "New to the weight room? We’re here to help! Join us the first Friday of every month for a free Weight Room Orientation and learn your way around the facility. O",
+      "category": "education/training",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Stammtisch",
-      "startISO": "2026-10-01T16:00:00-05:00",
-      "date": "2026-10-01",
+      "title": "French Club",
+      "startISO": "2026-10-02T13:00:00-05:00",
+      "date": "2026-10-02",
       "venue": "Arts and Sciences Hall",
       "address": "222 University Dr E, Omaha, NE 68182",
       "location": {
         "lat": 41.258069,
         "lng": -96.005967
       },
-      "url": "https://events.unomaha.edu/event/stammtisch",
-      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
+      "url": "https://events.unomaha.edu/event/french-club",
+      "summary": "Le Cercle français (UNO French Club) is a social organization for the purpose of sharing an interest in language and culture, directed by UNO French faculty, an",
       "category": "event",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Israel at a Crossroads: Understanding the Upcoming October 2026 Elections",
-      "startISO": "2026-10-01T18:00:00-05:00",
-      "date": "2026-10-01",
-      "venue": "Barbara Weitz Community Engagement Center",
-      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
+      "title": "Hammon in Mid-Century Omaha RECEPTION",
+      "startISO": "2026-10-02T17:00:00-05:00",
+      "date": "2026-10-02",
+      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
-        "lat": 41.257979,
-        "lng": -96.010675
+        "lat": 41.257991,
+        "lng": -96.012539
       },
-      "url": "https://events.unomaha.edu/event/israel-at-a-crossroads-understanding-the-upcoming-october-2026-elections-1380",
-      "summary": "Presented by the University of Nebraska at Omaha Schwalb Center for Israel and Jewish Studies, Department of History, Department of Political Science, and the U",
-      "category": "lecture/conference",
+      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-reception",
+      "summary": "Celebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon\n\nwas a titan of Omaha’s mid-century art scene. During his career, he produce",
+      "category": "ceremony/reception",
       "free": true,
       "price": "Free"
     }
