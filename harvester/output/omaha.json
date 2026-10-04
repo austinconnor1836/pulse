@@ -6,30 +6,47 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-03",
-    "tomorrow": "2026-10-03"
+    "today": "2026-10-04",
+    "tomorrow": "2026-10-04"
   },
-  "generatedAt": "2026-10-04T00:22:11.704Z",
+  "generatedAt": "2026-10-04T15:32:48.665Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "ArteLatinX Gallery Conversation (Bilingual Español | English) OLLAS and WORLD LANGUAGES & LITERATURE",
-      "startISO": "2026-10-03T13:00:00-05:00",
-      "date": "2026-10-03",
-      "venue": "El Museo Latino",
-      "address": "4701 S 25th St, Omaha, NE 68107",
+      "title": "Bouteloua LitART Fest",
+      "startISO": "2026-10-04T14:00:00-05:00",
+      "date": "2026-10-04",
+      "venue": "Glacier Creek Preserve",
+      "address": "14810 State St, Bennington, NE 68007",
       "location": {
-        "lat": 41.211917,
-        "lng": -95.948007
+        "lat": 41.339998,
+        "lng": -96.144746
       },
-      "url": "https://events.unomaha.edu/event/artelatinx-gallery-conversation-bilingual-espanol-english-ollas-and-world-languages-literature",
-      "summary": "Join Dr. Claudia Garcia for an interactive tour of the 2026 ArteLatinX Exhibition at El Museo Latino. We will implement slow looking and visual thinking techniq",
+      "url": "https://events.unomaha.edu/event/bouteloua-litart-fest-1864",
+      "summary": "Join us for a celebration of prose, poetry, and art! Bestselling author of Marbles: Mania, Depression, Michelangelo, & Me, Rock Steady: Brilliant Advice from My",
       "category": "education/training",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Dead Man's Cell Phone",
+      "startISO": "2026-10-04T14:00:00-05:00",
+      "date": "2026-10-04",
+      "venue": "Weber Theatre",
+      "address": "6505 University Dr S, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258011,
+        "lng": -96.012588
+      },
+      "url": "https://events.unomaha.edu/event/dead-mans-cell-phone",
+      "summary": "This satirical dark comedy by Sarah Ruhl show Jean exploring the life of a dead man, after finding his ringing phone in a café. In an isolated world, she hopes ",
+      "category": "concert/performance",
       "free": true,
       "price": "Free"
     }
