@@ -6,47 +6,81 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-04",
-    "tomorrow": "2026-10-04"
+    "today": "2026-10-05",
+    "tomorrow": "2026-10-05"
   },
-  "generatedAt": "2026-10-05T00:27:58.674Z",
+  "generatedAt": "2026-10-05T19:31:09.749Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 4,
+    "today": 4,
+    "tomorrow": 4
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Bouteloua LitART Fest",
-      "startISO": "2026-10-04T14:00:00-05:00",
-      "date": "2026-10-04",
-      "venue": "Glacier Creek Preserve",
-      "address": "14810 State St, Bennington, NE 68007",
+      "title": "Hammon in Mid-Century Omaha Exhibition",
+      "startISO": "2026-10-05T10:00:00-05:00",
+      "date": "2026-10-05",
+      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
-        "lat": 41.339998,
-        "lng": -96.144746
+        "lat": 41.257991,
+        "lng": -96.012539
       },
-      "url": "https://events.unomaha.edu/event/bouteloua-litart-fest-1864",
-      "summary": "Join us for a celebration of prose, poetry, and art! Bestselling author of Marbles: Mania, Depression, Michelangelo, & Me, Rock Steady: Brilliant Advice from My",
+      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
+      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
+      "category": "exhibit",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Introduction to AI and Machine Learning on Holland Computing Center Resources",
+      "startISO": "2026-10-05T12:30:00-05:00",
+      "date": "2026-10-05",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/introduction-to-ai-and-machine-learning-on-holland-computing-center-resources",
+      "summary": "This presentation will give participants an introduction to using the University of Nebraska's Holland Computing Center resources for running Artificial intelli",
       "category": "education/training",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Dead Man's Cell Phone",
-      "startISO": "2026-10-04T14:00:00-05:00",
-      "date": "2026-10-04",
-      "venue": "Weber Theatre",
-      "address": "6505 University Dr S, Omaha, NE 68182",
+      "title": "Power in Pink : Fitness Classes ",
+      "startISO": "2026-10-05T17:30:00-05:00",
+      "date": "2026-10-05",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
-        "lat": 41.258011,
-        "lng": -96.012588
+        "lat": 41.256945,
+        "lng": -96.009462
       },
-      "url": "https://events.unomaha.edu/event/dead-mans-cell-phone",
-      "summary": "This satirical dark comedy by Sarah Ruhl show Jean exploring the life of a dead man, after finding his ringing phone in a café. In an isolated world, she hopes ",
-      "category": "concert/performance",
+      "url": "https://events.unomaha.edu/event/power-in-pink-fitness-classes",
+      "summary": "Power in Pink: Group Fitness Classes  \n\nJoin UNO Campus Recreation as we recognize Breast Cancer Awareness Month with our Power in Pink group fitness classes! \n",
+      "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Ellen Forney Book Reading and Signing",
+      "startISO": "2026-10-05T19:30:00-05:00",
+      "date": "2026-10-05",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/ellen-forney-book-reading-and-signing",
+      "summary": "Award-winning author Ellen Forney will visit the University of Nebraska Omaha on October 5 for a reading and book signing. The event is free and open to the pub",
+      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
