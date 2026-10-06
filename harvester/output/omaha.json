@@ -6,21 +6,38 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-05",
-    "tomorrow": "2026-10-05"
+    "today": "2026-10-06",
+    "tomorrow": "2026-10-06"
   },
-  "generatedAt": "2026-10-06T02:04:42.175Z",
+  "generatedAt": "2026-10-06T16:58:55.872Z",
   "counts": {
-    "total": 4,
-    "today": 4,
-    "tomorrow": 4
+    "total": 5,
+    "today": 5,
+    "tomorrow": 5
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
+      "title": "Durham School Career Fair",
+      "startISO": "2026-10-06T10:00:00-05:00",
+      "date": "2026-10-06",
+      "venue": "Scott Conference Center",
+      "address": "6450 Pine St, Omaha, NE 68106",
+      "location": {
+        "lat": 41.244303,
+        "lng": -96.011924
+      },
+      "url": "https://events.unomaha.edu/event/attend-the-durham-school-career-fair-at-the-scott-conference-center",
+      "summary": "Attend The Durham School Career Fair at the Scott Conference Center\n\n \n\nLooking for your next job or internship? Join us for the Durham School Career Fair — con",
+      "category": "networking",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-05T10:00:00-05:00",
-      "date": "2026-10-05",
+      "startISO": "2026-10-06T10:00:00-05:00",
+      "date": "2026-10-06",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,26 +52,43 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Introduction to AI and Machine Learning on Holland Computing Center Resources",
-      "startISO": "2026-10-05T12:30:00-05:00",
-      "date": "2026-10-05",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
+      "title": "Food Trucks on Campus",
+      "startISO": "2026-10-06T11:00:00-05:00",
+      "date": "2026-10-06",
+      "venue": "Henningson Memorial Campanile",
+      "address": "6001 Dodge Street, Omaha, NE 68182",
       "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
+        "lat": 41.258541,
+        "lng": -96.008526
       },
-      "url": "https://events.unomaha.edu/event/introduction-to-ai-and-machine-learning-on-holland-computing-center-resources",
-      "summary": "This presentation will give participants an introduction to using the University of Nebraska's Holland Computing Center resources for running Artificial intelli",
-      "category": "education/training",
+      "url": "https://events.unomaha.edu/event/food-trucks-on-campus",
+      "summary": "Ready for lunch?\n\nStop by one of these food trucks from 11 A.M. to 2 P.M.\n\n \n\nOctober\n\n📆  Tuesday, Oct. 6\nMaria Bonita - Near the Bell Tower\n\n \n\n📆  Tuesday, O",
+      "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Hispanic Heritage Month: Food Tour at Flora Cafe",
+      "startISO": "2026-10-06T11:30:00-05:00",
+      "date": "2026-10-06",
+      "venue": "Flora Cafe",
+      "address": "1009 Farnam St. Omaha, NE 68102",
+      "location": {
+        "lat": 41.25728,
+        "lng": -95.929855
+      },
+      "url": "https://events.unomaha.edu/event/food-tour-flora-cafe",
+      "summary": "Come enjoy bold, authentic Mexican flavors at a local restaurant located in downtown!\n\n \n\nChoose from FREE quesabirria tacos, chilaquiles served with rice and b",
+      "category": "event",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
       "title": "Power in Pink : Fitness Classes ",
-      "startISO": "2026-10-05T17:30:00-05:00",
-      "date": "2026-10-05",
+      "startISO": "2026-10-06T12:00:00-05:00",
+      "date": "2026-10-06",
       "venue": "Health & Kinesiology",
       "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
@@ -64,23 +98,6 @@
       "url": "https://events.unomaha.edu/event/power-in-pink-fitness-classes",
       "summary": "Power in Pink: Group Fitness Classes  \n\nJoin UNO Campus Recreation as we recognize Breast Cancer Awareness Month with our Power in Pink group fitness classes! \n",
       "category": "maverick life",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Ellen Forney Book Reading and Signing",
-      "startISO": "2026-10-05T19:30:00-05:00",
-      "date": "2026-10-05",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
-      },
-      "url": "https://events.unomaha.edu/event/ellen-forney-book-reading-and-signing",
-      "summary": "Award-winning author Ellen Forney will visit the University of Nebraska Omaha on October 5 for a reading and book signing. The event is free and open to the pub",
-      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
