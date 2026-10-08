@@ -6,21 +6,38 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-07",
-    "tomorrow": "2026-10-07"
+    "today": "2026-10-08",
+    "tomorrow": "2026-10-08"
   },
-  "generatedAt": "2026-10-07T22:11:31.679Z",
+  "generatedAt": "2026-10-08T11:03:03.750Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 6,
+    "today": 6,
+    "tomorrow": 6
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
+      "title": "Power in Pink : Fitness Classes ",
+      "startISO": "2026-10-08T07:00:00-05:00",
+      "date": "2026-10-08",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256945,
+        "lng": -96.009462
+      },
+      "url": "https://events.unomaha.edu/event/power-in-pink-fitness-classes",
+      "summary": "Power in Pink: Group Fitness Classes  \n\nJoin UNO Campus Recreation as we recognize Breast Cancer Awareness Month with our Power in Pink group fitness classes! \n",
+      "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-07T10:00:00-05:00",
-      "date": "2026-10-07",
+      "startISO": "2026-10-08T10:00:00-05:00",
+      "date": "2026-10-08",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,18 +52,69 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": " UNO Health Center Walk-in Flu Shot Clinics for Students",
-      "startISO": "2026-10-07T15:00:00-05:00",
-      "date": "2026-10-07",
-      "venue": "Health & Kinesiology",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "title": "Hispanic Heritage Month: Salsa Dancing",
+      "startISO": "2026-10-08T11:30:00-05:00",
+      "date": "2026-10-08",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
-        "lat": 41.256945,
-        "lng": -96.009462
+        "lat": 41.258824,
+        "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/uno-health-center-walk-in-flu-shot-clinics-for-students",
-      "summary": "Say boo to the flu! Get your flu shot before Halloween!\n\n \n\nUNO Students: Get a free flu shot at the Nebraska Medicine UNO Health Center and be entered for a ch",
+      "url": "https://events.unomaha.edu/event/hispanic-heritage-month-salsa-danicing",
+      "summary": "Join us for salsa dancing where students can learn how to dance salsa in a fun, interactive setting. The UNO Salsa Club will lead the event, guiding students th",
       "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Stammtisch",
+      "startISO": "2026-10-08T16:00:00-05:00",
+      "date": "2026-10-08",
+      "venue": "Arts and Sciences Hall",
+      "address": "222 University Dr E, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258069,
+        "lng": -96.005967
+      },
+      "url": "https://events.unomaha.edu/event/stammtisch",
+      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "OLLAS ArteLatinX 2026 - Floral Workshop",
+      "startISO": "2026-10-08T18:00:00-05:00",
+      "date": "2026-10-08",
+      "venue": "Herrera Bouquets",
+      "address": "2352 Cornhusker Rd. Bellevue, NE 68123",
+      "location": {
+        "lat": 41.159999,
+        "lng": -95.945825
+      },
+      "url": "https://events.unomaha.edu/event/ollas-artelatinx-2026-floral-workshop",
+      "summary": "ArteLatinX 2026 is excited to announce our Floral Workshop with Astrid Lopez Herrera, Owner of Herrera Bouquets! Join us for an exciting experience where you’ll",
+      "category": "education/training",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "UNOTheatre's Dead Man's Cell Phone",
+      "startISO": "2026-10-08T19:30:00-05:00",
+      "date": "2026-10-08",
+      "venue": "Weber Theatre",
+      "address": "6505 University Dr S, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258011,
+        "lng": -96.012588
+      },
+      "url": "https://events.unomaha.edu/event/unotheatres-dead-mans-cell-phone",
+      "summary": "This satirical dark comedy by Sarah Ruhl show Jean exploring the life of a dead man, after finding his ringing phone in a café. In an isolated world, she hopes ",
+      "category": "concert/performance",
       "free": true,
       "price": "Free"
     }
