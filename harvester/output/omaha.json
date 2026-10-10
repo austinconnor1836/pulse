@@ -6,55 +6,38 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-09",
-    "tomorrow": "2026-10-09"
+    "today": "2026-10-10",
+    "tomorrow": "2026-10-10"
   },
-  "generatedAt": "2026-10-09T22:12:34.635Z",
+  "generatedAt": "2026-10-10T11:03:07.794Z",
   "counts": {
-    "total": 3,
-    "today": 3,
-    "tomorrow": 3
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Biomechanics Seminar Series: Madhur Mangalam",
-      "startISO": "2026-10-09T10:00:00-05:00",
-      "date": "2026-10-09",
-      "venue": "Biomechanics Research Building",
-      "address": "6160 University Dr S, Omaha, NE 68182",
+      "title": "Breakthrough Weekend: Short & Scrappy Edition",
+      "startISO": "2026-10-10T09:00:00-05:00",
+      "date": "2026-10-10",
+      "venue": "Mammel Hall",
+      "address": "6708 Pine Street, Omaha, NE 68182",
       "location": {
-        "lat": 41.256134,
-        "lng": -96.007778
+        "lat": 41.244243,
+        "lng": -96.015507
       },
-      "url": "https://events.unomaha.edu/event/biomechanics-seminar-series-madhur-mangalam",
-      "summary": "The focus of the seminar series is to call for experts related to academia and research in the areas related to biomechanics, variability, motor disorders, phys",
-      "category": "lecture/conference",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-09T10:00:00-05:00",
-      "date": "2026-10-09",
-      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.257991,
-        "lng": -96.012539
-      },
-      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
-      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
-      "category": "exhibit",
+      "url": "https://events.unomaha.edu/event/breakthrough-weekend-short-scrappy-edition",
+      "summary": "Do you have an idea and don't know where to start? Bring your idea, bring your friends, and start building! Join us for this free event, co-hosted with local ac",
+      "category": "education/training",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
       "title": "UNOTheatre's Dead Man's Cell Phone",
-      "startISO": "2026-10-09T19:30:00-05:00",
-      "date": "2026-10-09",
+      "startISO": "2026-10-10T19:30:00-05:00",
+      "date": "2026-10-10",
       "venue": "Weber Theatre",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
