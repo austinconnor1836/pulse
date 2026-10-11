@@ -6,45 +6,28 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-10",
-    "tomorrow": "2026-10-10"
+    "today": "2026-10-11",
+    "tomorrow": "2026-10-11"
   },
-  "generatedAt": "2026-10-10T22:11:43.429Z",
+  "generatedAt": "2026-10-11T11:02:49.428Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Breakthrough Weekend: Short & Scrappy Edition",
-      "startISO": "2026-10-10T09:00:00-05:00",
-      "date": "2026-10-10",
-      "venue": "Mammel Hall",
-      "address": "6708 Pine Street, Omaha, NE 68182",
-      "location": {
-        "lat": 41.244243,
-        "lng": -96.015507
-      },
-      "url": "https://events.unomaha.edu/event/breakthrough-weekend-short-scrappy-edition",
-      "summary": "Do you have an idea and don't know where to start? Bring your idea, bring your friends, and start building! Join us for this free event, co-hosted with local ac",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "UNOTheatre's Dead Man's Cell Phone",
-      "startISO": "2026-10-10T19:30:00-05:00",
-      "date": "2026-10-10",
+      "title": "Dead Man's Cell Phone",
+      "startISO": "2026-10-11T14:00:00-05:00",
+      "date": "2026-10-11",
       "venue": "Weber Theatre",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
         "lat": 41.258011,
         "lng": -96.012588
       },
-      "url": "https://events.unomaha.edu/event/unotheatres-dead-mans-cell-phone",
+      "url": "https://events.unomaha.edu/event/dead-mans-cell-phone",
       "summary": "This satirical dark comedy by Sarah Ruhl show Jean exploring the life of a dead man, after finding his ringing phone in a café. In an isolated world, she hopes ",
       "category": "concert/performance",
       "free": true,
