@@ -6,38 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-12",
-    "tomorrow": "2026-10-12"
+    "today": "2026-10-13",
+    "tomorrow": "2026-10-13"
   },
-  "generatedAt": "2026-10-12T22:12:27.543Z",
+  "generatedAt": "2026-10-13T11:04:04.203Z",
   "counts": {
-    "total": 3,
-    "today": 3,
-    "tomorrow": 3
+    "total": 4,
+    "today": 4,
+    "tomorrow": 4
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Roster Days",
-      "startISO": "2026-10-12T08:00:00-05:00",
-      "date": "2026-10-12",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
-      },
-      "url": "https://events.unomaha.edu/event/roster-days",
-      "summary": "Roster Days gives Registered Student Organizations an opportunity to review and update their MavSYNC rosters with support from SLI. Stop by SLI to make sure you",
-      "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-12T10:00:00-05:00",
-      "date": "2026-10-12",
+      "startISO": "2026-10-13T10:00:00-05:00",
+      "date": "2026-10-13",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -52,18 +35,52 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "EMGT Open Class: Community Outreach in the Context of the COVID-19 Response",
-      "startISO": "2026-10-12T11:30:00-05:00",
-      "date": "2026-10-12",
-      "venue": "College of Public Affairs and Community Service",
-      "address": "6320 Maverick Plaza, Omaha, NE 68182",
+      "title": "Food Trucks on Campus",
+      "startISO": "2026-10-13T11:00:00-05:00",
+      "date": "2026-10-13",
+      "venue": "Henningson Memorial Campanile",
+      "address": "6001 Dodge Street, Omaha, NE 68182",
       "location": {
-        "lat": 41.258092,
-        "lng": -96.009559
+        "lat": 41.258541,
+        "lng": -96.008526
       },
-      "url": "https://events.unomaha.edu/event/emgt-open-class-community-outreach-in-the-context-of-the-covid-19-resonse",
-      "summary": "Real-world insights. Real impact.\n\nThis session features guest speaker Armando De Alba, MD, Ph.D., Assistant Dean, College of Medicine, UNMC on Community Outrea",
-      "category": "event",
+      "url": "https://events.unomaha.edu/event/food-trucks-on-campus",
+      "summary": "Ready for lunch?\n\nStop by one of these food trucks from 11 A.M. to 2 P.M.\n\n \n\nOctober\n\n📆  Tuesday, Oct. 6\nMaria Bonita - Near the Bell Tower\n\n \n\n📆  Tuesday, O",
+      "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Love EveryBody Week: Yoga Under the Stars",
+      "startISO": "2026-10-13T12:00:00-05:00",
+      "date": "2026-10-13",
+      "venue": "Durham Science Center",
+      "address": "6601 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258659,
+        "lng": -96.012927
+      },
+      "url": "https://events.unomaha.edu/event/love-everybody-week-yoga-under-the-stars",
+      "summary": "YOGA UNDER THE STARS: Tuesday, October 13, 12:00 pm- 12:45 pm | Location: Planetarium in Durham Science Center.\n\n \n\nCelebrate Love EveryBody Week with a special",
+      "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Love EveryBody Week: Cosmic Calm Sound Bowl",
+      "startISO": "2026-10-13T13:00:00-05:00",
+      "date": "2026-10-13",
+      "venue": "Durham Science Center",
+      "address": "6601 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258659,
+        "lng": -96.012927
+      },
+      "url": "https://events.unomaha.edu/event/love-everybody-week-cosmic-calm-sound-bowl",
+      "summary": "Take a moment to pause, breathe and reconnect with yourself during Love EveryBody Week. Join us in the planetarium for a calming 30-minute Sound Bowl surrounded",
+      "category": "maverick life",
       "free": true,
       "price": "Free"
     }
