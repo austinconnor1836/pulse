@@ -6,21 +6,38 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-13",
-    "tomorrow": "2026-10-13"
+    "today": "2026-10-14",
+    "tomorrow": "2026-10-14"
   },
-  "generatedAt": "2026-10-13T22:10:39.990Z",
+  "generatedAt": "2026-10-14T11:03:09.848Z",
   "counts": {
-    "total": 4,
-    "today": 4,
-    "tomorrow": 4
+    "total": 7,
+    "today": 7,
+    "tomorrow": 7
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
+      "title": "Career Services Headshot Studio Pop-In",
+      "startISO": "2026-10-14T10:00:00-05:00",
+      "date": "2026-10-14",
+      "venue": "Eppley Administration Building",
+      "address": "6001 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.259064,
+        "lng": -96.007349
+      },
+      "url": "https://events.unomaha.edu/event/career-services-headshot-studio-pop-in-2477",
+      "summary": "First impressions matter. Visit our Headshot Studio Pop-Up to get a professional-quality photo that helps you stand out in job searches, internships, and networ",
+      "category": "education/training",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-13T10:00:00-05:00",
-      "date": "2026-10-13",
+      "startISO": "2026-10-14T10:00:00-05:00",
+      "date": "2026-10-14",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,52 +52,86 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Food Trucks on Campus",
-      "startISO": "2026-10-13T11:00:00-05:00",
-      "date": "2026-10-13",
-      "venue": "Henningson Memorial Campanile",
-      "address": "6001 Dodge Street, Omaha, NE 68182",
+      "title": "Love EveryBody Week: Create Your Own Affirmations Jar",
+      "startISO": "2026-10-14T11:00:00-05:00",
+      "date": "2026-10-14",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
-        "lat": 41.258541,
-        "lng": -96.008526
+        "lat": 41.256945,
+        "lng": -96.009462
       },
-      "url": "https://events.unomaha.edu/event/food-trucks-on-campus",
-      "summary": "Ready for lunch?\n\nStop by one of these food trucks from 11 A.M. to 2 P.M.\n\n \n\nOctober\n\n📆  Tuesday, Oct. 6\nMaria Bonita - Near the Bell Tower\n\n \n\n📆  Tuesday, O",
+      "url": "https://events.unomaha.edu/event/love-everybody-week-create-your-own-affirmations-jar-1863",
+      "summary": "Refresh & Recharge\n\nTake a break, reset, and show your body some appreciation at Refresh & Recharge, part of UNO Campus Recreation & Wellness’ Love EveryBody We",
       "category": "maverick life",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Love EveryBody Week: Yoga Under the Stars",
-      "startISO": "2026-10-13T12:00:00-05:00",
-      "date": "2026-10-13",
-      "venue": "Durham Science Center",
-      "address": "6601 University Dr N, Omaha, NE 68182",
+      "title": "Hammon in Mid-Century Omaha EXHIBITION TALK",
+      "startISO": "2026-10-14T12:00:00-05:00",
+      "date": "2026-10-14",
+      "venue": "Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
-        "lat": 41.258659,
-        "lng": -96.012927
+        "lat": 41.256868,
+        "lng": -96.012608
       },
-      "url": "https://events.unomaha.edu/event/love-everybody-week-yoga-under-the-stars",
-      "summary": "YOGA UNDER THE STARS: Tuesday, October 13, 12:00 pm- 12:45 pm | Location: Planetarium in Durham Science Center.\n\n \n\nCelebrate Love EveryBody Week with a special",
-      "category": "maverick life",
+      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition-talk-3117",
+      "summary": "The Many Varieties of Mid-Century Style\n\nMid-century modern (MCM) was not a single, unified artistic style, nor did all artists working during this period follo",
+      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Love EveryBody Week: Cosmic Calm Sound Bowl",
-      "startISO": "2026-10-13T13:00:00-05:00",
-      "date": "2026-10-13",
-      "venue": "Durham Science Center",
-      "address": "6601 University Dr N, Omaha, NE 68182",
+      "title": "OLLAS ArteLatinX 2026 - Talk and Tour",
+      "startISO": "2026-10-14T18:00:00-05:00",
+      "date": "2026-10-14",
+      "venue": "Clover 24",
+      "address": "2200 S. 24th St. Omaha, NE 68108",
       "location": {
-        "lat": 41.258659,
-        "lng": -96.012927
+        "lat": 41.23881,
+        "lng": -95.947818
       },
-      "url": "https://events.unomaha.edu/event/love-everybody-week-cosmic-calm-sound-bowl",
-      "summary": "Take a moment to pause, breathe and reconnect with yourself during Love EveryBody Week. Join us in the planetarium for a calming 30-minute Sound Bowl surrounded",
-      "category": "maverick life",
+      "url": "https://events.unomaha.edu/event/ollas-artelatinx-2026-talk-and-tour",
+      "summary": "ArteLatinX 2026 is excited to announce our collaboration with Clover 24! We will be hosting a Talk & Tour of their incredible space. Join us and get ready to he",
+      "category": "education/training",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Where She Came From: A Daughter’s Search for her Mother’s History",
+      "startISO": "2026-10-14T18:00:00-05:00",
+      "date": "2026-10-14",
+      "venue": "Barbara Weitz Community Engagement Center",
+      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
+      "location": {
+        "lat": 41.257979,
+        "lng": -96.010675
+      },
+      "url": "https://events.unomaha.edu/event/where-she-came-from-a-daughters-search-for-her-mothers-history",
+      "summary": "\"People are trapped in history,” wrote the African-American writer James Baldwin, “and history is trapped in them.” \n\n \n\nHelen Epstein will speak about how a jo",
+      "category": "lecture/conference",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Laird Hunt: Reading",
+      "startISO": "2026-10-14T19:30:00-05:00",
+      "date": "2026-10-14",
+      "venue": "UNO Criss Library",
+      "address": "6001 Dodge St, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258027,
+        "lng": -96.010696
+      },
+      "url": "https://events.unomaha.edu/event/laird-hunt-reading",
+      "summary": "Join the Writer's Workshop for a reading with Laird Hunt.\n\nBorn in Singapore in 1968 to American parents, Laird Hunt is the author of nine novels, including the",
+      "category": "concert/performance",
       "free": true,
       "price": "Free"
     }
