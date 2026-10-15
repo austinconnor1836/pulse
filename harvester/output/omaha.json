@@ -6,38 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-14",
-    "tomorrow": "2026-10-14"
+    "today": "2026-10-15",
+    "tomorrow": "2026-10-15"
   },
-  "generatedAt": "2026-10-14T22:11:29.116Z",
+  "generatedAt": "2026-10-15T11:02:50.544Z",
   "counts": {
-    "total": 7,
-    "today": 7,
-    "tomorrow": 7
+    "total": 5,
+    "today": 5,
+    "tomorrow": 5
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Career Services Headshot Studio Pop-In",
-      "startISO": "2026-10-14T10:00:00-05:00",
-      "date": "2026-10-14",
-      "venue": "Eppley Administration Building",
-      "address": "6001 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.259064,
-        "lng": -96.007349
-      },
-      "url": "https://events.unomaha.edu/event/career-services-headshot-studio-pop-in-2477",
-      "summary": "First impressions matter. Visit our Headshot Studio Pop-Up to get a professional-quality photo that helps you stand out in job searches, internships, and networ",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-14T10:00:00-05:00",
-      "date": "2026-10-14",
+      "startISO": "2026-10-15T10:00:00-05:00",
+      "date": "2026-10-15",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -52,86 +35,69 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Love EveryBody Week: Create Your Own Affirmations Jar",
-      "startISO": "2026-10-14T11:00:00-05:00",
-      "date": "2026-10-14",
+      "title": "Hispanic Heritage Month: Frida Kahlo Floral Event",
+      "startISO": "2026-10-15T11:30:00-05:00",
+      "date": "2026-10-15",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/hispanic-heritage-month-frida-kahlo-floral-event",
+      "summary": "Celebrate Hispanic Heritage Month by honoring the legacy of Frida Kahlo, a renowned Mexican\n\nartist known for her self-portraits and celebration of Mexican cult",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Stammtisch",
+      "startISO": "2026-10-15T16:00:00-05:00",
+      "date": "2026-10-15",
+      "venue": "Arts and Sciences Hall",
+      "address": "222 University Dr E, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258069,
+        "lng": -96.005967
+      },
+      "url": "https://events.unomaha.edu/event/stammtisch",
+      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Love EveryBody Week: Climbing is for EveryBody",
+      "startISO": "2026-10-15T17:00:00-05:00",
+      "date": "2026-10-15",
       "venue": "Health & Kinesiology",
       "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
         "lat": 41.256945,
         "lng": -96.009462
       },
-      "url": "https://events.unomaha.edu/event/love-everybody-week-create-your-own-affirmations-jar-1863",
-      "summary": "Refresh & Recharge\n\nTake a break, reset, and show your body some appreciation at Refresh & Recharge, part of UNO Campus Recreation & Wellness’ Love EveryBody We",
+      "url": "https://events.unomaha.edu/event/love-everybody-week-climbing-is-for-everybody",
+      "summary": "Join us at the UNO Climbing Wall for an uplifting climbing experience during Love EveryBody Week! Whether you’re an experienced climber or trying the wall for t",
       "category": "maverick life",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha EXHIBITION TALK",
-      "startISO": "2026-10-14T12:00:00-05:00",
-      "date": "2026-10-14",
-      "venue": "Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
+      "title": "Love EveryBody Week: Lifting is for EveryBody",
+      "startISO": "2026-10-15T18:00:00-05:00",
+      "date": "2026-10-15",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
-        "lat": 41.256868,
-        "lng": -96.012608
+        "lat": 41.256945,
+        "lng": -96.009462
       },
-      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition-talk-3117",
-      "summary": "The Many Varieties of Mid-Century Style\n\nMid-century modern (MCM) was not a single, unified artistic style, nor did all artists working during this period follo",
-      "category": "lecture/conference",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "OLLAS ArteLatinX 2026 - Talk and Tour",
-      "startISO": "2026-10-14T18:00:00-05:00",
-      "date": "2026-10-14",
-      "venue": "Clover 24",
-      "address": "2200 S. 24th St. Omaha, NE 68108",
-      "location": {
-        "lat": 41.23881,
-        "lng": -95.947818
-      },
-      "url": "https://events.unomaha.edu/event/ollas-artelatinx-2026-talk-and-tour",
-      "summary": "ArteLatinX 2026 is excited to announce our collaboration with Clover 24! We will be hosting a Talk & Tour of their incredible space. Join us and get ready to he",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Where She Came From: A Daughter’s Search for her Mother’s History",
-      "startISO": "2026-10-14T18:00:00-05:00",
-      "date": "2026-10-14",
-      "venue": "Barbara Weitz Community Engagement Center",
-      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
-      "location": {
-        "lat": 41.257979,
-        "lng": -96.010675
-      },
-      "url": "https://events.unomaha.edu/event/where-she-came-from-a-daughters-search-for-her-mothers-history",
-      "summary": "\"People are trapped in history,” wrote the African-American writer James Baldwin, “and history is trapped in them.” \n\n \n\nHelen Epstein will speak about how a jo",
-      "category": "lecture/conference",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Laird Hunt: Reading",
-      "startISO": "2026-10-14T19:30:00-05:00",
-      "date": "2026-10-14",
-      "venue": "UNO Criss Library",
-      "address": "6001 Dodge St, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258027,
-        "lng": -96.010696
-      },
-      "url": "https://events.unomaha.edu/event/laird-hunt-reading",
-      "summary": "Join the Writer's Workshop for a reading with Laird Hunt.\n\nBorn in Singapore in 1968 to American parents, Laird Hunt is the author of nine novels, including the",
-      "category": "concert/performance",
+      "url": "https://events.unomaha.edu/event/love-everybody-week-lifting-is-for-everybody",
+      "summary": "Join UNO Campus Recreation & Wellness for Lifting Is for EveryBody, a welcoming introduction to strength training designed for all experience levels.\n\nIn this 3",
+      "category": "maverick life",
       "free": true,
       "price": "Free"
     }
