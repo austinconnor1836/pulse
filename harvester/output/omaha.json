@@ -6,21 +6,38 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-15",
-    "tomorrow": "2026-10-15"
+    "today": "2026-10-16",
+    "tomorrow": "2026-10-16"
   },
-  "generatedAt": "2026-10-15T22:11:24.116Z",
+  "generatedAt": "2026-10-16T11:03:27.698Z",
   "counts": {
-    "total": 5,
-    "today": 5,
-    "tomorrow": 5
+    "total": 3,
+    "today": 3,
+    "tomorrow": 3
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
+      "title": "Free Kids Weekend : UNO Campus Recreation and Wellness",
+      "startISO": "2026-10-16T06:00:00-05:00",
+      "date": "2026-10-16",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256945,
+        "lng": -96.009462
+      },
+      "url": "https://events.unomaha.edu/event/free-kids-weekend-uno-campus-recreation-and-wellness",
+      "summary": "UNO Rec Well is so thankful for all of our students, members, faculty, and staff.\n\n \n\nWe are gifting all UNO faculty, staff, and members of UNO Campus Recreatio",
+      "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-15T10:00:00-05:00",
-      "date": "2026-10-15",
+      "startISO": "2026-10-16T10:00:00-05:00",
+      "date": "2026-10-16",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -35,69 +52,18 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Hispanic Heritage Month: Frida Kahlo Floral Event",
-      "startISO": "2026-10-15T11:30:00-05:00",
-      "date": "2026-10-15",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
-      },
-      "url": "https://events.unomaha.edu/event/hispanic-heritage-month-frida-kahlo-floral-event",
-      "summary": "Celebrate Hispanic Heritage Month by honoring the legacy of Frida Kahlo, a renowned Mexican\n\nartist known for her self-portraits and celebration of Mexican cult",
-      "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Stammtisch",
-      "startISO": "2026-10-15T16:00:00-05:00",
-      "date": "2026-10-15",
+      "title": "French Club",
+      "startISO": "2026-10-16T13:00:00-05:00",
+      "date": "2026-10-16",
       "venue": "Arts and Sciences Hall",
       "address": "222 University Dr E, Omaha, NE 68182",
       "location": {
         "lat": 41.258069,
         "lng": -96.005967
       },
-      "url": "https://events.unomaha.edu/event/stammtisch",
-      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
+      "url": "https://events.unomaha.edu/event/french-club",
+      "summary": "Le Cercle français (UNO French Club) is a social organization for the purpose of sharing an interest in language and culture, directed by UNO French faculty, an",
       "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Love EveryBody Week: Climbing is for EveryBody",
-      "startISO": "2026-10-15T17:00:00-05:00",
-      "date": "2026-10-15",
-      "venue": "Health & Kinesiology",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256945,
-        "lng": -96.009462
-      },
-      "url": "https://events.unomaha.edu/event/love-everybody-week-climbing-is-for-everybody",
-      "summary": "Join us at the UNO Climbing Wall for an uplifting climbing experience during Love EveryBody Week! Whether you’re an experienced climber or trying the wall for t",
-      "category": "maverick life",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Love EveryBody Week: Lifting is for EveryBody",
-      "startISO": "2026-10-15T18:00:00-05:00",
-      "date": "2026-10-15",
-      "venue": "Health & Kinesiology",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256945,
-        "lng": -96.009462
-      },
-      "url": "https://events.unomaha.edu/event/love-everybody-week-lifting-is-for-everybody",
-      "summary": "Join UNO Campus Recreation & Wellness for Lifting Is for EveryBody, a welcoming introduction to strength training designed for all experience levels.\n\nIn this 3",
-      "category": "maverick life",
       "free": true,
       "price": "Free"
     }
