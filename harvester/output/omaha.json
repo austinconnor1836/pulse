@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-17",
-    "tomorrow": "2026-10-17"
+    "today": "2026-10-18",
+    "tomorrow": "2026-10-18"
   },
-  "generatedAt": "2026-10-17T22:09:47.644Z",
+  "generatedAt": "2026-10-18T11:02:25.887Z",
   "counts": {
     "total": 2,
     "today": 2,
@@ -19,8 +19,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "Free Kids Weekend : UNO Campus Recreation and Wellness",
-      "startISO": "2026-10-17T08:00:00-05:00",
-      "date": "2026-10-17",
+      "startISO": "2026-10-18T10:00:00-05:00",
+      "date": "2026-10-18",
       "venue": "Health & Kinesiology",
       "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
@@ -35,18 +35,18 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Spoopy Jam 8: The Ocho",
-      "startISO": "2026-10-17T12:00:00-05:00",
-      "date": "2026-10-17",
-      "venue": "Peter Kiewit Institute",
-      "address": "1110 S 67th St, Omaha, NE 68182",
+      "title": "Landscapes of Belonging & Omaha Reads: Lonely Folks",
+      "startISO": "2026-10-18T13:30:00-05:00",
+      "date": "2026-10-18",
+      "venue": "Omaha Public Library, Downtown Branch",
+      "address": "1401 Jones St, Omaha, NE",
       "location": {
-        "lat": 41.24714,
-        "lng": -96.016767
+        "lat": 41.253071,
+        "lng": -95.935
       },
-      "url": "https://events.unomaha.edu/event/spoopy-jam-8-the-ocho",
-      "summary": "(Register now to start work on your mini gaming masterpiece throughout October.)\n\n \n\nSpoopy Jam is back for another year of Halloween-flavored game-dev action a",
-      "category": "education/training",
+      "url": "https://events.unomaha.edu/event/landscapes-of-belonging-omaha-reads-lonely-folks",
+      "summary": "Dr. Todd Richardson will discuss the loneliness that exists in rural communities along with an exploration of loneliness as a theme in literature. Richardson re",
+      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
