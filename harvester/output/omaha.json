@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-18",
-    "tomorrow": "2026-10-18"
+    "today": "2026-10-19",
+    "tomorrow": "2026-10-19"
   },
-  "generatedAt": "2026-10-18T22:09:56.405Z",
+  "generatedAt": "2026-10-19T11:02:59.047Z",
   "counts": {
     "total": 2,
     "today": 2,
@@ -18,35 +18,35 @@
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Free Kids Weekend : UNO Campus Recreation and Wellness",
-      "startISO": "2026-10-18T10:00:00-05:00",
-      "date": "2026-10-18",
-      "venue": "Health & Kinesiology",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "title": "Fall Writing Retreat",
+      "startISO": "2026-10-19T09:00:00-05:00",
+      "date": "2026-10-19",
+      "venue": "Dr. C.C. and Mabel L. Criss Library",
+      "address": "6401 University Dr N, Omaha, NE 68182",
       "location": {
-        "lat": 41.256945,
-        "lng": -96.009462
+        "lat": 41.258725,
+        "lng": -96.011467
       },
-      "url": "https://events.unomaha.edu/event/free-kids-weekend-uno-campus-recreation-and-wellness",
-      "summary": "UNO Rec Well is so thankful for all of our students, members, faculty, and staff.\n\n \n\nWe are gifting all UNO faculty, staff, and members of UNO Campus Recreatio",
-      "category": "maverick life",
+      "url": "https://events.unomaha.edu/event/fall-writing-retreat",
+      "summary": "REGISTER HERE! Before registering, please visit the Writing Opportunities for Faculty webpage for more details. \n \nAn immersive writing experience for faculty s",
+      "category": "education/training",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Landscapes of Belonging & Omaha Reads: Lonely Folks",
-      "startISO": "2026-10-18T13:30:00-05:00",
-      "date": "2026-10-18",
-      "venue": "Omaha Public Library, Downtown Branch",
-      "address": "1401 Jones St, Omaha, NE",
+      "title": "Hammon in Mid-Century Omaha Exhibition",
+      "startISO": "2026-10-19T10:00:00-05:00",
+      "date": "2026-10-19",
+      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
-        "lat": 41.253071,
-        "lng": -95.935
+        "lat": 41.257991,
+        "lng": -96.012539
       },
-      "url": "https://events.unomaha.edu/event/landscapes-of-belonging-omaha-reads-lonely-folks",
-      "summary": "Dr. Todd Richardson will discuss the loneliness that exists in rural communities along with an exploration of loneliness as a theme in literature. Richardson re",
-      "category": "lecture/conference",
+      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
+      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
+      "category": "exhibit",
       "free": true,
       "price": "Free"
     }
