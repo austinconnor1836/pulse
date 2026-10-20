@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-19",
-    "tomorrow": "2026-10-19"
+    "today": "2026-10-20",
+    "tomorrow": "2026-10-20"
   },
-  "generatedAt": "2026-10-19T22:11:49.849Z",
+  "generatedAt": "2026-10-20T11:03:27.540Z",
   "counts": {
     "total": 2,
     "today": 2,
@@ -19,8 +19,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "Fall Writing Retreat",
-      "startISO": "2026-10-19T09:00:00-05:00",
-      "date": "2026-10-19",
+      "startISO": "2026-10-20T09:00:00-05:00",
+      "date": "2026-10-20",
       "venue": "Dr. C.C. and Mabel L. Criss Library",
       "address": "6401 University Dr N, Omaha, NE 68182",
       "location": {
@@ -36,8 +36,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-19T10:00:00-05:00",
-      "date": "2026-10-19",
+      "startISO": "2026-10-20T10:00:00-05:00",
+      "date": "2026-10-20",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
