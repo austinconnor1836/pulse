@@ -6,38 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-20",
-    "tomorrow": "2026-10-20"
+    "today": "2026-10-21",
+    "tomorrow": "2026-10-21"
   },
-  "generatedAt": "2026-10-20T22:11:47.486Z",
+  "generatedAt": "2026-10-21T11:03:09.731Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 4,
+    "today": 4,
+    "tomorrow": 4
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Fall Writing Retreat",
-      "startISO": "2026-10-20T09:00:00-05:00",
-      "date": "2026-10-20",
-      "venue": "Dr. C.C. and Mabel L. Criss Library",
-      "address": "6401 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258725,
-        "lng": -96.011467
-      },
-      "url": "https://events.unomaha.edu/event/fall-writing-retreat",
-      "summary": "REGISTER HERE! Before registering, please visit the Writing Opportunities for Faculty webpage for more details. \n \nAn immersive writing experience for faculty s",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-20T10:00:00-05:00",
-      "date": "2026-10-20",
+      "startISO": "2026-10-21T10:00:00-05:00",
+      "date": "2026-10-21",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -47,6 +30,57 @@
       "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
       "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
       "category": "exhibit",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "National Transfer Student Week: Hot Cocoa, Coffee, Donuts and Cinnamon Rolls",
+      "startISO": "2026-10-21T10:00:00-05:00",
+      "date": "2026-10-21",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/national-transfer-student-week-hot-cocoa-coffee-donuts-and-cinnamon-rolls-234",
+      "summary": "As part of National Transfer Student Week, the Momentum Advising Team within the Division of Institutional Effectiveness and Student Success is hosting a warm a",
+      "category": "volunteering/service work",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "UNO School of Criminology and Criminal Justice Career and Internship Fair",
+      "startISO": "2026-10-21T10:00:00-05:00",
+      "date": "2026-10-21",
+      "venue": "College of Public Affairs and Community Service",
+      "address": "6320 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258092,
+        "lng": -96.009559
+      },
+      "url": "https://events.unomaha.edu/event/uno-school-of-criminology-and-criminal-justice-career-and-internship-fair",
+      "summary": "Explore where a degree in criminal justice can take you!\n\n \n\nOur Career & Internship Fair connects SCCJ students and alumni with employers from across the crimi",
+      "category": "volunteering/service work",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Landscapes of Belonging & Omaha Reads: Aging in Nebraska",
+      "startISO": "2026-10-21T18:00:00-05:00",
+      "date": "2026-10-21",
+      "venue": "South Omaha Library",
+      "address": "2808 Q St. Omaha, NE",
+      "location": {
+        "lat": 41.20594,
+        "lng": -95.955871
+      },
+      "url": "https://events.unomaha.edu/event/landscapes-of-belonging-omaha-reads-aging-in-nebraska",
+      "summary": "Dr. Christopher Kelly will discuss the shift of long-term supportive services from institutional care to residential care and towards occupations such as person",
+      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
