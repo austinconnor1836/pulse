@@ -6,64 +6,30 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-23",
-    "tomorrow": "2026-10-23"
+    "today": "2026-10-24",
+    "tomorrow": "2026-10-24"
   },
-  "generatedAt": "2026-10-23T22:11:00.339Z",
+  "generatedAt": "2026-10-24T11:02:32.181Z",
   "counts": {
-    "total": 3,
-    "today": 3,
-    "tomorrow": 3
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "UNO/NSRI National Security Social Sciences (NS4) Fall Seminar",
-      "startISO": "2026-10-23T09:00:00-05:00",
-      "date": "2026-10-23",
-      "venue": "Barbara Weitz Community Engagement Center",
-      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
+      "title": "Spoopy Jam 8: The Ocho",
+      "startISO": "2026-10-24T10:00:00-05:00",
+      "date": "2026-10-24",
+      "venue": "Peter Kiewit Institute",
+      "address": "1110 S 67th St, Omaha, NE 68182",
       "location": {
-        "lat": 41.257979,
-        "lng": -96.010675
+        "lat": 41.24714,
+        "lng": -96.016767
       },
-      "url": "https://events.unomaha.edu/event/unonsri-national-security-social-sciencesns4-fall-seminar",
-      "summary": "ORCA collaborated with the National Security Research Institute (NSRI) in May 2026 on a National Security Social Sciences Seminar (NS4) and are now hosting a fo",
+      "url": "https://events.unomaha.edu/event/spoopy-jam-8-the-ocho",
+      "summary": "(Register now to start work on your mini gaming masterpiece throughout October.)\n\n \n\nSpoopy Jam is back for another year of Halloween-flavored game-dev action a",
       "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Biomechanics Seminar Series: Aaron Young",
-      "startISO": "2026-10-23T10:00:00-05:00",
-      "date": "2026-10-23",
-      "venue": "Biomechanics Research Building",
-      "address": "6160 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256134,
-        "lng": -96.007778
-      },
-      "url": "https://events.unomaha.edu/event/biomechanics-seminar-series-aaron-young",
-      "summary": "The focus of the seminar series is to call for experts related to academia and research in the areas related to biomechanics, variability, motor disorders, phys",
-      "category": "lecture/conference",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-23T10:00:00-05:00",
-      "date": "2026-10-23",
-      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.257991,
-        "lng": -96.012539
-      },
-      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
-      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
-      "category": "exhibit",
       "free": true,
       "price": "Free"
     }
