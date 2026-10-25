@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-24",
-    "tomorrow": "2026-10-24"
+    "today": "2026-10-25",
+    "tomorrow": "2026-10-25"
   },
-  "generatedAt": "2026-10-24T22:09:52.333Z",
+  "generatedAt": "2026-10-25T11:02:36.242Z",
   "counts": {
     "total": 1,
     "today": 1,
@@ -19,8 +19,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "Spoopy Jam 8: The Ocho",
-      "startISO": "2026-10-24T10:00:00-05:00",
-      "date": "2026-10-24",
+      "startISO": "2026-10-25T10:00:00-05:00",
+      "date": "2026-10-25",
       "venue": "Peter Kiewit Institute",
       "address": "1110 S 67th St, Omaha, NE 68182",
       "location": {
