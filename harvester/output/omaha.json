@@ -6,21 +6,38 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-26",
-    "tomorrow": "2026-10-26"
+    "today": "2026-10-27",
+    "tomorrow": "2026-10-27"
   },
-  "generatedAt": "2026-10-26T22:12:10.921Z",
+  "generatedAt": "2026-10-27T11:03:02.864Z",
   "counts": {
-    "total": 3,
-    "today": 3,
-    "tomorrow": 3
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
+      "title": "Career Closet Pop-up Shop",
+      "startISO": "2026-10-27T10:00:00-05:00",
+      "date": "2026-10-27",
+      "venue": "Thompson Alumni Center",
+      "address": "6705 Dodge St, Omaha, NE 68182",
+      "location": {
+        "lat": 41.259072,
+        "lng": -96.015901
+      },
+      "url": "https://events.unomaha.edu/event/career-closet-pop-up-shop-7217",
+      "summary": "UNO students are invited to shop for FREE new and gently used professional clothing items for interviews, internships, career fairs, jobs and more. A variety of",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-26T10:00:00-05:00",
-      "date": "2026-10-26",
+      "startISO": "2026-10-27T10:00:00-05:00",
+      "date": "2026-10-27",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -30,40 +47,6 @@
       "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
       "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
       "category": "exhibit",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Spend a Pizza Your Monday with SLI",
-      "startISO": "2026-10-26T12:00:00-05:00",
-      "date": "2026-10-26",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
-      },
-      "url": "https://events.unomaha.edu/event/spend-a-pizza-your-monday-with-sli-234",
-      "summary": "Spend Your Monday with SLI! 🍕\n\n \n\nKick off your week with good vibes, great people, and FREE pizza! Stop by and hang out with SLI for an afternoon filled with ",
-      "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Glow With The Bull : Cycle Event",
-      "startISO": "2026-10-26T19:00:00-05:00",
-      "date": "2026-10-26",
-      "venue": "Health & Kinesiology",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256945,
-        "lng": -96.009462
-      },
-      "url": "https://events.unomaha.edu/event/glow-with-the-bull-cycle-event",
-      "summary": "GLOW WITH THE BULL 🚴‍♂️👻 \n\nGet ready to light up the night during Halloween Week at Campus Rec & Wellness! \n\nJoin us for a high-energy, glow-in-the-dark cycli",
-      "category": "maverick life",
       "free": true,
       "price": "Free"
     }
