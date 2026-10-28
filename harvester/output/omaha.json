@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-27",
-    "tomorrow": "2026-10-27"
+    "today": "2026-10-28",
+    "tomorrow": "2026-10-28"
   },
-  "generatedAt": "2026-10-27T22:08:32.749Z",
+  "generatedAt": "2026-10-28T11:02:21.371Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 5,
+    "today": 5,
+    "tomorrow": 5
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "Career Closet Pop-up Shop",
-      "startISO": "2026-10-27T10:00:00-05:00",
-      "date": "2026-10-27",
+      "startISO": "2026-10-28T10:00:00-05:00",
+      "date": "2026-10-28",
       "venue": "Thompson Alumni Center",
       "address": "6705 Dodge St, Omaha, NE 68182",
       "location": {
@@ -36,8 +36,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-27T10:00:00-05:00",
-      "date": "2026-10-27",
+      "startISO": "2026-10-28T10:00:00-05:00",
+      "date": "2026-10-28",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -47,6 +47,57 @@
       "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
       "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
       "category": "exhibit",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Hammon in Mid-Century Omaha EXHIBITION TALK",
+      "startISO": "2026-10-28T12:00:00-05:00",
+      "date": "2026-10-28",
+      "venue": "Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256868,
+        "lng": -96.012608
+      },
+      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition-talk-1572",
+      "summary": "CREATING THE \"PICASSO ON THE PRAIRIE\"\n\nA letter to Charles Leonard Thiessen from a Lincoln architect involved with designing a new auditorium in Lincoln prompte",
+      "category": "lecture/conference",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": " UNO Health Center Walk-in Flu Shot Clinics for Students",
+      "startISO": "2026-10-28T15:00:00-05:00",
+      "date": "2026-10-28",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256945,
+        "lng": -96.009462
+      },
+      "url": "https://events.unomaha.edu/event/uno-health-center-walk-in-flu-shot-clinics-for-students",
+      "summary": "Say boo to the flu! Get your flu shot before Halloween!\n\n \n\nUNO Students: Get a free flu shot at the Nebraska Medicine UNO Health Center and be entered for a ch",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Mona Awad: Reading",
+      "startISO": "2026-10-28T18:00:00-05:00",
+      "date": "2026-10-28",
+      "venue": "Omaha Central Library",
+      "address": "7205 Dodge St, Omaha, NE 68114",
+      "location": {
+        "lat": 41.25904,
+        "lng": -96.024674
+      },
+      "url": "https://events.unomaha.edu/event/mona-awad-reading",
+      "summary": "Join the Writer's Workshop for a reading with Mona Awad. Mona Awad is the New York Times bestselling author of the novels Rouge, All’s Well, Bunny, and 13 Ways ",
+      "category": "concert/performance",
       "free": true,
       "price": "Free"
     }
