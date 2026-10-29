@@ -6,21 +6,38 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-28",
-    "tomorrow": "2026-10-28"
+    "today": "2026-10-29",
+    "tomorrow": "2026-10-29"
   },
-  "generatedAt": "2026-10-28T22:08:33.261Z",
+  "generatedAt": "2026-10-29T11:02:27.263Z",
   "counts": {
-    "total": 5,
-    "today": 5,
-    "tomorrow": 5
+    "total": 8,
+    "today": 8,
+    "tomorrow": 8
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
+      "title": "Wellness Blood Screening",
+      "startISO": "2026-10-29T07:00:00-05:00",
+      "date": "2026-10-29",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256945,
+        "lng": -96.009462
+      },
+      "url": "https://events.unomaha.edu/event/wellness-blood-screening-2673",
+      "summary": "The Department of Campus Recreation and Wellness invites you to participate in our annual Wellness Blood Screening in collaboration with our annual Health and W",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
       "title": "Career Closet Pop-up Shop",
-      "startISO": "2026-10-28T10:00:00-05:00",
-      "date": "2026-10-28",
+      "startISO": "2026-10-29T10:00:00-05:00",
+      "date": "2026-10-29",
       "venue": "Thompson Alumni Center",
       "address": "6705 Dodge St, Omaha, NE 68182",
       "location": {
@@ -36,8 +53,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-28T10:00:00-05:00",
-      "date": "2026-10-28",
+      "startISO": "2026-10-29T10:00:00-05:00",
+      "date": "2026-10-29",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -52,17 +69,34 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha EXHIBITION TALK",
-      "startISO": "2026-10-28T12:00:00-05:00",
-      "date": "2026-10-28",
+      "title": "Health and Wellness Fair",
+      "startISO": "2026-10-29T10:00:00-05:00",
+      "date": "2026-10-29",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256945,
+        "lng": -96.009462
+      },
+      "url": "https://events.unomaha.edu/event/health-and-wellness-fair-815",
+      "summary": "Presented by UNO Campus Recreation and Wellness as part of its ongoing effort to inform, educate, and empower the campus community to adapt a healthier lifestyl",
+      "category": "education/training",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Ian Huebert of Service Press Presents on The Henderson News and Contemporary Letterpress Printing",
+      "startISO": "2026-10-29T12:00:00-05:00",
+      "date": "2026-10-29",
       "venue": "Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
         "lat": 41.256868,
         "lng": -96.012608
       },
-      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition-talk-1572",
-      "summary": "CREATING THE \"PICASSO ON THE PRAIRIE\"\n\nA letter to Charles Leonard Thiessen from a Lincoln architect involved with designing a new auditorium in Lincoln prompte",
+      "url": "https://events.unomaha.edu/event/ian-huebert-of-service-press-presents-on-the-henderson-news-and-contemporary-letterpress-printing",
+      "summary": "Ian Huebert works in graphic arts as a designer, illustrator, and printer. Since 2024 he has\n\nowned and operated Service Press in Henderson, Nebraska, a printsh",
       "category": "lecture/conference",
       "free": true,
       "price": "Free"
@@ -70,8 +104,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": " UNO Health Center Walk-in Flu Shot Clinics for Students",
-      "startISO": "2026-10-28T15:00:00-05:00",
-      "date": "2026-10-28",
+      "startISO": "2026-10-29T15:00:00-05:00",
+      "date": "2026-10-29",
       "venue": "Health & Kinesiology",
       "address": "6323 Maverick Plaza, Omaha, NE 68182",
       "location": {
@@ -86,18 +120,35 @@
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Mona Awad: Reading",
-      "startISO": "2026-10-28T18:00:00-05:00",
-      "date": "2026-10-28",
-      "venue": "Omaha Central Library",
-      "address": "7205 Dodge St, Omaha, NE 68114",
+      "title": "Stammtisch",
+      "startISO": "2026-10-29T16:00:00-05:00",
+      "date": "2026-10-29",
+      "venue": "Arts and Sciences Hall",
+      "address": "222 University Dr E, Omaha, NE 68182",
       "location": {
-        "lat": 41.25904,
-        "lng": -96.024674
+        "lat": 41.258069,
+        "lng": -96.005967
       },
-      "url": "https://events.unomaha.edu/event/mona-awad-reading",
-      "summary": "Join the Writer's Workshop for a reading with Mona Awad. Mona Awad is the New York Times bestselling author of the novels Rouge, All’s Well, Bunny, and 13 Ways ",
-      "category": "concert/performance",
+      "url": "https://events.unomaha.edu/event/stammtisch",
+      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Rabbi Sidney H. Brooks Lecture: Queer and Trans Pentecostal Life in a Divided Brazil",
+      "startISO": "2026-10-29T17:30:00-05:00",
+      "date": "2026-10-29",
+      "venue": "Barbara Weitz Community Engagement Center",
+      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
+      "location": {
+        "lat": 41.257979,
+        "lng": -96.010675
+      },
+      "url": "https://events.unomaha.edu/event/rabbi-sidney-h-brooks-lecture-queer-and-trans-pentecostal-life-in-a-divided-brazil",
+      "summary": "Free and Open to the Public\n\n\nReception: 5:30 P.M.\n\nLecture: 6:00 to 7:30 P.M.\n\n \n\nBy the time of this talk, Brazil will have concluded another fiercely contest",
+      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
