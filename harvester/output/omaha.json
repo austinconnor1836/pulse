@@ -6,98 +6,30 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-30",
-    "tomorrow": "2026-10-30"
+    "today": "2026-10-31",
+    "tomorrow": "2026-10-31"
   },
-  "generatedAt": "2026-10-30T22:07:22.613Z",
+  "generatedAt": "2026-10-31T11:01:37.839Z",
   "counts": {
-    "total": 5,
-    "today": 5,
-    "tomorrow": 5
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "MaxQDA Training - Advanced, including Visual Tools (Hybrid)",
-      "startISO": "2026-10-30T09:00:00-05:00",
-      "date": "2026-10-30",
-      "venue": "Barbara Weitz Community Engagement Center",
-      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
+      "title": "Spoopy Jam 8: The Ocho",
+      "startISO": "2026-10-31T23:00:00-05:00",
+      "date": "2026-10-31",
+      "venue": "Peter Kiewit Institute",
+      "address": "1110 S 67th St, Omaha, NE 68182",
       "location": {
-        "lat": 41.257979,
-        "lng": -96.010675
+        "lat": 41.24714,
+        "lng": -96.016767
       },
-      "url": "https://events.unomaha.edu/event/maxqda-training-advanced-including-visual-tools",
-      "summary": "Join us to learn about MaxQDA Training for Advanced-level users. This training will include training on using Visual Tools in MaxQDA for your research.",
+      "url": "https://events.unomaha.edu/event/spoopy-jam-8-the-ocho",
+      "summary": "(Register now to start work on your mini gaming masterpiece throughout October.)\n\n \n\nSpoopy Jam is back for another year of Halloween-flavored game-dev action a",
       "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Biomechanics Seminar Series: Cody Anderson",
-      "startISO": "2026-10-30T10:00:00-05:00",
-      "date": "2026-10-30",
-      "venue": "Biomechanics Research Building",
-      "address": "6160 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256134,
-        "lng": -96.007778
-      },
-      "url": "https://events.unomaha.edu/event/biomechanics-seminar-series-cody-anderson",
-      "summary": "The focus of the seminar series is to call for experts related to academia and research in the areas related to biomechanics, variability, motor disorders, phys",
-      "category": "lecture/conference",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Hammon in Mid-Century Omaha Exhibition",
-      "startISO": "2026-10-30T10:00:00-05:00",
-      "date": "2026-10-30",
-      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
-      "address": "6505 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.257991,
-        "lng": -96.012539
-      },
-      "url": "https://events.unomaha.edu/event/hammon-in-mid-century-omaha-exhibition",
-      "summary": "About the Exhibition\n\nNOW THROUGH OCT. 30 | FREE AND OPEN TO THE PUBLIC\n\nCelebrated for his versatility as a painter, muralist, and sculptor, Bill J. Hammon was",
-      "category": "exhibit",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "French Club",
-      "startISO": "2026-10-30T13:00:00-05:00",
-      "date": "2026-10-30",
-      "venue": "Arts and Sciences Hall",
-      "address": "222 University Dr E, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258069,
-        "lng": -96.005967
-      },
-      "url": "https://events.unomaha.edu/event/french-club",
-      "summary": "Le Cercle français (UNO French Club) is a social organization for the purpose of sharing an interest in language and culture, directed by UNO French faculty, an",
-      "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "An Evening with the Wičháglata: Tiana Spotted Thunder",
-      "startISO": "2026-10-30T16:00:00-05:00",
-      "date": "2026-10-30",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
-      "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
-      },
-      "url": "https://events.unomaha.edu/event/an-evening-with-the-wichaglata-tiana-spotted-thunder",
-      "summary": "4:00 to 5:00 P.M. | Trunk or Treat and Community Meal at Elmwood Park\n\n5:00 to 7:00 P.M. | An Evening with Tiana Spotted Thunder in the MBSC Ballroom\n\n \n\nJoin H",
-      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
