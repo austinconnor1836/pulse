@@ -6,34 +6,16 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-10-31",
-    "tomorrow": "2026-10-31"
+    "today": "2026-11-01",
+    "tomorrow": "2026-11-01"
   },
-  "generatedAt": "2026-10-31T22:07:14.346Z",
+  "generatedAt": "2026-11-01T11:01:48.094Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 0,
+    "today": 0,
+    "tomorrow": 0
   },
-  "events": [
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Spoopy Jam 8: The Ocho",
-      "startISO": "2026-10-31T23:00:00-05:00",
-      "date": "2026-10-31",
-      "venue": "Peter Kiewit Institute",
-      "address": "1110 S 67th St, Omaha, NE 68182",
-      "location": {
-        "lat": 41.24714,
-        "lng": -96.016767
-      },
-      "url": "https://events.unomaha.edu/event/spoopy-jam-8-the-ocho",
-      "summary": "(Register now to start work on your mini gaming masterpiece throughout October.)\n\n \n\nSpoopy Jam is back for another year of Halloween-flavored game-dev action a",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    }
-  ],
+  "events": [],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
