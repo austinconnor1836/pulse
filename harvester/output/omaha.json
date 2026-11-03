@@ -6,61 +6,30 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-02",
-    "tomorrow": "2026-11-02"
+    "today": "2026-11-03",
+    "tomorrow": "2026-11-03"
   },
-  "generatedAt": "2026-11-03T03:19:22.518Z",
+  "generatedAt": "2026-11-03T18:09:09.166Z",
   "counts": {
-    "total": 3,
-    "today": 3,
-    "tomorrow": 3
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Japanese Culture Workshop",
-      "startISO": "2026-11-02T11:00:00-06:00",
-      "date": "2026-11-02",
-      "venue": "Arts and Sciences Hall",
-      "address": "222 University Dr E, Omaha, NE 68182",
+      "title": "Native American Heritage Month - Kickoff ",
+      "startISO": "2026-11-03T12:00:00-06:00",
+      "date": "2026-11-03",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
-        "lat": 41.258069,
-        "lng": -96.005967
+        "lat": 41.258824,
+        "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/japanese-culture-workshop-1020",
-      "summary": "Looking to fold some fun into your day? \n\nJoin us next Monday, November 2nd for a Japanese Culture Workshop! Experience the art of origami, calligraphy, and sum",
+      "url": "https://events.unomaha.edu/event/native-american-heritage-month-kickoff",
+      "summary": "Join us for an exciting celebration featuring Young Generation Drum Group from the Omaha Indian Reservation, honoring Native culture through powerful drumming, ",
       "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Japanese Culture Workshop",
-      "startISO": "2026-11-02T11:00:00-06:00",
-      "date": "2026-11-02",
-      "venue": "Arts & Science Hall",
-      "address": "6001 Dodge Street",
-      "location": {
-        "lat": 41.258027,
-        "lng": -96.010696
-      },
-      "url": "https://events.unomaha.edu/event/japanese-culture-workshop",
-      "summary": "A hands on workshop where you will learn about and make Origami, Calligraphy and Sumi-E.",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Boren Awards Information Session 2026",
-      "startISO": "2026-11-02T14:00:00-06:00",
-      "date": "2026-11-02",
-      "venue": "Omaha Room, MBSC",
-      "address": "",
-      "location": null,
-      "url": "https://events.unomaha.edu/event/boren-awards-information-session-2026",
-      "summary": "Are you a student interested in long-term study abroad programs? Are you committed to learning a critically needed language? You are invited to join us at the B",
-      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
