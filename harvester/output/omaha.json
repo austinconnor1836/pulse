@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-03",
-    "tomorrow": "2026-11-03"
+    "today": "2026-11-04",
+    "tomorrow": "2026-11-04"
   },
-  "generatedAt": "2026-11-04T01:55:21.782Z",
+  "generatedAt": "2026-11-04T18:20:10.787Z",
   "counts": {
     "total": 1,
     "today": 1,
@@ -18,17 +18,17 @@
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Native American Heritage Month - Kickoff ",
-      "startISO": "2026-11-03T12:00:00-06:00",
-      "date": "2026-11-03",
+      "title": "Experience the Art and Story of Beadwork",
+      "startISO": "2026-11-04T11:00:00-06:00",
+      "date": "2026-11-04",
       "venue": "Milo Bail Student Center",
       "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
         "lat": 41.258824,
         "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/native-american-heritage-month-kickoff",
-      "summary": "Join us for an exciting celebration featuring Young Generation Drum Group from the Omaha Indian Reservation, honoring Native culture through powerful drumming, ",
+      "url": "https://events.unomaha.edu/event/experience-the-art-and-story-of-beadwork-9595",
+      "summary": "Join us for hands-on beading sessions led by a Cultural Specialist from the Sicangu Tribe—a great opportunity to learn from a respected elder. Beadwork is a pow",
       "category": "event",
       "free": true,
       "price": "Free"
