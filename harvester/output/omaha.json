@@ -6,51 +6,16 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-06",
-    "tomorrow": "2026-11-06"
+    "today": "2026-11-07",
+    "tomorrow": "2026-11-07"
   },
-  "generatedAt": "2026-11-07T01:39:11.903Z",
+  "generatedAt": "2026-11-07T16:40:23.946Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 0,
+    "today": 0,
+    "tomorrow": 0
   },
-  "events": [
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Food Tour: Isaac Kolb Chepa’s Kitchen",
-      "startISO": "2026-11-06T11:30:00-06:00",
-      "date": "2026-11-06",
-      "venue": "Nebraska Urban Indian Health Coalition, Inc.",
-      "address": "2226 N St, Omaha, NE 68107 ",
-      "location": {
-        "lat": 41.20998,
-        "lng": -95.945319
-      },
-      "url": "https://events.unomaha.edu/event/food-tour-nuihc-isaac-kolb-chepas-kitchen",
-      "summary": "Gather for a hearty, flavor-filled meal prepared by Chef Isaac Kolb of Chepa’s Kitchen. Enjoy tender beef tips smothered in rich gravy, maple-glazed salmon, sav",
-      "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "First Friday Weight Room Orientations with Campus Recreation and Wellness",
-      "startISO": "2026-11-06T12:00:00-06:00",
-      "date": "2026-11-06",
-      "venue": "Health & Kinesiology",
-      "address": "6323 Maverick Plaza, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256945,
-        "lng": -96.009462
-      },
-      "url": "https://events.unomaha.edu/event/first-friday-weight-room-orientations-with-campus-recreation-and-wellness",
-      "summary": "New to the weight room? We’re here to help! Join us the first Friday of every month for a free Weight Room Orientation and learn your way around the facility. O",
-      "category": "education/training",
-      "free": true,
-      "price": "Free"
-    }
-  ],
+  "events": [],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
