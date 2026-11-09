@@ -6,16 +6,34 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-08",
-    "tomorrow": "2026-11-08"
+    "today": "2026-11-09",
+    "tomorrow": "2026-11-09"
   },
-  "generatedAt": "2026-11-09T01:27:35.527Z",
+  "generatedAt": "2026-11-09T21:11:12.984Z",
   "counts": {
-    "total": 0,
-    "today": 0,
-    "tomorrow": 0
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
-  "events": [],
+  "events": [
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": " Spend Your Monday with SLI",
+      "startISO": "2026-11-09T12:00:00-06:00",
+      "date": "2026-11-09",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/spend-a-pizza-your-monday-with-sli-7675",
+      "summary": "Spend Your Monday with SLI! 🍕\n\n \n\nKick off your week with good vibes, great people, and FREE pizza! Stop by and hang out with SLI for an afternoon filled with ",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    }
+  ],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
