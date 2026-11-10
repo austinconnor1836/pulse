@@ -6,29 +6,46 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-09",
-    "tomorrow": "2026-11-09"
+    "today": "2026-11-10",
+    "tomorrow": "2026-11-10"
   },
-  "generatedAt": "2026-11-10T03:57:57.901Z",
+  "generatedAt": "2026-11-10T18:21:22.881Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": " Spend Your Monday with SLI",
-      "startISO": "2026-11-09T12:00:00-06:00",
-      "date": "2026-11-09",
+      "title": "Future of Work Conversations: The Human Advantage",
+      "startISO": "2026-11-10T10:30:00-06:00",
+      "date": "2026-11-10",
+      "venue": "Mammel Hal",
+      "address": "6708 Pine Street, Omaha, NE",
+      "location": {
+        "lat": 41.244243,
+        "lng": -96.015507
+      },
+      "url": "https://events.unomaha.edu/event/future-of-work-conversations-the-human-advantage",
+      "summary": "2026–27 Theme: The Human Advantage. \n\nA community conversation about thriving in the age of AI.\n\nJoin students, faculty, alumni, and employers for an interactiv",
+      "category": "lecture/conference",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Native American Heritage Month - Jamie Saunsoci Wear Fashion Show",
+      "startISO": "2026-11-10T16:00:00-06:00",
+      "date": "2026-11-10",
       "venue": "Milo Bail Student Center",
       "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
         "lat": 41.258824,
         "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/spend-a-pizza-your-monday-with-sli-7675",
-      "summary": "Spend Your Monday with SLI! 🍕\n\n \n\nKick off your week with good vibes, great people, and FREE pizza! Stop by and hang out with SLI for an afternoon filled with ",
+      "url": "https://events.unomaha.edu/event/native-american-heritage-month-jamie-saunsoci-wear-fashion-show",
+      "summary": "Celebrate fashion, culture, creativity, and self-expression with JS Wear! See traditional designs and techniques come to life through contemporary fashion, mode",
       "category": "event",
       "free": true,
       "price": "Free"
