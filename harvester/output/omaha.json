@@ -6,46 +6,29 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-10",
-    "tomorrow": "2026-11-10"
+    "today": "2026-11-11",
+    "tomorrow": "2026-11-11"
   },
-  "generatedAt": "2026-11-11T01:43:22.121Z",
+  "generatedAt": "2026-11-11T18:11:11.498Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Future of Work Conversations: The Human Advantage",
-      "startISO": "2026-11-10T10:30:00-06:00",
-      "date": "2026-11-10",
-      "venue": "Mammel Hal",
-      "address": "6708 Pine Street, Omaha, NE",
-      "location": {
-        "lat": 41.244243,
-        "lng": -96.015507
-      },
-      "url": "https://events.unomaha.edu/event/future-of-work-conversations-the-human-advantage",
-      "summary": "2026–27 Theme: The Human Advantage. \n\nA community conversation about thriving in the age of AI.\n\nJoin students, faculty, alumni, and employers for an interactiv",
-      "category": "lecture/conference",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Native American Heritage Month - Jamie Saunsoci Wear Fashion Show",
-      "startISO": "2026-11-10T16:00:00-06:00",
-      "date": "2026-11-10",
+      "title": "Experience the Art and Story of Beadwork",
+      "startISO": "2026-11-11T11:00:00-06:00",
+      "date": "2026-11-11",
       "venue": "Milo Bail Student Center",
       "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
         "lat": 41.258824,
         "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/native-american-heritage-month-jamie-saunsoci-wear-fashion-show",
-      "summary": "Celebrate fashion, culture, creativity, and self-expression with JS Wear! See traditional designs and techniques come to life through contemporary fashion, mode",
+      "url": "https://events.unomaha.edu/event/experience-the-art-and-story-of-beadwork-9595",
+      "summary": "Join us for hands-on beading sessions led by a Cultural Specialist from the Sicangu Tribe—a great opportunity to learn from a respected elder. Beadwork is a pow",
       "category": "event",
       "free": true,
       "price": "Free"
