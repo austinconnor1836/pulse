@@ -6,30 +6,132 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-11",
-    "tomorrow": "2026-11-11"
+    "today": "2026-11-12",
+    "tomorrow": "2026-11-12"
   },
-  "generatedAt": "2026-11-12T02:42:48.910Z",
+  "generatedAt": "2026-11-12T18:41:10.300Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 7,
+    "today": 7,
+    "tomorrow": 7
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Experience the Art and Story of Beadwork",
-      "startISO": "2026-11-11T11:00:00-06:00",
-      "date": "2026-11-11",
+      "title": "Elevated Flow: Yoga, Sound & Water",
+      "startISO": "2026-11-12T11:30:00-06:00",
+      "date": "2026-11-12",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256945,
+        "lng": -96.009462
+      },
+      "url": "https://events.unomaha.edu/event/elevated-flow-yoga-sound-water",
+      "summary": "Join Elevated Mavericks and UNO RecWell for an immersive wellness experience that brings together mindful movement, sound bath vibrations, and the calming eleme",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Ethics Grand Rounds: Justice in Healthcare",
+      "startISO": "2026-11-12T11:30:00-06:00",
+      "date": "2026-11-12",
       "venue": "Milo Bail Student Center",
       "address": "6203 University Dr N, Omaha, NE 68182",
       "location": {
         "lat": 41.258824,
         "lng": -96.008593
       },
-      "url": "https://events.unomaha.edu/event/experience-the-art-and-story-of-beadwork-9595",
-      "summary": "Join us for hands-on beading sessions led by a Cultural Specialist from the Sicangu Tribe—a great opportunity to learn from a respected elder. Beadwork is a pow",
+      "url": "https://events.unomaha.edu/event/ethics-grand-rounds-justice-in-healthcare",
+      "summary": "What do we owe individuals and communities in the name of justice? Who is responsible for ensuring justice in healthcare? Having expanded beyond the clinician-p",
+      "category": "lecture/conference",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Career Services Headshot Studio Pop-In",
+      "startISO": "2026-11-12T12:00:00-06:00",
+      "date": "2026-11-12",
+      "venue": "Eppley Administration Building",
+      "address": "6001 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.259064,
+        "lng": -96.007349
+      },
+      "url": "https://events.unomaha.edu/event/career-services-headshot-studio-pop-in-9717",
+      "summary": "First impressions matter. Visit our Headshot Studio Pop-Up to get a professional-quality photo that helps you stand out in job searches, internships, and networ",
+      "category": "education/training",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Native American Heritage Month - Bingo with Uncle Gabe",
+      "startISO": "2026-11-12T12:00:00-06:00",
+      "date": "2026-11-12",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/native-american-heritage-month-bingo-with-uncle-gabe",
+      "summary": "Join us for a lively afternoon of Bingo, a cherished pastime in many Native American communities. Bingo nights have long brought joy, storytelling, and together",
       "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Stammtisch",
+      "startISO": "2026-11-12T16:00:00-06:00",
+      "date": "2026-11-12",
+      "venue": "Arts and Sciences Hall",
+      "address": "222 University Dr E, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258069,
+        "lng": -96.005967
+      },
+      "url": "https://events.unomaha.edu/event/stammtisch",
+      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "MavPro Presents: Food Night at Smokin' Oak and Thirst-Tea",
+      "startISO": "2026-11-12T18:00:00-06:00",
+      "date": "2026-11-12",
+      "venue": "Midtown Crossing | Smokin' Oak/Thirst-Tea",
+      "address": " 200 S 31st Ave Omaha, NE 68131",
+      "location": {
+        "lat": 41.258556,
+        "lng": -95.960473
+      },
+      "url": "https://events.unomaha.edu/event/mavpro-presents-food-night-at-smokin-oak-and-thirst-tea",
+      "summary": "Stop by Smokin' Oak or Thirst-Tea in Midtown Crossing with your MavCARD and get a ticket for FREE boba or a single-topping pizza this Thursday. First come, firs",
+      "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Women's and Gender Studies Cozy Slumber Party ",
+      "startISO": "2026-11-12T19:00:00-06:00",
+      "date": "2026-11-12",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/womens-and-gender-studies-cozy-slumber-party",
+      "summary": "Stop by for...\n\nHot cocoa & cookiesRock painting & gamesAnd giveaways! ($100 in value)",
+      "category": "maverick life",
       "free": true,
       "price": "Free"
     }
