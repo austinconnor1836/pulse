@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-13",
-    "tomorrow": "2026-11-13"
+    "today": "2026-11-14",
+    "tomorrow": "2026-11-14"
   },
-  "generatedAt": "2026-11-14T01:58:46.072Z",
+  "generatedAt": "2026-11-14T16:46:51.871Z",
   "counts": {
     "total": 1,
     "today": 1,
@@ -18,17 +18,17 @@
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Biomechanics Seminar Series: Forrest Kievit",
-      "startISO": "2026-11-13T10:00:00-06:00",
-      "date": "2026-11-13",
-      "venue": "Biomechanics Research Building",
-      "address": "6160 University Dr S, Omaha, NE 68182",
+      "title": "Seminar: Shakespeare's Richard III",
+      "startISO": "2026-11-14T08:30:00-06:00",
+      "date": "2026-11-14",
+      "venue": "Barbara Weitz Community Engagement Center",
+      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
       "location": {
-        "lat": 41.256134,
-        "lng": -96.007778
+        "lat": 41.257979,
+        "lng": -96.010675
       },
-      "url": "https://events.unomaha.edu/event/biomechanics-seminar-series-forrest-kievit",
-      "summary": "The focus of the seminar series is to call for experts related to academia and research in the areas related to biomechanics, variability, motor disorders, phys",
+      "url": "https://events.unomaha.edu/event/seminar-shakespeares-richard-iii",
+      "summary": "Students are invited to take part in a three-session seminar discussion of William Shakespeare’s Richard III. We will explore Shakespeare’s treatment of the nat",
       "category": "lecture/conference",
       "free": true,
       "price": "Free"
