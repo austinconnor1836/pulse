@@ -6,30 +6,81 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-14",
-    "tomorrow": "2026-11-14"
+    "today": "2026-11-15",
+    "tomorrow": "2026-11-15"
   },
-  "generatedAt": "2026-11-15T01:31:26.326Z",
+  "generatedAt": "2026-11-15T17:29:35.040Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 4,
+    "today": 4,
+    "tomorrow": 4
   },
   "events": [
     {
-      "source": "localist:events.unomaha.edu",
-      "title": "Seminar: Shakespeare's Richard III",
-      "startISO": "2026-11-14T08:30:00-06:00",
-      "date": "2026-11-14",
-      "venue": "Barbara Weitz Community Engagement Center",
-      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
+      "source": "eventbrite",
+      "title": "Pilates & Vino",
+      "startISO": "2026-11-15T12:00:00",
+      "date": "2026-11-15",
+      "venue": "Pacific Cellars",
+      "address": "17919 Pierce Plaza, Omaha, NE 68130",
       "location": {
-        "lat": 41.257979,
-        "lng": -96.010675
+        "lat": 41.24739599999999,
+        "lng": -96.195053
       },
-      "url": "https://events.unomaha.edu/event/seminar-shakespeares-richard-iii",
-      "summary": "Students are invited to take part in a three-session seminar discussion of William Shakespeare’s Richard III. We will explore Shakespeare’s treatment of the nat",
-      "category": "lecture/conference",
+      "url": "https://www.eventbrite.com/e/pilates-vino-tickets-2004611339479",
+      "summary": "A Mat Pilates Class followed by Wine Tasting!",
+      "category": "other",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Master Parenting Skills at The Perfect Parenting Series",
+      "startISO": "2026-11-15T12:00:00",
+      "date": "2026-11-15",
+      "venue": "WHOLĒ REJUVENATION WELLNESS HOUSE",
+      "address": "4312 Camden Avenue, Omaha, NE 68111",
+      "location": {
+        "lat": 41.3061612,
+        "lng": -95.9793024
+      },
+      "url": "https://www.eventbrite.com/e/master-parenting-skills-at-the-perfect-parenting-series-tickets-1979120373313",
+      "summary": "Reclaim your wholeness, parent consciously and thrive with your children through purpose, real stories, and sound healing.",
+      "category": "parenting",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Eat. Watch. Empower.",
+      "startISO": "2026-11-15T12:00:00",
+      "date": "2026-11-15",
+      "venue": "Buffalo Wild Wings",
+      "address": "205 North 76th Street, Omaha, NE 68114",
+      "location": {
+        "lat": 41.2612464,
+        "lng": -96.03048439999999
+      },
+      "url": "https://www.eventbrite.com/e/eat-watch-empower-tickets-2001563252569",
+      "summary": "EAT • WATCH • EMPOWER! Join us every NFL Sunday at BWW & support youth!  Show your Teammate Card.  402-885-9898",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "HOMEGROWN (OMA) + Book Release Party",
+      "startISO": "2026-11-15T18:00:00",
+      "date": "2026-11-15",
+      "venue": "Joslyn Castle & Gardens",
+      "address": "3902 Davenport St, Omaha, NE 68131",
+      "location": {
+        "lat": 41.2619207,
+        "lng": -95.97169199999999
+      },
+      "url": "https://www.eventbrite.com/e/homegrown-oma-book-release-party-tickets-2004239139218",
+      "summary": "Come perform, read, or watch the best poets in the area! Curated by your State Poet of Nebraska.",
+      "category": "language",
       "free": true,
       "price": "Free"
     }
