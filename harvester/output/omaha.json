@@ -6,16 +6,102 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-15",
-    "tomorrow": "2026-11-15"
+    "today": "2026-11-16",
+    "tomorrow": "2026-11-16"
   },
-  "generatedAt": "2026-11-16T01:35:23.372Z",
+  "generatedAt": "2026-11-16T20:44:19.050Z",
   "counts": {
-    "total": 0,
-    "today": 0,
-    "tomorrow": 0
+    "total": 5,
+    "today": 5,
+    "tomorrow": 5
   },
-  "events": [],
+  "events": [
+    {
+      "source": "eventbrite",
+      "title": "Children with Autism Night!",
+      "startISO": "2026-11-16T17:00:00",
+      "date": "2026-11-16",
+      "venue": "Chick-fil-A Legacy Village",
+      "address": "17501 West Center Rd, Omaha, NE 68130",
+      "location": {
+        "lat": 41.2335688,
+        "lng": -96.1894293
+      },
+      "url": "https://www.eventbrite.com/e/children-with-autism-night-tickets-2004687726956",
+      "summary": "Register to Join us for a Children With Autism Night at Legacy Village! Kids Meals will be on us along with a goodie bag and an Icedream!",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Prescription Drug (Part D) Education Workshop",
+      "startISO": "2026-11-16T17:00:00",
+      "date": "2026-11-16",
+      "venue": "10868 W Dodge Rd",
+      "address": "10868 West Dodge Road, Omaha, NE 68154",
+      "location": {
+        "lat": 41.2650115,
+        "lng": -96.08438579999999
+      },
+      "url": "https://www.eventbrite.com/e/prescription-drug-part-d-education-workshop-tickets-2004777794350",
+      "summary": "Join us for a complimentary class to better understand Medicare Part D coverage and enrollment.",
+      "category": "medical",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Monthly Poetry Workshop",
+      "startISO": "2026-11-16T19:00:00",
+      "date": "2026-11-16",
+      "venue": "Radial Arts Center",
+      "address": "5915 Maple Street, Omaha, NE 68104",
+      "location": {
+        "lat": 41.2847291,
+        "lng": -96.0042053
+      },
+      "url": "https://www.eventbrite.com/e/monthly-poetry-workshop-tickets-2004411446594",
+      "summary": "Join us for our monthly poetry workshop every 3rd Monday of the month at Radial Arts Center.  This event is open to the public.",
+      "category": "literary arts",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Omaha - JumpStart to Generational Wealth thru Real Estate Investing",
+      "startISO": "2026-11-16T19:00:00",
+      "date": "2026-11-16",
+      "venue": "Omaha",
+      "address": "ONLINE, Omaha, NE 61808",
+      "location": {
+        "lat": 41.2565369,
+        "lng": -95.9345034
+      },
+      "url": "https://www.eventbrite.com/e/omaha-jumpstart-to-generational-wealth-thru-real-estate-investing-tickets-2001219693976",
+      "summary": "Are you in control of your time, finances, and schedule? Are you wanting to become time and financially flexible?",
+      "category": "real estate",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "OMAHA -UNLEASH YOUR POTENTIAL THROUGH REAL ESTATE INVESTMENT EDUCATION",
+      "startISO": "2026-11-16T20:00:00",
+      "date": "2026-11-16",
+      "venue": "OHAMA- Link will be given with confirmation",
+      "address": "ONLINE, OHAMA, NE 68102",
+      "location": {
+        "lat": 41.2661075,
+        "lng": -95.93304549999999
+      },
+      "url": "https://www.eventbrite.com/e/omaha-unleash-your-potential-through-real-estate-investment-education-tickets-2004748418486",
+      "summary": "It's Not a webinar with generic tips, this is a Masterclass designed for entrepreneurs and business owners ready to invest in themselves,",
+      "category": "other",
+      "free": true,
+      "price": "Free"
+    }
+  ],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
