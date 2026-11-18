@@ -6,16 +6,51 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-17",
-    "tomorrow": "2026-11-17"
+    "today": "2026-11-18",
+    "tomorrow": "2026-11-18"
   },
-  "generatedAt": "2026-11-18T03:20:21.262Z",
+  "generatedAt": "2026-11-18T19:10:36.005Z",
   "counts": {
-    "total": 0,
-    "today": 0,
-    "tomorrow": 0
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
-  "events": [],
+  "events": [
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "EMGT Open Class: International Disaster Relief & Humanitarian Assistance",
+      "startISO": "2026-11-18T11:30:00-06:00",
+      "date": "2026-11-18",
+      "venue": "College of Public Affairs and Community Service",
+      "address": "6320 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258092,
+        "lng": -96.009559
+      },
+      "url": "https://events.unomaha.edu/event/emgt-open-class-international-disaster-relief-humanitarian-assistance",
+      "summary": "Real-world insights. Real impact.\n\nThis session features guest speaker Anna Spethman, Former Senior Information Officer with the U.S. Agency for International D",
+      "category": "lecture/conference",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Maverick Meals: Thanksgiving Dinner – Feast Like a Maverick   ",
+      "startISO": "2026-11-18T18:00:00-06:00",
+      "date": "2026-11-18",
+      "venue": "Milo Bail Student Center",
+      "address": "6203 University Dr N, Omaha, NE 68182",
+      "location": {
+        "lat": 41.258824,
+        "lng": -96.008593
+      },
+      "url": "https://events.unomaha.edu/event/maverick-meals-thanksgiving-dinner-feast-like-a-maverick",
+      "summary": "Celebrate the season with your Maverick community at our 3rd Annual Feast Like a Maverick Thanksgiving Dinner! Enjoy a delicious Thanksgiving meal featuring all",
+      "category": "maverick life",
+      "free": true,
+      "price": "Free"
+    }
+  ],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
