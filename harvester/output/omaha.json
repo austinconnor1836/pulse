@@ -6,47 +6,166 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-18",
-    "tomorrow": "2026-11-18"
+    "today": "2026-11-19",
+    "tomorrow": "2026-11-19"
   },
-  "generatedAt": "2026-11-19T02:56:37.875Z",
+  "generatedAt": "2026-11-19T19:14:21.701Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 9,
+    "today": 9,
+    "tomorrow": 9
   },
   "events": [
     {
-      "source": "localist:events.unomaha.edu",
-      "title": "EMGT Open Class: International Disaster Relief & Humanitarian Assistance",
-      "startISO": "2026-11-18T11:30:00-06:00",
-      "date": "2026-11-18",
-      "venue": "College of Public Affairs and Community Service",
-      "address": "6320 Maverick Plaza, Omaha, NE 68182",
+      "source": "eventbrite",
+      "title": "Council Bluffs, IA Roadshow- A free, Five Day Only Buying Event",
+      "startISO": "2026-11-19T10:00:00",
+      "date": "2026-11-19",
+      "venue": "SpringHill Suites by Marriott Omaha East/Council Bluffs, IA",
+      "address": "3216 Plaza View Drive, Council Bluffs, IA 51501",
       "location": {
-        "lat": 41.258092,
-        "lng": -96.009559
+        "lat": 41.2365502,
+        "lng": -95.89416460000001
       },
-      "url": "https://events.unomaha.edu/event/emgt-open-class-international-disaster-relief-humanitarian-assistance",
-      "summary": "Real-world insights. Real impact.\n\nThis session features guest speaker Anna Spethman, Former Senior Information Officer with the U.S. Agency for International D",
-      "category": "lecture/conference",
+      "url": "https://www.eventbrite.com/e/council-bluffs-ia-roadshow-a-free-five-day-only-buying-event-tickets-2004717298405",
+      "summary": "A FREE five-day-only event for an on-site expert to evaluate your precious metals, coins, collectibles, and antiques!",
+      "category": "sales & marketing",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "DBIA-NE |  Holiday Happy Hour",
+      "startISO": "2026-11-19T16:00:00",
+      "date": "2026-11-19",
+      "venue": "Barnato",
+      "address": "225 North 170th Street #Suite 95, Omaha, NE 68118",
+      "location": {
+        "lat": 41.25989089999999,
+        "lng": -96.1796731
+      },
+      "url": "https://www.eventbrite.com/e/dbia-ne-holiday-happy-hour-tickets-2004266775880",
+      "summary": "Join Us for a Holiday Happy Hour at Barnato",
+      "category": "other",
       "free": true,
       "price": "Free"
     },
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Maverick Meals: Thanksgiving Dinner – Feast Like a Maverick   ",
-      "startISO": "2026-11-18T18:00:00-06:00",
-      "date": "2026-11-18",
-      "venue": "Milo Bail Student Center",
-      "address": "6203 University Dr N, Omaha, NE 68182",
+      "title": "Stammtisch",
+      "startISO": "2026-11-19T16:00:00-06:00",
+      "date": "2026-11-19",
+      "venue": "Arts and Sciences Hall",
+      "address": "222 University Dr E, Omaha, NE 68182",
       "location": {
-        "lat": 41.258824,
-        "lng": -96.008593
+        "lat": 41.258069,
+        "lng": -96.005967
       },
-      "url": "https://events.unomaha.edu/event/maverick-meals-thanksgiving-dinner-feast-like-a-maverick",
-      "summary": "Celebrate the season with your Maverick community at our 3rd Annual Feast Like a Maverick Thanksgiving Dinner! Enjoy a delicious Thanksgiving meal featuring all",
-      "category": "maverick life",
+      "url": "https://events.unomaha.edu/event/stammtisch",
+      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Food Tour: Sanchez Liborio with Lala’s Catering ",
+      "startISO": "2026-11-19T17:30:00-06:00",
+      "date": "2026-11-19",
+      "venue": "Comunidad Maya Pixan Ixim ",
+      "address": "4913 S 25th St. Omaha, NE 68107",
+      "location": {
+        "lat": 41.209229,
+        "lng": -95.948238
+      },
+      "url": "https://events.unomaha.edu/event/food-tour-sanchez-liborio-with-lalas-catering",
+      "summary": "Experience an evening of food, creativity, and community with Lala’s Catering. Enjoy slow-simmered chicken tinga, savory guisado de puerco, and hearty black tur",
+      "category": "event",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Sound Beginnings Sample Class (ages 0-4yrs) PM class",
+      "startISO": "2026-11-19T17:45:00",
+      "date": "2026-11-19",
+      "venue": "Kellie's Piano Studio",
+      "address": "21858 Hambsch Lane, Glenwood, IA 51534",
+      "location": {
+        "lat": 41.04986409999999,
+        "lng": -95.7684254
+      },
+      "url": "https://www.eventbrite.com/e/sound-beginnings-sample-class-ages-0-4yrs-pm-class-tickets-2004828315460",
+      "summary": "Education through musical play! Sample class for children ages 0-4 years old.",
+      "category": "education",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Understanding Your Medicare Options with Chris Flaxbeard",
+      "startISO": "2026-11-19T18:00:00",
+      "date": "2026-11-19",
+      "venue": "Omaha Public Library – Bess Johnson Elkhorn Branch",
+      "address": "2100 Reading Plaza, Omaha, NE 68022, Omaha, NE 68022",
+      "location": {
+        "lat": 41.278268,
+        "lng": -96.2334767
+      },
+      "url": "https://www.eventbrite.com/e/understanding-your-medicare-options-with-chris-flaxbeard-tickets-2004608720646",
+      "summary": "See how Original Medicare, Medicare Advantage, Medigap and Part D compare, at a free educational class.",
+      "category": "seminar",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "Estate & Tax Planning in Retirement",
+      "startISO": "2026-11-19T18:30:00",
+      "date": "2026-11-19",
+      "venue": "13815 FNB Pkwy suite 400",
+      "address": "13815 FNB Parkway #suite 400, Omaha, NE 68154",
+      "location": {
+        "lat": 41.2653183,
+        "lng": -96.1316093
+      },
+      "url": "https://www.eventbrite.com/e/estate-tax-planning-in-retirement-tickets-2004484280442",
+      "summary": "Learn how to protect your estate and discover the best ways to provide security for your loved ones.",
+      "category": "finance",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "eventbrite",
+      "title": "November Meetup: It Didn’t Start with You!",
+      "startISO": "2026-11-19T19:00:00",
+      "date": "2026-11-19",
+      "venue": "The Reading Room",
+      "address": "1505 Farnam Street, Omaha, NE 68102",
+      "location": {
+        "lat": 41.2574435,
+        "lng": -95.93622409999999
+      },
+      "url": "https://www.eventbrite.com/e/november-meetup-it-didnt-start-with-you-tickets-2003632916991",
+      "summary": "Join us in person to chat about mental health, healing vibes, and spiritual growth with the Call Kani Book Club!",
+      "category": "personal health",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Geography Awareness Week: Speaker Event featuring UNO Alumnus Gabbie Sefranek",
+      "startISO": "2026-11-19T19:00:00-06:00",
+      "date": "2026-11-19",
+      "venue": "Barbara Weitz Community Engagement Center",
+      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
+      "location": {
+        "lat": 41.257979,
+        "lng": -96.010675
+      },
+      "url": "https://events.unomaha.edu/event/geography-awareness-week-speaker-event-featuring-uno-alumnus-gabbie-sefranek",
+      "summary": "Speaker: Gabbie Safranek, M.S. Geography [2018]\n\n \n\nGabbie will speak about her education in Geography and her career journey with the California Department of ",
+      "category": "lecture/conference",
       "free": true,
       "price": "Free"
     }
