@@ -6,63 +6,29 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-19",
-    "tomorrow": "2026-11-19"
+    "today": "2026-11-20",
+    "tomorrow": "2026-11-20"
   },
-  "generatedAt": "2026-11-20T02:51:41.598Z",
+  "generatedAt": "2026-11-20T18:54:04.117Z",
   "counts": {
-    "total": 3,
-    "today": 3,
-    "tomorrow": 3
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
-      "title": "Stammtisch",
-      "startISO": "2026-11-19T16:00:00-06:00",
-      "date": "2026-11-19",
-      "venue": "Arts and Sciences Hall",
-      "address": "222 University Dr E, Omaha, NE 68182",
+      "title": "Biomechanics Seminar Series: Peter Fino",
+      "startISO": "2026-11-20T10:00:00-06:00",
+      "date": "2026-11-20",
+      "venue": "Biomechanics Research Building",
+      "address": "6160 University Dr S, Omaha, NE 68182",
       "location": {
-        "lat": 41.258069,
-        "lng": -96.005967
+        "lat": 41.256134,
+        "lng": -96.007778
       },
-      "url": "https://events.unomaha.edu/event/stammtisch",
-      "summary": "A long standing German conversation club that meets weekly. Students, faculty and community members are welcome to join. Stammtisch has been an active club sinc",
-      "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Food Tour: Sanchez Liborio with Lala’s Catering ",
-      "startISO": "2026-11-19T17:30:00-06:00",
-      "date": "2026-11-19",
-      "venue": "Comunidad Maya Pixan Ixim ",
-      "address": "4913 S 25th St. Omaha, NE 68107",
-      "location": {
-        "lat": 41.209229,
-        "lng": -95.948238
-      },
-      "url": "https://events.unomaha.edu/event/food-tour-sanchez-liborio-with-lalas-catering",
-      "summary": "Experience an evening of food, creativity, and community with Lala’s Catering. Enjoy slow-simmered chicken tinga, savory guisado de puerco, and hearty black tur",
-      "category": "event",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Geography Awareness Week: Speaker Event featuring UNO Alumnus Gabbie Sefranek",
-      "startISO": "2026-11-19T19:00:00-06:00",
-      "date": "2026-11-19",
-      "venue": "Barbara Weitz Community Engagement Center",
-      "address": "6400 South, University Drive Road North, Omaha, NE 68182",
-      "location": {
-        "lat": 41.257979,
-        "lng": -96.010675
-      },
-      "url": "https://events.unomaha.edu/event/geography-awareness-week-speaker-event-featuring-uno-alumnus-gabbie-sefranek",
-      "summary": "Speaker: Gabbie Safranek, M.S. Geography [2018]\n\n \n\nGabbie will speak about her education in Geography and her career journey with the California Department of ",
+      "url": "https://events.unomaha.edu/event/biomechanics-seminar-series-peter-fino",
+      "summary": "The focus of the seminar series is to call for experts related to academia and research in the areas related to biomechanics, variability, motor disorders, phys",
       "category": "lecture/conference",
       "free": true,
       "price": "Free"
