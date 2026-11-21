@@ -6,34 +6,16 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-20",
-    "tomorrow": "2026-11-20"
+    "today": "2026-11-21",
+    "tomorrow": "2026-11-21"
   },
-  "generatedAt": "2026-11-21T02:59:10.142Z",
+  "generatedAt": "2026-11-21T17:49:30.314Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 0,
+    "today": 0,
+    "tomorrow": 0
   },
-  "events": [
-    {
-      "source": "localist:events.unomaha.edu",
-      "title": "Biomechanics Seminar Series: Peter Fino",
-      "startISO": "2026-11-20T10:00:00-06:00",
-      "date": "2026-11-20",
-      "venue": "Biomechanics Research Building",
-      "address": "6160 University Dr S, Omaha, NE 68182",
-      "location": {
-        "lat": 41.256134,
-        "lng": -96.007778
-      },
-      "url": "https://events.unomaha.edu/event/biomechanics-seminar-series-peter-fino",
-      "summary": "The focus of the seminar series is to call for experts related to academia and research in the areas related to biomechanics, variability, motor disorders, phys",
-      "category": "lecture/conference",
-      "free": true,
-      "price": "Free"
-    }
-  ],
+  "events": [],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
