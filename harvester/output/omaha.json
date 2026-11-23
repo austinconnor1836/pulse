@@ -6,16 +6,34 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-22",
-    "tomorrow": "2026-11-22"
+    "today": "2026-11-23",
+    "tomorrow": "2026-11-23"
   },
-  "generatedAt": "2026-11-23T02:17:54.452Z",
+  "generatedAt": "2026-11-23T22:17:55.215Z",
   "counts": {
-    "total": 0,
-    "today": 0,
-    "tomorrow": 0
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
-  "events": [],
+  "events": [
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "2026 Fall BFA Thesis & BASA Senior Exhibitions",
+      "startISO": "2026-11-23T10:00:00-06:00",
+      "date": "2026-11-23",
+      "venue": "UNO Art Gallery in the Weber Fine Arts Building",
+      "address": "6505 University Dr S, Omaha, NE 68182",
+      "location": {
+        "lat": 41.257991,
+        "lng": -96.012539
+      },
+      "url": "https://events.unomaha.edu/event/2026-fall-bfa-thesis-basa-senior-exhibitions",
+      "summary": "The UNO Art Gallery proudly presents the work of graduating students from the School of the Arts BFA and BASA programs. Admissions to the UNO Art Gallery and al",
+      "category": "exhibit",
+      "free": true,
+      "price": "Free"
+    }
+  ],
   "evergreen": [
     {
       "title": "Joslyn Art Museum",
