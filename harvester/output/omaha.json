@@ -6,10 +6,10 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-23",
-    "tomorrow": "2026-11-23"
+    "today": "2026-11-24",
+    "tomorrow": "2026-11-24"
   },
-  "generatedAt": "2026-11-24T05:44:45.512Z",
+  "generatedAt": "2026-11-24T20:55:26.447Z",
   "counts": {
     "total": 1,
     "today": 1,
@@ -19,8 +19,8 @@
     {
       "source": "localist:events.unomaha.edu",
       "title": "2026 Fall BFA Thesis & BASA Senior Exhibitions",
-      "startISO": "2026-11-23T10:00:00-06:00",
-      "date": "2026-11-23",
+      "startISO": "2026-11-24T10:00:00-06:00",
+      "date": "2026-11-24",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
