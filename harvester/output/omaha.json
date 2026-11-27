@@ -9,11 +9,11 @@
     "today": "2026-11-26",
     "tomorrow": "2026-11-26"
   },
-  "generatedAt": "2026-11-26T19:54:50.391Z",
+  "generatedAt": "2026-11-27T03:56:36.069Z",
   "counts": {
-    "total": 2,
-    "today": 2,
-    "tomorrow": 2
+    "total": 1,
+    "today": 1,
+    "tomorrow": 1
   },
   "events": [
     {
@@ -30,23 +30,6 @@
       "url": "https://events.unomaha.edu/event/2026-fall-bfa-thesis-basa-senior-exhibitions",
       "summary": "The UNO Art Gallery proudly presents the work of graduating students from the School of the Arts BFA and BASA programs. Admissions to the UNO Art Gallery and al",
       "category": "exhibit",
-      "free": true,
-      "price": "Free"
-    },
-    {
-      "source": "eventbrite",
-      "title": "Thanksgiving Day Harvest themed Free Will Community Meal",
-      "startISO": "2026-11-26T12:00:00",
-      "date": "2026-11-26",
-      "venue": "111 E Front St",
-      "address": "111 East Front Street, Valley, NE 68064",
-      "location": {
-        "lat": 41.31398069999999,
-        "lng": -96.34375690000002
-      },
-      "url": "https://www.eventbrite.com/e/thanksgiving-day-harvest-themed-free-will-community-meal-tickets-2005210339103",
-      "summary": "Spirit Of Peace and Streams Of Life at American Legion 111 East Front Street Valley, NE 68064",
-      "category": "food",
       "free": true,
       "price": "Free"
     }
