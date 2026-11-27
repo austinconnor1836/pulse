@@ -6,21 +6,21 @@
     "lng": -95.9345
   },
   "window": {
-    "today": "2026-11-26",
-    "tomorrow": "2026-11-26"
+    "today": "2026-11-27",
+    "tomorrow": "2026-11-27"
   },
-  "generatedAt": "2026-11-27T03:56:36.069Z",
+  "generatedAt": "2026-11-27T19:43:20.699Z",
   "counts": {
-    "total": 1,
-    "today": 1,
-    "tomorrow": 1
+    "total": 2,
+    "today": 2,
+    "tomorrow": 2
   },
   "events": [
     {
       "source": "localist:events.unomaha.edu",
       "title": "2026 Fall BFA Thesis & BASA Senior Exhibitions",
-      "startISO": "2026-11-26T10:00:00-06:00",
-      "date": "2026-11-26",
+      "startISO": "2026-11-27T10:00:00-06:00",
+      "date": "2026-11-27",
       "venue": "UNO Art Gallery in the Weber Fine Arts Building",
       "address": "6505 University Dr S, Omaha, NE 68182",
       "location": {
@@ -30,6 +30,23 @@
       "url": "https://events.unomaha.edu/event/2026-fall-bfa-thesis-basa-senior-exhibitions",
       "summary": "The UNO Art Gallery proudly presents the work of graduating students from the School of the Arts BFA and BASA programs. Admissions to the UNO Art Gallery and al",
       "category": "exhibit",
+      "free": true,
+      "price": "Free"
+    },
+    {
+      "source": "localist:events.unomaha.edu",
+      "title": "Free Kids Weekend: UNO Campus Recreation and Wellness",
+      "startISO": "2026-11-27T10:00:00-06:00",
+      "date": "2026-11-27",
+      "venue": "Health & Kinesiology",
+      "address": "6323 Maverick Plaza, Omaha, NE 68182",
+      "location": {
+        "lat": 41.256945,
+        "lng": -96.009462
+      },
+      "url": "https://events.unomaha.edu/event/free-kids-weekend-uno-campus-recreation-and-wellness-5923",
+      "summary": "UNO Rec Well is so thankful for all of our students, members, faculty, and staff.\n\n \n\nWe are gifting all UNO faculty, staff, and members of UNO Campus Recreatio",
+      "category": "maverick life",
       "free": true,
       "price": "Free"
     }
